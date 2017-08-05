@@ -1315,7 +1315,7 @@
     "fontsize": ""
   },
   "tablet": {
-    "font": "Andika",
+    "font": "Andika Afr",
     "layer": [
       {
         "id": "default",
