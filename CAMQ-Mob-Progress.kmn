@@ -6,11 +6,11 @@ store(&WINDOWSLANGUAGES) 'x0436'
 store(&LANGUAGE) 'x0436'
 store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'CAMQ2011.ico'
-store(&VISUALKEYBOARD) 'CAMQ-Mob-Progress.kvk'
 store(&MESSAGE) 'Use ; or AltGr to access special characters.'
 store(&TARGETS) 'windows web androidphone'
 store(&LAYOUTFILE) 'CAMQ2011-layout.js'
 store(&KMW_EMBEDCSS) 'CAMQ-Mob-Progress.css'
+store(&VISUALKEYBOARD) 'CAMQ-Mob-Progress.kvk'
 
 begin Unicode > use(main)
 

@@ -1,4 +1,4 @@
-﻿{
+{
   "phone": {
     "font": "Andika Afr",
     "layer": [
