@@ -1,0 +1,1 @@
+KeymanWeb.KRS(new Stub_Keyboard_camq_mob_progress()); function Stub_Keyboard_camq_mob_progress() {this.KF="camq_mob_progress-1.0.js";this.KI="Keyboard_camq_mob_progress";this.KN="Cameroon QWERTY";}
