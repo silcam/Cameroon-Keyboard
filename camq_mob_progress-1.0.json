@@ -9,14 +9,14 @@
     "name" : "Cameroon QWERTY",
     "filename" : "camq_mob_progress-1.0.js",
     "version" : "1.0",
-    "lastModified" : "2017-08-05T17:01:34.793+01:00",
+    "lastModified" : "2017-08-05T17:29:53.537+01:00",
     "font" : {
-      "family" : "Andika Afr",
+      "family" : "'Andika Afr'",
       "size" : "20pt",
       "source" : "ANDIKAAFR-R.TTF"
     },
     "oskFont" : {
-      "family" : "Andika Afr",
+      "family" : "'Andika Afr'",
       "size" : "20pt",
       "source" : "ANDIKAAFR-R.TTF"
     },
