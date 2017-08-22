@@ -9,7 +9,6 @@ store(&BITMAP) 'CAMQ2011.ico'
 store(&MESSAGE) 'Use ; or AltGr to access special characters.'
 store(&TARGETS) 'windows web androidphone'
 store(&LAYOUTFILE) 'CAMQ2011-layout.js'
-store(&VISUALKEYBOARD) 'CAMQ-Mob-Progress.kvk'
 
 begin Unicode > use(main)
 
