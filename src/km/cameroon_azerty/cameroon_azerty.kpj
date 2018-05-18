@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$SOURCEPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_0abad9f0258bd353aacfa0e171dbb392</ID>
+      <Filename>cameroon_azerty.kmn</Filename>
+      <Filepath>source\cameroon_azerty.kmn</Filepath>
+      <FileVersion>4.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Cameroon AZERTY</Name>
+        <Copyright>SIL Cameroon 2017</Copyright>
+        <Message>Use ! or AltGr to access special characters.</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
+      <Filename>cameroon_azerty.kps</Filename>
+      <Filepath>source\cameroon_azerty.kps</Filepath>
+      <FileVersion>4.0</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Cameroon Azerty</Name>
+        <Copyright>©SIL Cameroon</Copyright>
+        <Version>4.0</Version>
+      </Details>
+    </File>
+    <File>
+      <ID>id_8f840556b40fc2d5a185da061ac3484c</ID>
+      <Filename>Untitled.kmn</Filename>
+      <Filepath>Untitled.kmn</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details/>
+    </File>
+    <File>
+      <ID>id_8bbb9ad6e07821461404ce10ee03df1a</ID>
+      <Filename>Cameroon.ico</Filename>
+      <Filepath>source\Cameroon.ico</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.ico</FileType>
+      <ParentFileID>id_0abad9f0258bd353aacfa0e171dbb392</ParentFileID>
+    </File>
+    <File>
+      <ID>id_05ce1e489685b21126716dbd4ee945a0</ID>
+      <Filename>cameroon_azerty.css</Filename>
+      <Filepath>source\cameroon_azerty.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0b66a522e87bc35e6746e31638074912</ID>
+      <Filename>ANDIKAAFR-R.TTF</Filename>
+      <Filepath>source\Fonts\ANDIKAAFR-R.TTF</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.TTF</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_c61d45be2789e3b2bfee923aa6f4d74c</ID>
+      <Filename>cameroon_azerty-4.0.json</Filename>
+      <Filepath>source\cameroon_azerty-4.0.json</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.json</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_0ec4c6e41f4b6560b4d21ae1fa0ecb6f</ID>
+      <Filename>cameroon_azerty-layout.js</Filename>
+      <Filepath>source\cameroon_azerty-layout.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9a857d258d202b3aa03f19ca947aaeb3</ID>
+      <Filename>cameroon_azerty.kvks</Filename>
+      <Filepath>source\cameroon_azerty.kvks</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvks</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>

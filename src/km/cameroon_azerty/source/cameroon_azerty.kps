@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>10.0.931.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <Buttons>
+    <Button>
+      <ButtonType>install</ButtonType>
+      <Caption>&amp;Install</Caption>
+      <URL></URL>
+      <Left>0</Left>
+      <Top>0</Top>
+    </Button>
+    <Button>
+      <ButtonType>cancel</ButtonType>
+      <Caption>Cancel</Caption>
+      <URL></URL>
+      <Left>0</Left>
+      <Top>0</Top>
+    </Button>
+    <Button>
+      <ButtonType>about</ButtonType>
+      <Caption>&amp;About...</Caption>
+      <URL></URL>
+      <Left>0</Left>
+      <Top>0</Top>
+    </Button>
+  </Buttons>
+  <Registry/>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">Cameroon Azerty</Name>
+    <Version URL="">4.0</Version>
+    <Copyright URL="">©SIL Cameroon</Copyright>
+    <Author URL="mailto:keyboards_cameroon@sil.org">Matthew Lee</Author>
+    <WebSite URL="LangTechCameroon.info">LangTechCameroon.info</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>Cameroon.ico</Name>
+      <Description>File Cameroon.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>cameroon_azerty.css</Name>
+      <Description>File cameroon_azerty.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
+    </File>
+    <File>
+      <Name>cameroon_azerty.kmn</Name>
+      <Description>File cameroon_azerty.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>Fonts\ANDIKAAFR-R.TTF</Name>
+      <Description>Font Andika Afr</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.TTF</FileType>
+    </File>
+    <File>
+      <Name>cameroon_azerty-4.0.json</Name>
+      <Description>File cameroon_azerty-4.0.json</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.json</FileType>
+    </File>
+    <File>
+      <Name>cameroon_azerty-layout.js</Name>
+      <Description>File cameroon_azerty-layout.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>cameroon_azerty.kvks</Name>
+      <Description>File cameroon_azerty.kvks</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvks</FileType>
+    </File>
+  </Files>
+  <Strings/>
+</Package>

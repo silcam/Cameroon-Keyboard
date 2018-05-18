@@ -1,0 +1,33 @@
+﻿/***
+   KeymanWeb 2.0
+   Copyright 2017 SIL International
+***/
+
+/*
+  kmwosk.css: main CSS for keymanweb on-screen keyboard and other objects.
+*/  
+
+@font-face {
+  font-family: 'Andika Afr';
+  font-style:  normal;
+  font-weight: normal;
+  src: url('keymanweb-osk.eot');   
+  src: url('keymanweb-osk.eot?#iefix') format('embedded-opentype'), 
+    url('keymanweb-osk.ttf')  format('truetype'),
+    url('keymanweb-osk.woff') format('woff');     
+}
+
+ 
+/* .phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} */
+        
+
+/* Common key appearance styles (can override with form-factor styles if necessary) */
+.kmw-key-default{color:#000;background-color:#eee;}
+.kmw-key-shift{color:#aaa;background-color:#ddd;}     /*color was #88f (blue) */
+.kmw-key-shift-on{color:#88f;background-color:#ccf;}
+/* .kmw-key-deadkey{color:#0d0;background-color:#eee;}  */
+.kmw-key-deadkey{color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
+.kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
+.kmw-key-hidden{visibility:hidden;}
+.kmw-key-touched{background-color:#88f;}
+

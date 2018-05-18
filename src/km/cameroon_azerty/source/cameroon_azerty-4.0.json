@@ -1,0 +1,30 @@
+﻿{
+  "options" : {
+    "device" : "any",
+    "keyboardBaseUri" : "http://your-host-here/keyboard-path/",
+    "fontBaseUri" : "http://your-host-here/font-path/"
+  },
+  "keyboard" : {
+    "id" : "cameroon_azerty",
+    "name" : "Cameroon AZERTY",
+    "filename" : "cameroon_azerty-4.0.js",
+    "version" : "4.0",
+    "lastModified" : "2017-12-01T11:39:18.477+01:00",
+    "font" : {
+      "family" : "Andika Afr",
+      "size" : "1.6em",
+      "source" : "ANDIKAAFR-R.TTF"
+    },
+    "oskFont" : {
+      "family" : "Andika Afr",
+      "size" : "1.6em",
+      "source" : "ANDIKAAFR-R.TTF"
+    },
+    "languages" : [
+      {
+        "id" : "ENG",
+        "name" : "English"
+      }
+      ]
+  }
+}
