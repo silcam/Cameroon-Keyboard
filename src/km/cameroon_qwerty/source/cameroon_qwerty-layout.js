@@ -9,35 +9,35 @@
             "id": 1,
             "key": [
               {
-                "id": "U_0300",
+                "id": "T_0300",
                 "text": "◌̀"
               },
               {
-                "id": "U_0304",
+                "id": "T_0304",
                 "text": "◌̄"
               },
               {
-                "id": "U_0301",
+                "id": "T_0301",
                 "text": "◌́"
               },
               {
-                "id": "U_030C",
+                "id": "T_030C",
                 "text": "◌̌"
               },
               {
-                "id": "U_0302",
+                "id": "T_0302",
                 "text": "◌̂"
               },
               {
-                "id": "U_0303",
+                "id": "T_0303",
                 "text": "◌̃"
               },
               {
-                "id": "U_0308",
+                "id": "T_0308",
                 "text": "◌̈"
               },
               {
-                "id": "U_0327",
+                "id": "T_0327",
                 "text": "◌̧"
               },
               {
@@ -234,6 +234,7 @@
                 "text": "əŋɔ",
                 "width": "150",
                 "sp": "8",
+                "fontsize": ".8em",
                 "nextlayer": "camlower"
               }
             ]
@@ -350,37 +351,37 @@
             "id": 1,
             "key": [
               {
-                "id": "U_1DC5",
+                "id": "T_1DC5",
                 "text": "◌᷅",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "U_1DC6",
+                "id": "T_1DC6",
                 "text": "◌᷆",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "U_1DC7",
+                "id": "T_1DC7",
                 "text": "◌᷇",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "U_1DC4",
+                "id": "T_1DC4",
                 "text": "◌᷄",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "U_030D",
+                "id": "T_030D",
                 "text": "◌̍",
                 "nextlayer": "default",
                 "layer": "default"
               },
               {
-                "id": "U_0330",
+                "id": "T_0330",
                 "text": "◌̰",
                 "nextlayer": "default",
                 "layer": "default"
@@ -621,6 +622,7 @@
                 "text": "ƏŊƆ",
                 "width": "150",
                 "sp": "8",
+                "fontsize": ".8em",
                 "nextlayer": "camupper"
               }
             ]
@@ -904,12 +906,36 @@
               {
                 "id": "U_0022",
                 "text": "\"",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "“",
+                    "id": "U_201C",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "”",
+                    "id": "U_201D",
+                    "nextlayer": "default"
+                  }
+                ]
               },
               {
                 "id": "U_0027",
                 "text": "'",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "‘",
+                    "id": "U_2018",
+                    "nextlayer": "default"
+                  },
+                  {
+                    "text": "’",
+                    "id": "U_2019",
+                    "nextlayer": "default"
+                  }
+                ]
               },
               {
                 "id": "U_003A",
@@ -985,7 +1011,7 @@
                 "id": "T_FCFA",
                 "text": "FCFA",
                 "width": "150",
-                "fontsize": ".8em",
+                "fontsize": ".6em",
                 "nextlayer": "default"
               },
               {
@@ -1009,14 +1035,23 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_00A9",
-                "text": "©",
-                "nextlayer": "default"
+                "id": "U_007E",
+                "text": "~"
               },
               {
-                "id": "U_00AE",
-                "text": "®",
-                "nextlayer": "default"
+                "id": "U_00A9",
+                "text": "©",
+                "nextlayer": "default",
+                "sk": [
+                  {
+                    "text": "®",
+                    "id": "U_00AE"
+                  },
+                  {
+                    "text": "™",
+                    "id": "U_2122"
+                  }
+                ]
               },
               {
                 "id": "U_002F",
@@ -1030,14 +1065,13 @@
               },
               {
                 "id": "U_002C",
-                "text": ",",
-                "nextlayer": "default"
+                "text": ","
               },
               {
                 "id": "",
                 "text": "",
-                "width": "100",
-                "sp": "9"
+                "sp": "9",
+                "nextlayer": "default"
               }
             ]
           },
@@ -1051,19 +1085,19 @@
                 "sp": "1"
               },
               {
-                "id": "U_007E",
-                "text": "~"
+                "id": "",
+                "text": "",
+                "sp": "9"
               },
               {
                 "id": "K_SPACE",
-                "text": " ",
+                "text": "",
                 "width": "675",
                 "sp": "0"
               },
               {
                 "id": "U_002E",
-                "text": ".",
-                "nextlayer": "default"
+                "text": "."
               },
               {
                 "id": "K_ENTER",

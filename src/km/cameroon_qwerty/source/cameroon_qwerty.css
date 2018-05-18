@@ -11,14 +11,14 @@
   font-family: 'Andika Afr';
   font-style:  normal;
   font-weight: normal;
-  src: url('keymanweb-osk.eot');   
-  src: url('keymanweb-osk.eot?#iefix') format('embedded-opentype'), 
-    url('keymanweb-osk.ttf')  format('truetype'),
-    url('keymanweb-osk.woff') format('woff');     
+  line-height: .5;  
+  src: url('fonts/ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
+    url('fonts/ANDIKAAFR-R.TTF')  format('truetype'),
+    url('fonts/AndikaAfr-R.woff') format('woff');     
 }
 
  
-/* .phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} */
+.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} */
         
 
 /* Common key appearance styles (can override with form-factor styles if necessary) */

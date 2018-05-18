@@ -10,7 +10,7 @@
   </header>
   <encoding name="unicode" fontname="Andika Afr" fontsize="-12">
     <layer shift="LC">
-      <key vkey="K_SPACE"> </key>
+      <key vkey="K_SPACE"></key>
     </layer>
     <layer shift="RA">
       <key vkey="K_0">’</key>
@@ -93,7 +93,7 @@
     </layer>
     <layer shift="">
       <key vkey="K_oE2">\</key>
-      <key vkey="K_SPACE"> </key>
+      <key vkey="K_SPACE"></key>
       <key vkey="K_QUOTE">̀</key>
       <key vkey="K_COMMA">,</key>
       <key vkey="K_HYPHEN">-</key>
@@ -142,7 +142,7 @@
     </layer>
     <layer shift="S">
       <key vkey="K_oE2">|</key>
-      <key vkey="K_SPACE"> </key>
+      <key vkey="K_SPACE"></key>
       <key vkey="K_1">!</key>
       <key vkey="K_QUOTE">̂</key>
       <key vkey="K_3">#</key>
