@@ -69,12 +69,18 @@ platform('desktop native') + [SHIFT RALT K_4] > U+20ac
 
 + [K_5] > U+0035
 + [SHIFT K_5] > U+0025
+platform('desktop native') + [RALT K_5] > BEEP
+platform('desktop native') + [SHIFT RALT K_6] > BEEP
 
 + [K_6] > U+0036
 + [SHIFT K_6] > U+005e
+platform('desktop native') + [RALT K_5] > BEEP
+platform('desktop native') + [SHIFT RALT K_6] > BEEP
 
 + [K_7] > U+0037
 + [SHIFT K_7] > U+0026
+platform('desktop native') + [RALT K_5] > BEEP
+platform('desktop native') + [SHIFT RALT K_6] > BEEP
 
 + [K_8] > U+0038
 + [SHIFT K_8] > U+002a

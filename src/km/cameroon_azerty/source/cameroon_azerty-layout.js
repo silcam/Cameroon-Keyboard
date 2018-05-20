@@ -41,7 +41,7 @@
                 "text": "◌̧"
               },
               {
-                "id": "K_HYPHEN",
+                "id": "U_002D",
                 "text": "-",
                 "sk": [
                   {
@@ -66,7 +66,7 @@
             "id": 2,
             "key": [
               {
-                "id": "K_A",
+                "id": "K_Q",
                 "text": "a",
                 "pad": "55",
                 "sk": [
@@ -77,7 +77,7 @@
                 ]
               },
               {
-                "id": "K_Z",
+                "id": "K_W",
                 "text": "z"
               },
               {
@@ -164,7 +164,7 @@
                 "nextlayer": "symbol"
               },
               {
-                "id": "K_Q",
+                "id": "K_A",
                 "text": "q",
                 "pad": ""
               },
@@ -245,7 +245,7 @@
                 "nextlayer": "shift"
               },
               {
-                "id": "K_W",
+                "id": "K_Z",
                 "text": "w",
                 "sk": [
                   {
@@ -301,7 +301,7 @@
                 "text": "?"
               },
               {
-                "id": "K_COMMA",
+                "id": "U_002C",
                 "text": ","
               },
               {
@@ -332,7 +332,7 @@
                 "sp": "0"
               },
               {
-                "id": "K_PERIOD",
+                "id": "U_002E",
                 "text": "."
               },
               {
@@ -419,7 +419,7 @@
             "id": 2,
             "key": [
               {
-                "id": "K_A",
+                "id": "K_Q",
                 "text": "A",
                 "pad": "55",
                 "nextlayer": "default",
@@ -432,7 +432,7 @@
                 ]
               },
               {
-                "id": "K_Z",
+                "id": "K_W",
                 "text": "Z",
                 "width": "",
                 "nextlayer": "default"
@@ -539,7 +539,7 @@
                 "nextlayer": "symbol"
               },
               {
-                "id": "K_Q",
+                "id": "K_A",
                 "text": "Q",
                 "pad": "",
                 "nextlayer": "default"
@@ -633,7 +633,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "K_W",
+                "id": "K_Z",
                 "text": "W",
                 "nextlayer": "default",
                 "sk": [
