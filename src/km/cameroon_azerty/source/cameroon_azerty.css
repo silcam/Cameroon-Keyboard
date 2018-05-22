@@ -11,15 +11,17 @@
   font-family: 'Andika Afr';
   font-style:  normal;
   font-weight: normal;
-  line-height: .5;  
   src: url('fonts/ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
     url('fonts/ANDIKAAFR-R.TTF')  format('truetype'),
     url('fonts/AndikaAfr-R.woff') format('woff');     
 }
 
  
-.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} */
-        
+.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} 
+.phone.ios .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
+.tablet.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} 
+.tablet.ios .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} 
+         
 
 /* Common key appearance styles (can override with form-factor styles if necessary) */
 .kmw-key-default{color:#000;background-color:#eee;}
@@ -29,5 +31,5 @@
 .kmw-key-deadkey{color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
 .kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
 .kmw-key-hidden{visibility:hidden;}
-.kmw-key-touched{background-color:#88f;}
+.kmw-key-touched{background-color:#88f;}   
 
