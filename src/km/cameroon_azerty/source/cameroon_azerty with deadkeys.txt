@@ -487,6 +487,7 @@ platform('touch') any(word) any(punct)  > context " "
 
 nomatch platform('hardware') > use(deadkeys)
 nomatch platform('desktop native') > use(deadkeys)
+
 group(deadkeys)
 
 dk(0021) U+002E > dk(0060)
