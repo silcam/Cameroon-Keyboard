@@ -19,78 +19,87 @@ store(word) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁC
 store(letter) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
 store(lc) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴz◌"
 store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
-store(punct) "',.:?!"
+store(punct) "',.:;?!"
 store(final) ".!?"
 store(num) "0123456789"
-store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|@#$%^&*()«»‹›‘“’”€¥£"
+store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|@#$%^&*()«»‹›‘“’”€¥£èéçàùµ" U+0022
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330 
 
-
-c Dealing with punctuation
-c Shift after ending punctuation
-platform('web') any(word)  + any(final) > context index(final,3) " " layer('shift')
-platform('touch') any(word)  + any(final) > context index(final,3) " " layer('shift') 
-c Space after other punct
-c ???? THIS IS NOT WORKING
-platform('web') any(word) + any(punct)  > context index(punct,3) " " 
-platform('touch') any(word) + any(punct)  > context index(punct,3) " " 
-c platform('desktop') any(word) + any(punct)  > context index(punct,3) " "
-c stop duplication of spaces after any(punct)
 platform('web') any(punct) " " + [K_SPACE] > context
 platform('touch') any(punct) " " + [K_SPACE] > context 
 
 
 + [K_SPACE] > U+0020
 + [SHIFT K_SPACE] > U+0020
-platform('desktop native') + [LCTRL K_SPACE] > ' '
+platform('desktop native') + [LCTRL K_SPACE] > U+00A0
 
 + [K_0] > U+00E0
 + [SHIFT K_0] > U+0030
+platform('desktop native') + [CAPS SHIFT K_0] > U+00E0
+platform('desktop native') + [CAPS K_0] > U+0030
 platform('desktop native') + [RALT K_0] > U+0040
 platform('desktop native') + [SHIFT RALT K_0] > beep
 
 + [K_1] > U+0026
 + [SHIFT K_1] > U+0031
+platform('desktop native') + [CAPS SHIFT K_1] > U+0026
+platform('desktop native') + [CAPS K_1] > U+0031
 platform('desktop native') + [RALT K_1] > U+00B9
 platform('desktop native') + [SHIFT RALT K_1] > U+2018
 
 + [K_2] > U+00E9
 + [SHIFT K_2] > U+0032
+platform('desktop native') + [CAPS SHIFT K_2] > U+00E9
+platform('desktop native') + [CAPS K_2] > U+0032
 platform('desktop native') + [RALT K_2] > U+007E c DEADKEY
 platform('desktop native') + [SHIFT RALT K_2] > U+2019
 
 + [K_3] > U+0022
 + [SHIFT K_3] > U+0033
+platform('desktop native') + [CAPS SHIFT K_3] > U+0022
+platform('desktop native') + [CAPS K_3] > U+0033
 platform('desktop native') + [RALT K_3] > U+0025
 platform('desktop native') + [SHIFT RALT K_2] > U+00AB
 
 + [K_4] > U+0027
 + [SHIFT K_4] > U+0034
+platform('desktop native') + [CAPS SHIFT K_4] > U+0027
+platform('desktop native') + [CAPS K_4] > U+0034
 platform('desktop native') + [RALT K_4] > U+007B
 platform('desktop native') + [SHIFT RALT K_4] > U+00BB c ???
 
 + [K_5] > U+0028
 + [SHIFT K_5] > U+0035
+platform('desktop native') + [CAPS SHIFT K_5] > U+0028
+platform('desktop native') + [CAPS K_5] > U+0035
 platform('desktop native') + [RALT K_5] > U+005B
 platform('desktop native') + [SHIFT RALT K_5] > U+0023
 
 + [K_6] > U+002D
 + [SHIFT K_6] > U+0036
+platform('desktop native') + [CAPS SHIFT K_6] > U+002D
+platform('desktop native') + [CAPS K_6] > U+0036
 platform('desktop native') + [RALT K_6] > U+007C
 platform('desktop native') + [SHIFT RALT K_6] > U+00308
 
 + [K_7] > U+00E8
 + [SHIFT K_7] > U+0037
+platform('desktop native') + [CAPS SHIFT K_7] > U+00E8
+platform('desktop native') + [CAPS K_7] > U+0037
 platform('desktop native') + [RALT K_7] > U+0300
 platform('desktop native') + [SHIFT RALT K_7] > beep
 
 + [K_8] > U+005F
 + [SHIFT K_8] > U+0038
+platform('desktop native') + [CAPS SHIFT K_8] > U+005F
+platform('desktop native') + [CAPS K_8] > U+0038
 platform('desktop native') + [RALT K_8] > U+005C
 platform('desktop native') + [SHIFT RALT K_8] > beep
 
 + [K_9] > U+00E7
 + [SHIFT K_9] > U+0039
+platform('desktop native') + [CAPS SHIFT K_9] > U+00E7
+platform('desktop native') + [CAPS K_9] > U+0039
 platform('desktop native') + [RALT K_9] > U+005E
 platform('desktop native') + [SHIFT RALT K_9] > BEEP
 
@@ -359,7 +368,7 @@ platform('desktop native') + [NCAPS SHIFT RALT K_W] > U+2020
 platform('desktop native') + [RALT K_M] > beep
 platform('desktop native') + [SHIFT RALT K_M] > U+00D7
 
-+ [K_EQUAL] > U+003D
++ [K_EQUAL] > U+003D   c Also a dead-key?
 + [SHIFT K_EQUAL] > U+002B
 platform('desktop native') + [RALT K_EQUAL] > U+007D
 platform('desktop native') + [SHIFT RALT K_EQUAL] > U+00B1
@@ -375,7 +384,7 @@ platform('desktop native') + [RALT K_HYPHEN] > U+005D
 platform('desktop native') + [SHIFT RALT K_HYPHEN] > nul
 
 + [K_PERIOD] > U+003A
-+ [SHIFT K_PERIOD] > u+002F
++ [SHIFT K_PERIOD] > U+002F
 platform('desktop native') + [RALT K_PERIOD] > U+0323 c ?????
 platform('desktop native') + [SHIFT RALT K_PERIOD] > beep
 
@@ -424,6 +433,14 @@ platform('desktop native') + [SHIFT RALT K_oE2] > U+00BB
 
 + [T_CAM] > nul
 + [T_FCFA] > 'FCFA'
+c Filter rules don't work unless something fires in this group.
++ [T_002E] > U+002E
++ [T_002C] > U+002C
++ [T_0021] > U+0021
++ [T_003B] > U+003B
++ [T_003A] > U+003A
++ [T_003F] > U+003F
+
 
 c Handle Touch Diacritics (ignoring on non-letters)
 any(diablock) + [T_0300] > context
