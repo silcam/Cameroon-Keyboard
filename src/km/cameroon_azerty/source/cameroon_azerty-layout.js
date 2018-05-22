@@ -51,7 +51,7 @@
                 ]
               },
               {
-                "id": "U_0021",
+                "id": "T_0021",
                 "text": "!"
               },
               {
@@ -293,15 +293,15 @@
                 ]
               },
               {
-                "id": "K_M",
+                "id": "K_COLON",
                 "text": "m"
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?"
               },
               {
-                "id": "U_002C",
+                "id": "T_002C",
                 "text": ","
               },
               {
@@ -332,7 +332,7 @@
                 "sp": "0"
               },
               {
-                "id": "U_002E",
+                "id": "T_002E",
                 "text": "."
               },
               {
@@ -398,14 +398,15 @@
                 "sp": "9"
               },
               {
+                "id": "U_005F",
+                "text": "_",
+                "nextlayer": "default",
+                "layer": "default"
+              },
+              {
                 "id": "",
                 "text": "",
                 "sp": "9"
-              },
-              {
-                "id": "U_005F",
-                "text": "_",
-                "nextlayer": "default"
               },
               {
                 "id": "K_BKSP",
@@ -692,12 +693,12 @@
                 ]
               },
               {
-                "id": "K_M",
+                "id": "K_COLON",
                 "text": "M",
                 "nextlayer": "default"
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?",
                 "nextlayer": "default",
                 "layer": "default",
@@ -710,7 +711,7 @@
                 ]
               },
               {
-                "id": "U_003B",
+                "id": "T_003B",
                 "text": ";",
                 "nextlayer": "default",
                 "layer": "default"
@@ -747,7 +748,7 @@
                 "sp": "0"
               },
               {
-                "id": "U_003A",
+                "id": "T_003A",
                 "text": ":",
                 "nextlayer": "default",
                 "layer": "default"
@@ -940,16 +941,16 @@
                 ]
               },
               {
-                "id": "U_003A",
+                "id": "T_003A",
                 "text": ":"
               },
               {
-                "id": "U_003B",
+                "id": "T_003B",
                 "text": ";",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0021",
+                "id": "T_0021",
                 "text": "!",
                 "nextlayer": "default",
                 "sk": [
@@ -960,7 +961,7 @@
                 ]
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?",
                 "nextlayer": "default",
                 "sk": [
@@ -1066,7 +1067,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_002C",
+                "id": "T_002C",
                 "text": ","
               },
               {
@@ -1098,7 +1099,7 @@
                 "sp": "0"
               },
               {
-                "id": "U_002E",
+                "id": "T_002E",
                 "text": "."
               },
               {
