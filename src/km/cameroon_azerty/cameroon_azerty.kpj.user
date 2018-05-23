@@ -17,48 +17,32 @@
       <Debug>True</Debug>
     </FileState>
     <FileState>
-      <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
+      <ID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ID>
       <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kps</FullPath>
       <IDEState>
-        <CodeFont>Courier New|12|   |0</CodeFont>
-        <CharFont>Courier New|12|   |0</CharFont>
+        <CodeFont>Tahoma|8|   |1</CodeFont>
+        <CharFont>Tahoma|8|   |1</CharFont>
       </IDEState>
-    </FileState>
-    <FileState>
-      <ID>id_8f840556b40fc2d5a185da061ac3484c</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\Untitled.kmn</FullPath>
-      <IDEState>
-        <LayoutDisplay102Key>0</LayoutDisplay102Key>
-        <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Courier New|12|   |0</DebugFont>
-        <CodeFont>Courier New|12|   |0</CodeFont>
-        <CharFont>Courier New|12|   |0</CharFont>
-      </IDEState>
-      <Debug>False</Debug>
     </FileState>
     <FileState>
       <ID>id_8bbb9ad6e07821461404ce10ee03df1a</ID>
       <FullPath>D:\Github\keyboards\cameroon_azerty\source\Cameroon.ico</FullPath>
     </FileState>
     <FileState>
-      <ID>id_05ce1e489685b21126716dbd4ee945a0</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.css</FullPath>
+      <ID>id_c7c6fc315dc3192c67bdc560c9e8c341</ID>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\build\cameroon_azerty.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8d862e823cf7f541c735f06a89c2c31e</ID>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\build\cameroon_azerty.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_0b66a522e87bc35e6746e31638074912</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\Fonts\ANDIKAAFR-R.TTF</FullPath>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\fonts\ANDIKAAFR-R.TTF</FullPath>
     </FileState>
     <FileState>
-      <ID>id_c61d45be2789e3b2bfee923aa6f4d74c</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty-4.0.json</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_0ec4c6e41f4b6560b4d21ae1fa0ecb6f</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty-layout.js</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_9a857d258d202b3aa03f19ca947aaeb3</ID>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kvks</FullPath>
+      <ID>id_a68a4dc47ab4e01a56cd3e9dc9ddb682</ID>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\fonts\AndikaAfr-R.woff</FullPath>
     </FileState>
   </FileStates>
   <MRU>
@@ -70,51 +54,51 @@
     </File>
     <File>
       <ID>id_MRU1</ID>
+      <Filename>cameroon_azerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
       <Filename>cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\keyboards\cameroon_qwerty\source\cameroon_qwerty.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU3</ID>
       <Filename>CAMA2011-WebFriendly.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\CAMA2011-WebFriendly.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU4</ID>
       <Filename>CAMA2011.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\CAMA2011.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU5</ID>
       <Filename>cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\cameroon_azerty.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU5</ID>
+      <ID>id_MRU6</ID>
       <Filename>CAMA2011.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Documents\Desktop Cleanup\Patriot Dump\NJock\COOLIO\CAMA2011.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU6</ID>
+      <ID>id_MRU7</ID>
       <Filename>CAMA2011.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Dropbox\Cameroon\Keyboard\Current Sources\CAM Azerty\CAMA2011.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU7</ID>
+      <ID>id_MRU8</ID>
       <Filename>cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\keyboards\cameroon_azertyAlpha\source\cameroon_azerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU8</ID>
-      <Filename>cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kps</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

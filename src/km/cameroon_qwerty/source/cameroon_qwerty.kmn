@@ -6,12 +6,13 @@ store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ; or AltGr to access special characters.'
 store(&LAYOUTFILE) 'cameroon_qwerty-layout.js'
-store(&KEYBOARDVERSION) '4.0'
+store(&KEYBOARDVERSION) '5.0'
 
 
-store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'cameroon_qwerty.kvks'
 store(&KMW_EMBEDCSS) 'cameroon_qwerty.css'
+store(&ETHNOLOGUECODE) 'ENG'
+store(&TARGETS) 'any'
 
 begin Unicode > use(main)
 
@@ -24,10 +25,8 @@ store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
 store(punct) "',.:?!"
 store(final) ".!?"
 store(num) "0123456789"
-store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|@#$%^&*()«»‹›‘“’”€¥£"
+store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|/@#$%^&*()«»‹›‘“’”€¥£"
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330 
-
-
 
 c Dealing with punctuation
 c Shift after ending punctuation
@@ -131,7 +130,7 @@ platform('desktop native') + [NCAPS RALT K_D] > U+0257
 platform('desktop native') + [CAPS SHIFT RALT K_D] > U+0257
 platform('desktop native') + [NCAPS SHIFT RALT K_D] > U+018a
 
-platform('web')  + [K_E] > U+0065
+platform('web') + [K_E] > U+0065
 platform('web')  + [SHIFT K_E] > U+0045
 platform('desktop native') + [NCAPS K_E] > U+0065
 platform('desktop native') + [CAPS K_E] > U+0045
@@ -345,6 +344,8 @@ platform('desktop native') + [CAPS SHIFT RALT K_Z] > U+2026
 platform('desktop native') + [NCAPS SHIFT RALT K_Z] > U+2020
 
 + [K_COLON] > dk(003b)
+platform('macosx native') + [NCAPS K_COLON] >  dk(003b)
+platform('macosx native') + [CAPS K_COLON] >  dk(003b)
 + [SHIFT K_COLON] > U+003a   
 platform('desktop native') + [RALT K_COLON] > U+003b
 platform('desktop native') + [SHIFT RALT K_COLON] > U+003a
@@ -374,7 +375,7 @@ platform('desktop native') + [RALT K_SLASH] > U+00f7
 
 + [K_BKQUOTE] > U+030d
 any(diablock) + [K_BKQUOTE] > context  
-+ [SHIFT K_BKQUOTE] > U+a0303
++ [SHIFT K_BKQUOTE] > U+0303
 any(diablock) + [SHIFT K_BKQUOTE] > context 
 platform('desktop native') + [RALT K_BKQUOTE] > U+0060
 platform('desktop native') + [SHIFT RALT K_BKQUOTE] > U+007e
@@ -443,6 +444,7 @@ any(diablock) + [T_1DC6] > context
 any(diablock) + [T_1DC7] > context
 + [T_1DC7] > U+1DC7
 
+
 match > use(deadkeys)   
 
 group(deadkeys)
@@ -453,6 +455,7 @@ platform('web') dk(003b) dk(003b) > U+003b U+0020
 platform('touch') dk(003b) dk(003b) > U+003b U+0020
 platform('desktop native') dk(003b) dk(003b) > U+003b
 dk(003b) any(dkf003b) > index(dkt003b, 2)
+
 
 store(dkf003d) U+0020 U+0304 U+030d U+0303 U+0301 U+030c U+0327 U+0300 U+0302
 store(dkt003d) U+003d U+02c9 U+02c8 U+007e U+02ca U+02c7 U+00b8 U+02cb U+02c6

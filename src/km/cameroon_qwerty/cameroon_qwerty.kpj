@@ -10,7 +10,7 @@
       <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
       <Filename>cameroon_qwerty.kmn</Filename>
       <Filepath>source\cameroon_qwerty.kmn</Filepath>
-      <FileVersion>4.0</FileVersion>
+      <FileVersion>5.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Cameroon QWERTY</Name>
@@ -22,12 +22,12 @@
       <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
       <Filename>cameroon_qwerty.kps</Filename>
       <Filepath>source\cameroon_qwerty.kps</Filepath>
-      <FileVersion>4.0</FileVersion>
+      <FileVersion>5.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Cameroon Qwerty</Name>
-        <Copyright>©SIL Cameroon</Copyright>
-        <Version>4.0</Version>
+        <Copyright>©2018 SIL Cameroon</Copyright>
+        <Version>5.0</Version>
       </Details>
     </File>
     <File>
@@ -76,6 +76,22 @@
       <Filepath>source\cameroon_qwerty.kvks</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvks</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_36061dbc505aed69dc230cc4b05e012b</ID>
+      <Filename>cameroon_qwerty.kvk</Filename>
+      <Filepath>source\build\cameroon_qwerty.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_7a899718197611a1aa2c260d9f5ac997</ID>
+      <Filename>cameroon_qwerty.kmx</Filename>
+      <Filepath>source\build\cameroon_qwerty.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
       <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
     </File>
   </Files>

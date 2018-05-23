@@ -6,7 +6,7 @@ store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ! or AltGr to access special characters.'
 store(&LAYOUTFILE) 'cameroon_azerty-layout.js'
-store(&KEYBOARDVERSION) '4.0'
+store(&KEYBOARDVERSION) '5.0'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'cameroon_azerty.kvks'
 store(&KMW_EMBEDCSS) 'cameroon_azerty.css'
@@ -22,11 +22,11 @@ store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
 store(punct) "',.:;?!"
 store(final) ".!?"
 store(num) "0123456789"
-store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|@#$%^&*()«»‹›‘“’”€¥£èéçàùµ" U+0022
+store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|/@#$%^&*()«»‹›‘“’”€¥£èéçàùµ" U+0022
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330 
 
-platform('web') any(punct) " " + [K_SPACE] > context
-platform('touch') any(punct) " " + [K_SPACE] > context 
+platform('web') any(punct) " " + [K_SPACE] > index(punct,2)
+platform('touch') any(punct) " " + [K_SPACE] > index(punct,2) 
 
 
 + [K_SPACE] > U+0020
@@ -388,7 +388,9 @@ platform('desktop native') + [SHIFT RALT K_HYPHEN] > nul
 platform('desktop native') + [RALT K_PERIOD] > U+0323 c ?????
 platform('desktop native') + [SHIFT RALT K_PERIOD] > beep
 
-+ [K_SLASH] > dk(0021) c Deadkey
++ [K_SLASH] > dk(0021) c Deadkey                   
+platform('macosx native') + [NCAPS K_SLASH] >  dk(0021)
+platform('macosx native') + [CAPS K_SLASH] >  dk(0021)
 + [SHIFT K_SLASH] > U+00A7
 platform('desktop native') + [RALT K_SLASH] > U+0021
 platform('desktop native') + [SHIFT RALT K_SLASH] > U+00A7
@@ -474,18 +476,36 @@ any(diablock) + [T_1DC6] > context
 any(diablock) + [T_1DC7] > context
 + [T_1DC7] > U+1DC7
 
+c + K_NP0 > U+0030
+c + K_NP1 > U+0031
+c + K_NP2 > U+0032
+c + K_NP3 > U+0033
+c + K_NP4 > U+0034
+c K_NP5 > U+0035
+c + K_NP6 > U+0036
+c + K_NP7 > U+0037
+c + K_NP8 > U+0038
+c + K_NP9 > U+0039
+c + K_NPSTAR > U+002A
+c + K_NPPLUS > U+002B
+c + K_NPMINUS > U+002D
+c + K_NPDOT > U+002E
+c + K_NPSLASH > U+002F
+
+
 nomatch > use(checks)
 match > use(checks)
 
 group(checks)
 c Final Checks
 c platform('hardware') any(word) any(final) > context
-platform('touch') any(word) any(final) > context " " layer('shift')
+platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
 
 c Space after other punct
-platform('hardware') any(word) any(punct)  > context  
-platform('touch') any(word) any(punct)  > context " "    
+platform('hardware') any(word) any(punct)  > index(word,2) index(punct,3)  
+platform('touch') any(word) any(punct)  > index(word,2) index(punct,3) " "    
 
+match  platform('hardware') > use(deadkeys)
 nomatch platform('hardware') > use(deadkeys)
 nomatch platform('desktop native') > use(deadkeys)
 
