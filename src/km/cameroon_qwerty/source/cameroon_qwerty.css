@@ -11,23 +11,29 @@
   font-family: 'Andika Afr';
   font-style:  normal;
   font-weight: normal;
-  line-height: .5;  
   src: url('fonts/ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
     url('fonts/ANDIKAAFR-R.TTF')  format('truetype'),
     url('fonts/AndikaAfr-R.woff') format('woff');     
 }
 
- 
-.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} */
+ /* km web */
+.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkgreen 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
         
 
 /* Common key appearance styles (can override with form-factor styles if necessary) */
 .kmw-key-default{color:#000;background-color:#eee;}
-.kmw-key-shift{color:#aaa;background-color:#ddd;}     /*color was #88f (blue) */
+.kmw-key-shift{color:#aaa;background-color:#ddd;}    
 .kmw-key-shift-on{color:#88f;background-color:#ccf;}
-/* .kmw-key-deadkey{color:#0d0;background-color:#eee;}  */
-.kmw-key-deadkey{color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
-.kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
-.kmw-key-hidden{visibility:hidden;}
-.kmw-key-touched{background-color:#88f;}
+.kmw-keyboard-cameroon_qwerty .kmw-key-deadkey{color:#0F0;background:linear-gradient(to right, teal 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
+.phone.android #default-K_A,
+.phone.android #default-K_E,
+.phone.android #default-K_I,
+.phone.android #default-K_O, 
+.phone.android #default-K_U,
+.phone.android #shift-K_A,
+.phone.android #shift-K_E,
+.phone.android #shift-K_I,
+.phone.android #shift-K_O,
+.phone.android #shift-K_U,
+.phone.android #camlower-U_0259 { background-color: #aaaa00 }
 

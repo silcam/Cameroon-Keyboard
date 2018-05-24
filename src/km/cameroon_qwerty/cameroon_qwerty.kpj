@@ -10,7 +10,7 @@
       <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
       <Filename>cameroon_qwerty.kmn</Filename>
       <Filepath>source\cameroon_qwerty.kmn</Filepath>
-      <FileVersion>5.0</FileVersion>
+      <FileVersion>5.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Cameroon QWERTY</Name>
@@ -22,12 +22,12 @@
       <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
       <Filename>cameroon_qwerty.kps</Filename>
       <Filepath>source\cameroon_qwerty.kps</Filepath>
-      <FileVersion>5.0</FileVersion>
+      <FileVersion>5.1</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Cameroon Qwerty</Name>
         <Copyright>©2018 SIL Cameroon</Copyright>
-        <Version>5.0</Version>
+        <Version>5.1</Version>
       </Details>
     </File>
     <File>
@@ -63,35 +63,27 @@
       <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
     </File>
     <File>
-      <ID>id_1dbc9c41500cb608c3ff0a885b3e73c2</ID>
-      <Filename>cameroon_qwerty-layout.js</Filename>
-      <Filepath>source\cameroon_qwerty-layout.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
-    </File>
-    <File>
-      <ID>id_e1ca4927cddfe325fbdc824d9cb0baff</ID>
-      <Filename>cameroon_qwerty.kvks</Filename>
-      <Filepath>source\cameroon_qwerty.kvks</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvks</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
-    </File>
-    <File>
-      <ID>id_36061dbc505aed69dc230cc4b05e012b</ID>
-      <Filename>cameroon_qwerty.kvk</Filename>
-      <Filepath>source\build\cameroon_qwerty.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
-    </File>
-    <File>
       <ID>id_7a899718197611a1aa2c260d9f5ac997</ID>
       <Filename>cameroon_qwerty.kmx</Filename>
       <Filepath>source\build\cameroon_qwerty.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a68a4dc47ab4e01a56cd3e9dc9ddb682</ID>
+      <Filename>AndikaAfr-R.woff</Filename>
+      <Filepath>source\fonts\AndikaAfr-R.woff</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.woff</FileType>
+      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
+      <Filename>splash.bmp</Filename>
+      <Filepath>source\splash.bmp</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.bmp</FileType>
       <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
     </File>
   </Files>

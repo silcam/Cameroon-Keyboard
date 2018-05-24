@@ -8,11 +8,9 @@
       <usealtgr/>
     </flags>
   </header>
-  <encoding name="unicode" fontname="Andika Afr" fontsize="-12">
-    <layer shift="LC">
-      <key vkey="K_SPACE"></key>
-    </layer>
+  <encoding name="unicode" fontname="Arial" fontsize="-12">
     <layer shift="RA">
+      <key vkey="K_HYPHEN">̄</key>
       <key vkey="K_0">’</key>
       <key vkey="K_1">¼</key>
       <key vkey="K_2">½</key>
@@ -30,7 +28,6 @@
       <key vkey="K_J">̰</key>
       <key vkey="K_K">᷅</key>
       <key vkey="K_L">᷆</key>
-      <key vkey="K_M">™</key>
       <key vkey="K_N">ŋ</key>
       <key vkey="K_O">ɔ</key>
       <key vkey="K_P">ø</key>
@@ -44,7 +41,6 @@
       <key vkey="K_Z">…</key>
       <key vkey="K_COLON">;</key>
       <key vkey="K_COMMA">‹</key>
-      <key vkey="K_HYPHEN">̄</key>
       <key vkey="K_PERIOD">›</key>
       <key vkey="K_SLASH">÷</key>
       <key vkey="K_BKQUOTE">`</key>
@@ -52,6 +48,9 @@
       <key vkey="K_RBRKT">]</key>
       <key vkey="K_QUOTE">'</key>
       <key vkey="K_oE2">\</key>
+    </layer>
+    <layer shift="LC">
+      <key vkey="K_SPACE"></key>
     </layer>
     <layer shift="SRA">
       <key vkey="K_0">”</key>
@@ -70,6 +69,7 @@
       <key vkey="K_J">̣</key>
       <key vkey="K_K">᷇</key>
       <key vkey="K_L">᷄</key>
+      <key vkey="K_M">™</key>
       <key vkey="K_N">Ŋ</key>
       <key vkey="K_O">Ɔ</key>
       <key vkey="K_P">Ø</key>

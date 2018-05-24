@@ -450,7 +450,21 @@ any(diablock) + [T_1DC7] > context
 + [T_1DC7] > U+1DC7
 
 
-match > use(deadkeys)   
+nomatch > use(checks)
+match > use(checks)
+
+group(checks)
+c Final Checks
+platform('hardware') any(word) any(final) > index(word,2) index(final,3)
+platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
+
+c Space after other punct
+platform('hardware') any(word) any(punct)  > index(word,2) index(punct,3)
+platform('touch') any(word) any(punct)  > index(word,2) index(punct,3) " "
+
+match  platform('hardware') > use(deadkeys)
+nomatch platform('hardware') > use(deadkeys)
+nomatch platform('desktop native') > use(deadkeys)
 
 group(deadkeys)
 
