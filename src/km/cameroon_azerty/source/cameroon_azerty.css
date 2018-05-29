@@ -11,9 +11,9 @@
   font-family: 'Andika Afr';
   font-style:  normal;
   font-weight: normal;
-  src: url('fonts/ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
-    url('fonts/ANDIKAAFR-R.TTF')  format('truetype'),
-    url('fonts/AndikaAfr-R.woff') format('woff');     
+  src: url('ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
+    url('ANDIKAAFR-R.TTF')  format('truetype'),
+    url('AndikaAfr-R.woff') format('woff');     
 }
 
  
@@ -32,4 +32,46 @@
 .kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
 .kmw-key-hidden{visibility:hidden;}
 .kmw-key-touched{background-color:#88f;}   
-
+.kmw-Keyboard_cameroon_azerty #default-T_0300 { background: linear-gradient(pink, #7f7f7f); }
+/* .kmw-keyboard-cameroon_azerty #default-T_0300 { background: linear-gradient(blue, #7f7f7f); }*/
+.kmw-keyboard_cameroon_azerty #default-T_0300 { background: linear-gradient(orange, #7f7f7f); }
+.kmw-keyboard-Cameroon_AZERTY #default-T_0300 { background: linear-gradient(coral, #7f7f7f); } 
+.kmw-Keyboard_Cameroon_AZERTY #default-T_0300 { background: linear-gradient(#002200, #7f7f7f); }
+#default-T_0304,
+#default-T_0301,
+#default-T_030C,
+#default-T_0302,
+#default-T_0303,
+#default-T_0308,
+#default-T_0327,
+#shift-T_1DC5,
+#shift-T_1DC6,
+#shift-T_1DC7,
+#shift-T_1DC4,
+#shift-T_030D,
+#shift-T_0330 { background: linear-gradient(darkgreen, #7f7f7f); }
+#default-K_Q,
+#default-K_E,
+#default-K_I,
+#default-K_O, 
+#default-K_U,
+#shift-K_Q,
+#shift-K_E,
+#shift-K_I,
+#shift-K_O,
+#shift-K_U,
+#camlower-U_025B,
+#camlower-U_0259,
+#camlower-U_0153,
+#camlower-U_0268,
+#camlower-U_0254,
+#camlower-U_00E6,
+#camlower-U_03B1,
+#camupper-U_0190,
+#camupper-U_018F,
+#camupper-U_0152,
+#camupper-U_0244,
+#camupper-U_0197,
+#camupper-U_0186,
+#camupper-U_00C6,
+#camupper-U_2C6D { background: linear-gradient(#aaaa00, #7f7f7f); }

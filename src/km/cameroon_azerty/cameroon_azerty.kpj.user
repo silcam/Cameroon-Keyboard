@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state></state>
   <FileStates>
     <FileState>
       <ID>id_0abad9f0258bd353aacfa0e171dbb392</ID>
@@ -44,6 +44,10 @@
       <ID>id_a68a4dc47ab4e01a56cd3e9dc9ddb682</ID>
       <FullPath>D:\Github\keyboards\cameroon_azerty\source\fonts\AndikaAfr-R.woff</FullPath>
     </FileState>
+    <FileState>
+      <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
+      <FullPath>D:\Github\keyboards\cameroon_azerty\source\splash.bmp</FullPath>
+    </FileState>
   </FileStates>
   <MRU>
     <File>
@@ -66,39 +70,39 @@
     </File>
     <File>
       <ID>id_MRU3</ID>
+      <Filename>clavbur9.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\keyboards\clavbur9\source\clavbur9.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>eKwTamil99UniUpdt.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\keyboards\ekwtamil99uni\extra\eKwTamil99UniUpdt.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>fv_stlatlimxec_kmw.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\keyboards\fv_stlatlimxec_kmw\source\fv_stlatlimxec_kmw.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>sil_ethiopic.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\keyboards\sil_ethiopic\source\sil_ethiopic.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
       <Filename>CAMA2011-WebFriendly.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\CAMA2011-WebFriendly.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU8</ID>
       <Filename>CAMA2011.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\CAMA2011.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU5</ID>
-      <Filename>cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\cameroon_azerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU6</ID>
-      <Filename>CAMA2011.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Documents\Desktop Cleanup\Patriot Dump\NJock\COOLIO\CAMA2011.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU7</ID>
-      <Filename>CAMA2011.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Dropbox\Cameroon\Keyboard\Current Sources\CAM Azerty\CAMA2011.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU8</ID>
-      <Filename>cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\keyboards\cameroon_azertyAlpha\source\cameroon_azerty.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

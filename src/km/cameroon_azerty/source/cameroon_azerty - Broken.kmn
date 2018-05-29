@@ -1,16 +1,16 @@
-﻿store(&VERSION) '10.0'
+﻿store(&VERSION) '9.0'
 store(&NAME) 'Cameroon AZERTY'
-c store(&WINDOWSLANGUAGES) 'x0456'
-c store(&LANGUAGE) 'x0456'
+store(&WINDOWSLANGUAGES) 'x0456'
+store(&LANGUAGE) 'x0456'
 store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ! to access special characters.'
 store(&LAYOUTFILE) 'cameroon_azerty-layout.js'
-store(&KEYBOARDVERSION) '5.3'
+store(&KEYBOARDVERSION) '5.1'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'cameroon_azerty.kvks'
 store(&KMW_EMBEDCSS) 'cameroon_azerty.css'
-c store(&ETHNOLOGUECODE) 'fre'
+store(&ETHNOLOGUECODE) 'fre'
 
 begin Unicode > use(main)
 
@@ -24,20 +24,11 @@ store(punct) "',.:;?!"
 store(final) ".!?"
 store(num) "0123456789"
 store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|/@#$%^&*()«»‹›‘“’”€¥£èéçàùµ" U+0022
-store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
-c store(capsedkey) [K_0] [K_1] c [K_2] [K_3] [K_4] [K_5] [K_6] [K_7]
-c store(capsedlower) U+00E0 U+0026
-c store(capsedcap) U+0030 U+0031
-
-c + any(capsedkey) > index(capsedlower,1)
-c + any(capsedkey) [NCAPS]> index(capsedlower,1)
-c + [SHIFT CAPS] any(capsedkey) > index(capsedlower,1)
-c + any(capsedkey) [SHIFT] > index(capsedcap,1)
-c + [CAPS] any(capsedkey) > index(capsedcap,1)
-
+store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330 
 
 platform('web') any(punct) " " + [K_SPACE] > index(punct,2)
 platform('touch') any(punct) " " + [K_SPACE] > index(punct,2) 
+
 
 + [K_SPACE] > U+0020
 + [SHIFT K_SPACE] > U+0020
@@ -113,482 +104,345 @@ platform('desktop native') + [CAPS K_9] > U+0039
 platform('desktop native') + [RALT K_9] > U+005E
 platform('desktop native') + [SHIFT RALT K_9] > BEEP
 
-
-platform('touch') + [K_Q] > U+0061
-platform('touch') + [SHIFT K_Q] > U+0041
+platform('web') + [K_Q] > U+0061
+platform('web') + [SHIFT K_Q] > U+0041
 platform('desktop native') + [NCAPS K_Q] > U+0061
 platform('desktop native') + [CAPS K_Q] > U+0041
 platform('desktop native') + [NCAPS SHIFT K_Q] > U+0041
 platform('desktop native') + [CAPS SHIFT K_Q] > U+0061
 platform('desktop native') + [NCAPS RALT K_Q] > U+025b
-platform('desktop native') + [CAPS RALT K_Q] > U+0190
 platform('desktop native') + [CAPS SHIFT RALT K_Q] > U+025b
 platform('desktop native') + [NCAPS SHIFT RALT K_Q] > U+0190
 
-platform('touch') + [K_B] > U+0062
-platform('touch') + [SHIFT K_B] > U+0042
+platform('web') + [K_B] > U+0062
+platform('web') + [SHIFT K_B] > U+0042
 platform('desktop native') + [NCAPS K_B] > U+0062
 platform('desktop native') + [CAPS K_B] > U+0042
 platform('desktop native') + [NCAPS SHIFT K_B] > U+0042
 platform('desktop native') + [CAPS SHIFT K_B] > U+0062
 platform('desktop native') + [NCAPS RALT K_B] > U+0253
-platform('desktop native') + [CAPS RALT K_B] > U+0181
 platform('desktop native') + [CAPS SHIFT RALT K_B] > U+0253
 platform('desktop native') + [NCAPS SHIFT RALT K_B] > U+0181
 
-platform('touch') + [K_C] > U+0063
-platform('touch') + [SHIFT K_C] > U+0043
+platform('web') + [K_C] > U+0063
+platform('web') + [SHIFT K_C] > U+0043
 platform('desktop native') + [NCAPS K_C] > U+0063
 platform('desktop native') + [CAPS K_C] > U+0043
 platform('desktop native') + [NCAPS SHIFT K_C] > U+0043
 platform('desktop native') + [CAPS SHIFT K_C] > U+0063
 platform('desktop native') + [NCAPS RALT K_C] > U+0327
-platform('desktop native') + [CAPS RALT K_C] > U+00A9
 platform('desktop native') + [CAPS SHIFT RALT K_C] > U+0327
 platform('desktop native') + [NCAPS SHIFT RALT K_C] > U+00A9
 
-platform('touch') + [K_D] > U+0064
-platform('touch') + [SHIFT K_D] > U+0044
+platform('web') + [K_D] > U+0064
+platform('web') + [SHIFT K_D] > U+0044
 platform('desktop native') + [NCAPS K_D] > U+0064
 platform('desktop native') + [CAPS K_D] > U+0044
 platform('desktop native') + [NCAPS SHIFT K_D] > U+0044
 platform('desktop native') + [CAPS SHIFT K_D] > U+0064
 platform('desktop native') + [NCAPS RALT K_D] > U+0257
-platform('desktop native') + [CAPS RALT K_D] > U+018a
 platform('desktop native') + [CAPS SHIFT RALT K_D] > U+0257
 platform('desktop native') + [NCAPS SHIFT RALT K_D] > U+018a
 
-platform('touch')  + [K_E] > U+0065
-platform('touch')  + [SHIFT K_E] > U+0045
+platform('web')  + [K_E] > U+0065
+platform('web')  + [SHIFT K_E] > U+0045
 platform('desktop native') + [NCAPS K_E] > U+0065
 platform('desktop native') + [CAPS K_E] > U+0045
 platform('desktop native') + [NCAPS SHIFT K_E] > U+0045
 platform('desktop native') + [CAPS SHIFT K_E] > U+0065
 platform('desktop native') + [NCAPS RALT K_E] > U+0259
-platform('desktop native') + [CAPS RALT K_E] > U+018f
 platform('desktop native') + [CAPS SHIFT RALT K_E] > U+0259
 platform('desktop native') + [NCAPS SHIFT RALT K_E] > U+018f
 
-platform('touch') + [K_F] > U+0066
-platform('touch') + [SHIFT K_F] > U+0046
+platform('web') + [K_F] > U+0066
+platform('web') + [SHIFT K_F] > U+0046
 platform('desktop native') + [NCAPS K_F] > U+0066
 platform('desktop native') + [CAPS K_F] > U+0046
 platform('desktop native') + [NCAPS SHIFT K_F] > U+0046
 platform('desktop native') + [CAPS SHIFT K_F] > U+0066
-platform('desktop native') + [NCAPS RALT K_F] > U+00e6 
-platform('desktop native') + [CAPS RALT K_F] > U+00c6
+platform('desktop native') + [NCAPS RALT K_F] > U+00e6
 platform('desktop native') + [CAPS SHIFT RALT K_F] > U+00e6
 platform('desktop native') + [NCAPS SHIFT RALT K_F] > U+00c6
 
-platform('touch') + [K_G] > U+0067
-platform('touch') + [SHIFT K_G] > U+0047
+platform('web') + [K_G] > U+0067
+platform('web') + [SHIFT K_G] > U+0047
 platform('desktop native') + [NCAPS K_G] > U+0067
 platform('desktop native') + [CAPS K_G] > U+0047
 platform('desktop native') + [NCAPS SHIFT K_G] > U+0047
 platform('desktop native') + [CAPS SHIFT K_G] > U+0067
 platform('desktop native') + [NCAPS RALT K_G] > U+02bc
-platform('desktop native') + [CAPS RALT K_G] >  U+a78b
 platform('desktop native') + [CAPS SHIFT RALT K_G] > U+02bc
 platform('desktop native') + [NCAPS SHIFT RALT K_G] > U+a78b
 
-platform('touch') + [K_H] > U+0068
-platform('touch') + [SHIFT K_H] > U+0048
+platform('web') + [K_H] > U+0068
+platform('web') + [SHIFT K_H] > U+0048
 platform('desktop native') + [NCAPS K_H] > U+0068
 platform('desktop native') + [CAPS K_H] > U+0048
 platform('desktop native') + [NCAPS SHIFT K_H] > U+0048
 platform('desktop native') + [CAPS SHIFT K_H] > U+0068
 platform('desktop native') + [NCAPS RALT K_H] > U+03b1
-platform('desktop native') + [CAPS RALT K_H] >  U+2c6d
 platform('desktop native') + [CAPS SHIFT RALT K_H] > U+03b1
 platform('desktop native') + [NCAPS SHIFT RALT K_H] > U+2c6d
 
-platform('touch') + [K_I] > U+0069
-platform('touch') + [SHIFT K_I] > U+0049
+platform('web') + [K_I] > U+0069
+platform('web') + [SHIFT K_I] > U+0049
 platform('desktop native') + [NCAPS K_I] > U+0069
 platform('desktop native') + [CAPS K_I] > U+0049
 platform('desktop native') + [NCAPS SHIFT K_I] > U+0049
 platform('desktop native') + [CAPS SHIFT K_I] > U+0069
-platform('desktop native') + [NCAPS RALT K_I] > U+0268 
-platform('desktop native') + [CAPS RALT K_I] > U+0197
+platform('desktop native') + [NCAPS RALT K_I] > U+0268
 platform('desktop native') + [CAPS SHIFT RALT K_I] > U+0268
 platform('desktop native') + [NCAPS SHIFT RALT K_I] > U+0197
 
-platform('touch') + [K_J] > U+006a
-platform('touch') + [SHIFT K_J] > U+004a
+platform('web') + [K_J] > U+006a
+platform('web') + [SHIFT K_J] > U+004a
 platform('desktop native') + [NCAPS K_J] > U+006a
 platform('desktop native') + [CAPS K_J] > U+004a
 platform('desktop native') + [NCAPS SHIFT K_J] > U+004a
 platform('desktop native') + [CAPS SHIFT K_J] > U+006a
 platform('desktop native') + [NCAPS RALT K_J] > beep
-platform('desktop native') + [CAPS RALT K_J] > U+2122
 platform('desktop native') + [CAPS SHIFT RALT K_J] > beep
 platform('desktop native') + [NCAPS SHIFT RALT K_J] > U+2122
 
-platform('touch') + [K_K] > U+006b
-platform('touch') + [SHIFT K_K] > U+004b
+platform('web') + [K_K] > U+006b
+platform('web') + [SHIFT K_K] > U+004b
 platform('desktop native') + [NCAPS K_K] > U+006b
 platform('desktop native') + [CAPS K_K] > U+004b
 platform('desktop native') + [NCAPS SHIFT K_K] > U+004b
 platform('desktop native') + [CAPS SHIFT K_K] > U+006b
-platform('desktop native') + [NCAPS RALT K_K] > BEEP
-platform('desktop native') + [CAPS RALT K_K] > BEEP    
+platform('desktop native') + [NCAPS RALT K_K] > BEEP     
 platform('desktop native') + [CAPS SHIFT RALT K_K] > BEEP
 platform('desktop native') + [NCAPS SHIFT RALT K_K] > BEEP
 
-platform('touch') + [K_L] > U+006c
-platform('touch') + [SHIFT K_L] > U+004c
+platform('web') + [K_L] > U+006c
+platform('web') + [SHIFT K_L] > U+004c
 platform('desktop native') + [NCAPS K_L] > U+006c
 platform('desktop native') + [CAPS K_L] > U+004c
 platform('desktop native') + [NCAPS SHIFT K_L] > U+004c
 platform('desktop native') + [CAPS SHIFT K_L] > U+006c
 platform('desktop native') + [NCAPS RALT K_L] > BEEP
-platform('desktop native') + [CAPS RALT K_L] > U+00A3
 platform('desktop native') + [CAPS SHIFT RALT K_L] > BEEP
 platform('desktop native') + [NCAPS SHIFT RALT K_L] > U+00A3
 
-platform('touch') + [K_COLON] > U+006d
-platform('touch') + [SHIFT K_COLON] > U+004d
+platform('web') + [K_COLON] > U+006d
+platform('web') + [SHIFT K_COLON] > U+004d
 platform('desktop native') + [NCAPS K_COLON] > U+006d
 platform('desktop native') + [CAPS K_COLON] > U+004d
 platform('desktop native') + [NCAPS SHIFT K_COLON] > U+004d
 platform('desktop native') + [CAPS SHIFT K_COLON] > U+006d 
 platform('desktop native') + [NCAPS RALT K_COLON] > U+00F9
-platform('desktop native') + [CAPS RALT K_COLON] >  U+00B5
-platform('desktop native') + [CAPS RALT SHIFT K_COLON] > U+00F9 C ???????  
+platform('desktop native') + [CAPS RALT SHIFT K_COLON] > U+00B5    
 platform('desktop native') + [NCAPS RALT SHIFT K_COLON] > U+00B5
 
-platform('touch') + [K_N] > U+006e
-platform('touch') + [SHIFT K_N] > U+004e
+platform('web') + [K_N] > U+006e
+platform('web') + [SHIFT K_N] > U+004e
 platform('desktop native') + [NCAPS K_N] > U+006e
 platform('desktop native') + [CAPS K_N] > U+004e
 platform('desktop native') + [NCAPS SHIFT K_N] > U+004e
 platform('desktop native') + [CAPS SHIFT K_N] > U+006e
 platform('desktop native') + [NCAPS RALT K_N] > U+014b
-platform('desktop native') + [CAPS RALT K_N] >  U+014a
 platform('desktop native') + [CAPS SHIFT RALT K_N] > U+014b
 platform('desktop native') + [NCAPS SHIFT RALT K_N] > U+014a
 
-platform('touch') + [K_O] > U+006f
-platform('touch') + [SHIFT K_O] > U+004f
+platform('web') + [K_O] > U+006f
+platform('web') + [SHIFT K_O] > U+004f
 platform('desktop native') + [NCAPS K_O] > U+006f
 platform('desktop native') + [CAPS K_O] > U+004f
 platform('desktop native') + [NCAPS SHIFT K_O] > U+004f
 platform('desktop native') + [CAPS SHIFT K_O] > U+006f
 platform('desktop native') + [NCAPS RALT K_O] > U+0254
-platform('desktop native') + [CAPS RALT K_O] >   U+0186
 platform('desktop native') + [CAPS SHIFT RALT K_O] > U+0254
 platform('desktop native') + [NCAPS SHIFT RALT K_O] > U+0186
 
-platform('touch') + [K_P] > U+0070
-platform('touch') + [SHIFT K_P] > U+0050
+platform('web') + [K_P] > U+0070
+platform('web') + [SHIFT K_P] > U+0050
 platform('desktop native') + [NCAPS K_P] > U+0070
 platform('desktop native') + [CAPS K_P] > U+0050
 platform('desktop native') + [NCAPS SHIFT K_P] > U+0050
 platform('desktop native') + [CAPS SHIFT K_P] > U+0070
-platform('desktop native') + [NCAPS RALT K_P] > U+00f8 
-platform('desktop native') + [CAPS RALT K_P] >  U+00d8
+platform('desktop native') + [NCAPS RALT K_P] > U+00f8
 platform('desktop native') + [CAPS SHIFT RALT K_P] > U+00f8
 platform('desktop native') + [NCAPS SHIFT RALT K_P] > U+00d8
 
-platform('touch') + [K_Q] > U+0071
-platform('touch') + [SHIFT K_Q] > U+0051
+platform('web') + [K_A] > U+0071
+platform('web') + [SHIFT K_A] > U+0051
 platform('desktop native') + [NCAPS K_A] > U+0071
 platform('desktop native') + [CAPS K_A] > U+0051
 platform('desktop native') + [NCAPS SHIFT K_A] > U+0051
 platform('desktop native') + [CAPS SHIFT K_A] > U+0071
 platform('desktop native') + [NCAPS RALT K_A] > U+2014
-platform('desktop native') + [CAPS RALT K_A] > U+2013
 platform('desktop native') + [CAPS SHIFT RALT K_A] > U+2014
 platform('desktop native') + [NCAPS SHIFT RALT K_A] > U+2013
 
-platform('touch') + [K_R] > U+0072
-platform('touch') + [SHIFT K_R] > U+0052
+platform('web') + [K_R] > U+0072
+platform('web') + [SHIFT K_R] > U+0052
 platform('desktop native') + [NCAPS K_R] > U+0072
 platform('desktop native') + [CAPS K_R] > U+0052
 platform('desktop native') + [NCAPS SHIFT K_R] > U+0052
 platform('desktop native') + [CAPS SHIFT K_R] > U+0072
-platform('desktop native') + [NCAPS RALT K_R] > U+25cc 
-platform('desktop native') + [CAPS RALT K_R] > U+00ae
+platform('desktop native') + [NCAPS RALT K_R] > U+25cc
 platform('desktop native') + [CAPS SHIFT RALT K_R] > U+25cc
 platform('desktop native') + [NCAPS SHIFT RALT K_R] > U+00ae
 
-platform('touch') + [K_S] > U+0073
-platform('touch') + [SHIFT K_S] > U+0053
+platform('web')  + [K_S] > U+0073
+platform('web')  + [SHIFT K_S] > U+0053
 platform('desktop native') + [NCAPS K_S] > U+0073
 platform('desktop native') + [CAPS K_S] > U+0053
 platform('desktop native') + [NCAPS SHIFT K_S] > U+0053
 platform('desktop native') + [CAPS SHIFT K_S] > U+0073
 platform('desktop native') + [NCAPS RALT K_S] > U+201C
-platform('desktop native') + [CAPS RALT K_S] > U+201D
 platform('desktop native') + [CAPS SHIFT RALT K_S] > U+201C
 platform('desktop native') + [NCAPS SHIFT RALT K_S] > U+201D
 
-platform('touch') + [K_T] > U+0074
-platform('touch') + [SHIFT K_T] > U+0054
+platform('web') + [K_T] > U+0074
+platform('web') + [SHIFT K_T] > U+0054
 platform('desktop native') + [NCAPS K_T] > U+0074
 platform('desktop native') + [CAPS K_T] > U+0054
 platform('desktop native') + [NCAPS SHIFT K_T] > U+0054
 platform('desktop native') + [CAPS SHIFT K_T] > U+0074
 platform('desktop native') + [NCAPS RALT K_T] > U+0153
-platform('desktop native') + [CAPS RALT K_T] > U+0152
 platform('desktop native') + [CAPS SHIFT RALT K_T] > U+0153
 platform('desktop native') + [NCAPS SHIFT RALT K_T] > U+0152
 
-platform('touch') + [K_U] > U+0075
-platform('touch') + [SHIFT K_U] > U+0055
+platform('web') + [K_U] > U+0075
+platform('web') + [SHIFT K_U] > U+0055
 platform('desktop native') + [NCAPS K_U] > U+0075
 platform('desktop native') + [CAPS K_U] > U+0055
 platform('desktop native') + [NCAPS SHIFT K_U] > U+0055
 platform('desktop native') + [CAPS SHIFT K_U] > U+0075
 platform('desktop native') + [NCAPS RALT K_U] > U+0289
-platform('desktop native') + [CAPS RALT K_U] >   U+0244
 platform('desktop native') + [CAPS SHIFT RALT K_U] > U+0289
 platform('desktop native') + [NCAPS SHIFT RALT K_U] > U+0244
 
-platform('touch') + [K_V] > U+0076
-platform('touch') + [SHIFT K_V] > U+0056
+platform('web') + [K_V] > U+0076
+platform('web') + [SHIFT K_V] > U+0056
 platform('desktop native') + [NCAPS K_V] > U+0076
 platform('desktop native') + [CAPS K_V] > U+0056
 platform('desktop native') + [NCAPS SHIFT K_V] > U+0056
 platform('desktop native') + [CAPS SHIFT K_V] > U+0076
 platform('desktop native') + [NCAPS RALT K_V] > U+a78c
-platform('desktop native') + [CAPS RALT K_V] >  U+a78b
 platform('desktop native') + [CAPS SHIFT RALT K_V] > U+a78c
 platform('desktop native') + [NCAPS SHIFT RALT K_V] > U+a78b
 
-platform('touch') + [K_Z] > U+0077
-platform('touch') + [SHIFT K_Z] > U+0057
+platform('web') + [K_Z] > U+0077
+platform('web') + [SHIFT K_Z] > U+0057
 platform('desktop native') + [NCAPS K_Z] > U+0077
 platform('desktop native') + [CAPS K_Z] > U+0057
 platform('desktop native') + [NCAPS SHIFT K_Z] > U+0057
 platform('desktop native') + [CAPS SHIFT K_Z] > U+0077
 platform('desktop native') + [NCAPS RALT K_Z] > U+1e85
-platform('desktop native') + [CAPS RALT K_Z] >  U+1e84
 platform('desktop native') + [CAPS SHIFT RALT K_Z] > U+1e85
 platform('desktop native') + [NCAPS SHIFT RALT K_Z] > U+1e84
 
-platform('touch') + [K_X] > U+0078
-platform('touch') + [SHIFT K_X] > U+0058
+platform('web') + [K_X] > U+0078
+platform('web') + [SHIFT K_X] > U+0058
 platform('desktop native') + [NCAPS K_X] > U+0078
 platform('desktop native') + [CAPS K_X] > U+0058
 platform('desktop native') + [NCAPS SHIFT K_X] > U+0058
 platform('desktop native') + [CAPS SHIFT K_X] > U+0078
-platform('desktop native') + [NCAPS RALT K_X] > U+2039 
-platform('desktop native') + [CAPS RALT K_X] > U+203A
+platform('desktop native') + [NCAPS RALT K_X] > U+2039
 platform('desktop native') + [CAPS SHIFT RALT K_X] > U+2039
 platform('desktop native') + [NCAPS SHIFT RALT K_X] > U+203A
 
-platform('touch') + [K_Y] > U+0079
-platform('touch') + [SHIFT K_Y] > U+0059
+platform('web') + [K_Y] > U+0079
+platform('web') + [SHIFT K_Y] > U+0059
 platform('desktop native') + [NCAPS K_Y] > U+0079
 platform('desktop native') + [CAPS K_Y] > U+0059
 platform('desktop native') + [NCAPS SHIFT K_Y] > U+0059
 platform('desktop native') + [CAPS SHIFT K_Y] > U+0079
 platform('desktop native') + [NCAPS RALT K_Y] > U+01b4
-platform('desktop native') + [CAPS RALT K_Y] >  U+01b3
 platform('desktop native') + [CAPS SHIFT RALT K_Y] > U+01b4
 platform('desktop native') + [NCAPS SHIFT RALT K_Y] > U+01b3
 
-platform('touch') + [K_W] > U+007a
-platform('touch') + [SHIFT K_W] > U+005a
+platform('web') + [K_W] > U+007a
+platform('web') + [SHIFT K_W] > U+005a
 platform('desktop native') + [NCAPS K_W] > U+007a
 platform('desktop native') + [CAPS K_W] > U+005a
 platform('desktop native') + [NCAPS SHIFT K_W] > U+005a
 platform('desktop native') + [CAPS SHIFT K_W] > U+007a
 platform('desktop native') + [NCAPS RALT K_W] > U+2026
-platform('desktop native') + [CAPS RALT K_W] > U+2020
 platform('desktop native') + [CAPS SHIFT RALT K_W] > U+2026
 platform('desktop native') + [NCAPS SHIFT RALT K_W] > U+2020
 
-
-+ [T_002C] > U+002C
-platform('hardware') + [K_M] > U+002c
-+ [T_003F] > U+003F
-platform('hardware') + [SHIFT K_M] > U+003F
-platform('desktop native') + [NCAPS K_M] > U+002c
-platform('desktop native') + [CAPS K_M] >   U+002C
-platform('desktop native') + [NCAPS SHIFT K_M] >  U+003F
-platform('desktop native') + [CAPS SHIFT K_M] > U+003F
++ [K_M] > U+002c
++ [SHIFT K_M] > U+003F  
 platform('desktop native') + [RALT K_M] > beep
-platform('desktop native') + [CAPS RALT K_M] > U+00D7 
-platform('desktop native') + [CAPS SHIFT RALT K_M] > beep
-platform('desktop native') + [NCAPS SHIFT RALT K_M] > U+00D7 
+platform('desktop native') + [SHIFT RALT K_M] > U+00D7
 
 + [K_EQUAL] > U+003D   c Also a dead-key?
 + [SHIFT K_EQUAL] > U+002B
-platform('desktop native') + [CAPS K_EQUAL] > U+003D 
-platform('desktop native') + [CAPS SHIFT K_EQUAL] > U+002B
-platform('desktop native') + [NCAPS K_EQUAL] > U+003D 
-platform('desktop native') + [NCAPS SHIFT K_EQUAL] > U+002B 
 platform('desktop native') + [RALT K_EQUAL] > U+007D
-platform('desktop native') + [CAPS RALT K_EQUAL] > U+00B1 c ??????
-platform('desktop native') + [SHIFT RALT K_EQUAL] > U+00B1 c ?????
-platform('desktop native') + [NCAPS SHIFT RALT K_EQUAL] > U+007D c ????
-platform('desktop native') + [CAPS SHIFT RALT K_EQUAL] > U+007D c ???? 
+platform('desktop native') + [SHIFT RALT K_EQUAL] > U+00B1
 
-
-+ [T_003B] > U+003B
-platform('hardware') + [K_COMMA] > U+003B
-+ [T_002E] > U+002E
-platform('hardware') + [SHIFT K_COMMA] > U+002E
-platform('desktop native') + [NCAPS K_COMMA] > U+003b
-platform('desktop native') + [SHIFT NCAPS K_COMMA] > U+002E
-platform('desktop native') + [CAPS K_COMMA] > U+003b
-platform('desktop native') + [SHIFT CAPS K_COMMA] > U+002E
++ [K_COMMA] > U+003b
++ [SHIFT K_COMMA] > U+002E
 platform('desktop native') + [RALT K_COMMA] > U+00B4
-platform('desktop native') + [SHIFT RALT K_COMMA] > dk(0060)
-platform('desktop native') + [NCAPS RALT K_COMMA] > U+00B4
-platform('desktop native') + [NCAPS SHIFT RALT K_COMMA] > dk(0060)
-platform('desktop native') + [CAPS RALT K_COMMA] > U+00B4
-platform('desktop native') + [CAPS SHIFT RALT K_COMMA] > dk(0060)
+platform('desktop native') + [SHIFT RALT K_COMMA] > dk(0060) c Deadkey
 
-platform('hardware') + [K_HYPHEN] > U+0029
-platform('hardware') + [SHIFT K_HYPHEN] > U+00B0
-platform('desktop native') + [CAPS K_HYPHEN] > U+0029 
-platform('desktop native') + [CAPS SHIFT K_HYPHEN] > U+00B0 
-platform('desktop native') + [NCAPS K_HYPHEN] > U+0029
-platform('desktop native') + [NCAPS SHIFT K_HYPHEN] > U+00B0
++ [K_HYPHEN] > U+0029
++ [SHIFT K_HYPHEN] > U+00B0
 platform('desktop native') + [RALT K_HYPHEN] > U+005D
-platform('desktop native') + [SHIFT RALT K_HYPHEN] > nul      
-platform('desktop native') + [CAPS RALT K_HYPHEN] > U+005D
-platform('desktop native') + [CAPS SHIFT RALT K_HYPHEN] > nul
-platform('desktop native') + [NCAPS RALT K_HYPHEN] > U+005D
-platform('desktop native') + [NCAPS SHIFT RALT K_HYPHEN] > nul
+platform('desktop native') + [SHIFT RALT K_HYPHEN] > nul
 
-+ [T_003A] > U+003A
-platform('hardware') + [K_PERIOD] > U+003A
-platform('hardware') + [SHIFT K_PERIOD] > U+002F
-platform('desktop native') + [NCAPS K_PERIOD] > U+003A
-platform('desktop native') + [SHIFT NCAPS K_PERIOD] > U+002F
-platform('desktop native') + [CAPS K_PERIOD] > U+003A
-platform('desktop native') + [SHIFT CAPS K_PERIOD] > U+002F
++ [K_PERIOD] > U+003A
++ [SHIFT K_PERIOD] > U+002F
 platform('desktop native') + [RALT K_PERIOD] > U+0323 c ?????
-any(diablock) + [RALT K_PERIOD] > context  
 platform('desktop native') + [SHIFT RALT K_PERIOD] > beep
-platform('desktop native') + [NCAPS RALT K_PERIOD] > U+0323 c ?????
-any(diablock) + [NCAPS RALT K_PERIOD] > context  
-platform('desktop native') + [NCAPS SHIFT RALT K_PERIOD] > beep
-platform('desktop native') + [CAPS RALT K_PERIOD] > U+0323 c ?????
-any(diablock) + [CAPS RALT K_PERIOD] > context  
-platform('desktop native') + [CAPS SHIFT RALT K_PERIOD] > beep
 
-+ [T_0021] > U+0021
-platform('touch') + [K_SLASH] > dk(0021)
-platform('touch') + [SHIFT K_SLASH] > U+00A7
-platform('desktop native') + [CAPS K_SLASH] > dk(0021) 
-platform('desktop native') + [CAPS SHIFT K_SLASH] > U+00A7
-platform('desktop native') + [NCAPS K_SLASH] > dk(0021) 
-platform('desktop native') + [NCAPS SHIFT K_SLASH] > U+00A7
++ [K_SLASH] > dk(0021) c Deadkey                   
+platform('macosx native') + [NCAPS K_SLASH] >  dk(0021)
+platform('macosx native') + [CAPS K_SLASH] >  dk(0021)
++ [SHIFT K_SLASH] > U+00A7
 platform('desktop native') + [RALT K_SLASH] > U+0021
 platform('desktop native') + [SHIFT RALT K_SLASH] > U+00A7
-platform('desktop native') + [NCAPS RALT K_SLASH] > U+0021
-platform('desktop native') + [NCAPS SHIFT RALT K_SLASH] > U+00A7 
-platform('desktop native') + [CAPS RALT K_SLASH] > U+0021
-platform('desktop native') + [CAPS SHIFT RALT K_SLASH] > U+00A7
 
-platform('hardware') + [K_BKQUOTE] > U+0024 
-platform('hardware') + [SHIFT K_BKQUOTE] > U+20AC
-platform('desktop native') + [CAPS K_BKQUOTE] > U+0024
-platform('desktop native') + [CAPS SHIFT K_BKQUOTE] > U+20AC
-platform('desktop native') + [NCAPS K_BKQUOTE] > U+0024
-platform('desktop native') + [NCAPS SHIFT K_BKQUOTE] > U+20AC 
++ [K_BKQUOTE] > U+0024 
++ [SHIFT K_BKQUOTE] > U+20AC
 platform('desktop native') + [RALT K_BKQUOTE] > U+00B2
 platform('desktop native') + [SHIFT RALT K_BKQUOTE] >  U+00B3
-platform('desktop native') + [CAPS RALT K_BKQUOTE] > U+00B2
-platform('desktop native') + [CAPS SHIFT RALT K_BKQUOTE] >  U+00B3
-platform('desktop native') + [NCAPS RALT K_BKQUOTE] > U+00B2
-platform('desktop native') + [NCAPS SHIFT RALT K_BKQUOTE] >  U+00B3
 
-platform('hardware') + [K_LBRKT] > U+0301
++ [K_LBRKT] > U+0301
 any(diablock) + [K_LBRKT] > context
-platform('hardware') + [SHIFT K_LBRKT] > U+030C
-any(diablock) + [SHIFT K_LBRKT] > context 
-platform('desktop native') + [CAPS K_LBRKT] > U+0301
-any(diablock) + [CAPS K_LBRKT] > context  
-platform('desktop native') + [CAPS SHIFT K_LBRKT] > U+030C
-any(diablock) + [CAPS SHIFT K_LBRKT] > context  
-platform('desktop native') + [NCAPS K_LBRKT] > U+0301
-any(diablock) + [NCAPS K_LBRKT] > context 
-platform('desktop native') + [NCAPS SHIFT K_LBRKT] > U+030C
-any(diablock) + [NCAPS SHIFT K_LBRKT] > context  
++ [SHIFT K_LBRKT] > U+030C
+any(diablock) + [SHIFT K_LBRKT] > context
 platform('desktop native') + [RALT K_LBRKT] > dk(005E) c Deadkey
 platform('desktop native') + [SHIFT RALT K_LBRKT] > dk(00A8) c Deadkey
-platform('desktop native') + [NCAPS RALT K_LBRKT] > dk(005E) c Deadkey
-platform('desktop native') + [NCAPS SHIFT RALT K_LBRKT] > dk(00A8) c Deadkey
-platform('desktop native') + [CAPS RALT K_LBRKT] > dk(005E) c Deadkey
-platform('desktop native') + [CAPS SHIFT RALT K_LBRKT] > dk(00A8) c Deadkey
 
-platform('hardware') + [K_BKSLASH] > U+1DC6
++ [K_BKSLASH] > U+1DC6
 any(diablock) + [K_BKSLASH] > context
-platform('hardware') + [SHIFT K_BKSLASH] > U+1DC7
++ [SHIFT K_BKSLASH] > U+1DC7
 any(diablock) + [SHIFT K_BKSLASH] > context
-platform('desktop native') + [CAPS K_BKSLASH] > U+1DC6
-any(diablock) + [CAPS K_BKSLASH] > context 
-platform('desktop native') + [CAPS SHIFT K_BKSLASH] > U+1DC7
-any(diablock) + [CAPS SHIFT K_BKSLASH] > context
-platform('desktop native') + [NCAPS K_BKSLASH] > U+1DC6 
-any(diablock) + [NCAPS K_BKSLASH] > context
-platform('desktop native') + [NCAPS SHIFT K_BKSLASH] > U+1DC7
-any(diablock) + [NCAPS SHIFT K_BKSLASH] > context 
 platform('desktop native') + [RALT K_BKSLASH] > U+002A
 platform('desktop native') + [SHIFT RALT K_BKSLASH] > U+00A4
-platform('desktop native') + [NCAPS RALT K_BKSLASH] > U+002A
-platform('desktop native') + [NCAPS SHIFT RALT K_BKSLASH] > U+00A4
-platform('desktop native') + [CAPS RALT K_BKSLASH] > U+002A
-platform('desktop native') + [CAPS SHIFT RALT K_BKSLASH] > U+00A4
 
-platform('hardware') + [K_RBRKT] > U+0330
++ [K_RBRKT] > U+0330
 any(diablock) + [K_RBRKT] > context
-platform('hardware') + [SHIFT K_RBRKT] > U+0303
++ [SHIFT K_RBRKT] > U+0303
 any(diablock) + [SHIFT K_RBRKT] > context
-platform('desktop native') + [CAPS K_RBRKT] > U+0330
-any(diablock) + [CAPS K_RBRKT] > context
-platform('desktop native') + [CAPS SHIFT K_RBRKT] > U+0303
-any(diablock) + [CAPS SHIFT K_RBRKT] > context 
-platform('desktop native') + [NCAPS K_RBRKT] >  U+0330   
-any(diablock) + [NCAPS K_RBRKT] > context
-platform('desktop native') + [NCAPS SHIFT K_RBRKT] > U+0303
-any(diablock) + [NCAPS SHIFT K_RBRKT] > context
-platform('desktop native') + [RALT K_RBRKT] > U+0304 
-any(diablock) platform('desktop native') + [RALT K_RBRKT] > context 
-platform('desktop native') + [CAPS RALT K_RBRKT] > U+0304 
-any(diablock) platform('desktop native') + [CAPS RALT K_RBRKT] > context 
-platform('desktop native') + [NCAPS RALT K_RBRKT] > U+0304 
-any(diablock) platform('desktop native') + [NCAPS RALT K_RBRKT] > context
-platform('desktop native') + [SHIFT RALT K_RBRKT] > U+030D 
-any(diablock) platform('desktop native') + [SHIFT RALT K_RBRKT] > context
+platform('desktop native') + [RALT K_RBRKT] > U+0304
+platform('desktop native') + [SHIFT RALT K_RBRKT] > U+030D
 
-platform('hardware') + [K_QUOTE] > U+0300
++ [K_QUOTE] > U+0300
 any(diablock) + [K_QUOTE] > context
-platform('hardware') + [SHIFT K_QUOTE] > U+0302
++ [SHIFT K_QUOTE] > U+0302
 any(diablock) + [SHIFT K_QUOTE] > context
-platform('desktop native') + [CAPS K_QUOTE] >  U+0300
-platform('desktop native') + [CAPS SHIFT K_QUOTE] >  U+0302
-platform('desktop native') + [NCAPS K_QUOTE] >    U+0300
-platform('desktop native') + [NCAPS SHIFT K_QUOTE] >  U+0302
 platform('desktop native') + [RALT K_QUOTE] > U+1DC5
 platform('desktop native') + [SHIFT RALT K_QUOTE] > U+1DC4
-platform('desktop native') + [NCAPS RALT K_QUOTE] > U+1DC5
-platform('desktop native') + [CAPS SHIFT RALT K_QUOTE] > U+1DC4
 
-platform('hardware') + [K_oE2] > U+003C
-platform('hardware') + [SHIFT K_oE2] > U+003E
-platform('desktop native') + [CAPS K_oE2] >  U+003C
-platform('desktop native') + [CAPS SHIFT K_oE2] >  U+003E
-platform('desktop native') + [NCAPS K_oE2] >  U+003C
-platform('desktop native') + [NCAPS SHIFT K_oE2] >   U+003E
++ [K_oE2] > U+003C
++ [SHIFT K_oE2] > U+003E
 platform('desktop native') + [RALT K_oE2] > U+00AB
 platform('desktop native') + [SHIFT RALT K_oE2] > U+00BB
-platform('desktop native') + [NCAPSRALT K_oE2] > U+00AB
-platform('desktop native') + [NCAPS SHIFT RALT K_oE2] > U+00BB
-platform('desktop native') + [CAPS RALT K_oE2] > U+00AB
-platform('desktop native') + [CAPS SHIFT RALT K_oE2] > U+00BB
-
 
 + [T_CAM] > nul
 + [T_FCFA] > 'FCFA'
 c Filter rules don't work unless something fires in this group.
-
++ [T_002E] > U+002E
++ [T_002C] > U+002C
++ [T_0021] > U+0021
++ [T_003B] > U+003B
++ [T_003A] > U+003A
++ [T_003F] > U+003F
 
 
 c Handle Touch Diacritics (ignoring on non-letters)
@@ -639,11 +493,21 @@ c + K_NPMINUS > U+002D
 c + K_NPDOT > U+002E
 c + K_NPSLASH > U+002F
 
-
 match > use(deadkeys)
+c nomatch > use(checks)
+c match > use(checks)
 
-c match  platform('touch') > use(deadkeys)
-c nomatch platform('touch') > use(deadkeys)
+c group(checks)
+c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
+c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
+
+c Space after other punct
+c platform('hardware') any(word) any(punct)  > index(word,2) index(punct,3)
+c platform('touch') any(word) any(punct)  > index(word,2) index(punct,3) " "
+
+c match  platform('hardware') > use(deadkeys)
+c nomatch platform('hardware') > use(deadkeys)
+c nomatch platform('desktop native') > use(deadkeys)
 
 group(deadkeys)
 
@@ -677,20 +541,9 @@ store(dkf00a8) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+
 store(dkt00a8) U+00a8 U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d6 U+00fc U+00dc U+00ff
 dk(00a8) any(dkf00a8) > index(dkt00a8, 2)
 
-store(dkf0021)	dk(0021) U+0020 U+0022	U+0024	U+0026	U+0027	U+0028	U+0029	U+002B	U+002D	U+002E	U+0030	U+0035	U+0038	U+003A	U+003B	U+003C	U+003D	U+003E	U+003F	U+0041	U+0042	U+0043	U+0044	U+0045	U+0046	U+0047	U+0048	U+0049	U+004A	U+004C	U+004D	U+004E	U+004F	U+0050	U+0051	U+0052	U+0053	U+0054	U+0055	U+0056	U+0057	U+0058	U+0059	U+005A	U+005F	U+0061	U+0062	U+0063	U+0064	U+0065	U+0066	U+0067	U+0068	U+0069	U+006D	U+006E	U+006F	U+0070	U+0071	U+0072	U+0073	U+0074	U+0075	U+0076	U+0077	U+0078	U+0079	U+007A	U+00E0	U+00E7	U+00E8	U+00E9	U+0300	U+0301	U+0302	U+0303	U+030C	U+0330	U+1DC7	U+1DC6	U+20AC	U+0021	U+0033	U+0034	U+0020
-store(dkt0021)	U+0021 U+0021 U+0025	U+00B2	U+00B9	U+007B	U+005B	U+005D	U+00B1	U+007C	U+0060	U+20D7	U+0023	U+20D6	U+0323	U+00B4	U+00AB	U+007D	U+00BB	U+00D7	U+0190	U+0181	U+00A9	U+018A	U+018F	U+00C6	U+A78B	U+2C6D	U+0197	U+2122	U+00A3	U+00B5	U+014A	U+0186	U+00D8	U+2013	U+00AE	U+201D	U+0152	U+0244	U+A78B	U+1E84	U+203A	U+01B3	U+2020	U+005C	U+025B	U+0253	U+0327	U+0257	U+0259	U+00E6	U+02BC	U+03B1	U+0268	U+00F9	U+014B	U+0254	U+00F8	U+2014	U+25CC	U+201C	U+0153	U+0289	U+A78C	U+1E85	U+2039	U+01B4	U+2026	U+0040	U+005E	U+0300	U+007E	U+1DC6	U+005E	U+1DC7	U+030D	U+00A8	U+0304	U+00A4	U+002A	U+00B3	U+0021	U+00AB	U+00BB	U+0021
-dk(0021) any(dkf0021) > index(dkt0021, 2)                  
+store(dkf0021)	U+0022	U+0024	U+0026	U+0027	U+0028	U+0029	U+002B	U+002D	U+002E	U+0030	U+0035	U+0038	U+003A	U+003B	U+003C	U+003D	U+003E	U+003F	U+0041	U+0042	U+0043	U+0044	U+0045	U+0046	U+0047	U+0048	U+0049	U+004A	U+004C	U+004D	U+004E	U+004F	U+0050	U+0051	U+0052	U+0053	U+0054	U+0055	U+0056	U+0057	U+0058	U+0059	U+005A	U+005F	U+0061	U+0062	U+0063	U+0064	U+0065	U+0066	U+0067	U+0068	U+0069	U+006D	U+006E	U+006F	U+0070	U+0071	U+0072	U+0073	U+0074	U+0075	U+0076	U+0077	U+0078	U+0079	U+007A	U+00E0	U+00E7	U+00E8	U+00E9	U+0300	U+0301	U+0302	U+0303	U+030C	U+0330	U+1DC7	U+1DC6	U+20AC	U+0021	U+0033	U+0034	U+0020
+store(dkt0021)	U+0025	U+00B2	U+00B9	U+007B	U+005B	U+005D	U+00B1	U+007C	U+0060	U+20D7	U+0023	U+20D6	U+0323	U+00B4	U+00AB	U+007D	U+00BB	U+00D7	U+0190	U+0181	U+00A9	U+018A	U+018F	U+00C6	U+A78B	U+2C6D	U+0197	U+2122	U+00A3	U+00B5	U+014A	U+0186	U+00D8	U+2013	U+00AE	U+201D	U+0152	U+0244	U+A78B	U+1E84	U+203A	U+01B3	U+2020	U+005C	U+025B	U+0253	U+0327	U+0257	U+0259	U+00E6	U+02BC	U+03B1	U+0268	U+00F9	U+014B	U+0254	U+00F8	U+2014	U+25CC	U+201C	U+0153	U+0289	U+A78C	U+1E85	U+2039	U+01B4	U+2026	U+0040	U+005E	U+0300	U+007E	U+1DC6	U+005E	U+1DC7	U+030D	U+00A8	U+0304	U+00A4	U+002A	U+00B3	U+0021	U+00AB	U+00BB	U+0021
+dk(0021) any(dkf0021) > index(dkt0021, 2)
 
-c cmatch platform('touch')  > use(checks)
-c nomatch platform('touch') > use(checks)
-
-group(checks)
-c normal
-platform('hardware') any(word) any(final) > index(word,2) index(final,3)
-platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
-
-c Space after other punct
-platform('hardware') any(word) any(punct)  > index(word,2) index(punct,3)
-platform('touch') any(word) any(punct)  > index(word,2) index(punct,3) " " 
 
 
