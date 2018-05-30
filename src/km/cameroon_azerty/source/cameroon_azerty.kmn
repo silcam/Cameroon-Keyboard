@@ -341,7 +341,6 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [NCAPS SHIFT RALT K_W] > U+2020 c platform('desktop')
 + [CAPS RALT K_W] > U+2020 c platform('desktop')
 
-
 + [NCAPS K_M] > U+002c
 + [CAPS K_M] > U+002C
 + [T_002C] > U+002C
@@ -363,8 +362,6 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [NCAPS SHIFT RALT K_EQUAL] > U+007D c platform('desktop')
 + [CAPS SHIFT RALT K_EQUAL] > U+007D c platform('desktop')
 
-
-
 + [NCAPS K_COMMA] > U+003B
 + [CAPS K_COMMA] > U+003b
 + [T_003B] > U+003B
@@ -375,7 +372,6 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [CAPS RALT K_COMMA] > U+00B4 c platform('desktop')
 + [NCAPS SHIFT RALT K_COMMA] > dk(0060) c platform('desktop')
 + [CAPS SHIFT RALT K_COMMA] > dk(0060) c platform('desktop')
-
 
 + [NCAPS K_HYPHEN] > U+0029
 + [NCAPS SHIFT K_HYPHEN] > U+00B0
@@ -398,10 +394,9 @@ any(diablock) + [CAPS RALT K_PERIOD] > context
 + [NCAPS SHIFT RALT K_PERIOD] > beep c platform('desktop')
 + [CAPS SHIFT RALT K_PERIOD] > beep c platform('desktop')
 
-
-+ [K_SLASH] > dk(0021) 
++ [K_SLASH] > dk(0021)
 + [NCAPS K_SLASH] > dk(0021)
-+ [CAPS K_SLASH] > dk(0021) 
++ [CAPS K_SLASH] > dk(0021)
 + [CAPS SHIFT K_SLASH] > U+00A7
 + [NCAPS SHIFT K_SLASH] > U+00A7
 + [T_0021] > U+0021
@@ -409,7 +404,6 @@ any(diablock) + [CAPS RALT K_PERIOD] > context
 + [CAPS RALT K_SLASH] > U+0021 c platform('desktop')
 + [NCAPS SHIFT RALT K_SLASH] > U+00A7 c platform('desktop')
 + [CAPS SHIFT RALT K_SLASH] > U+00A7 c platform('desktop')
-
 
 + [NCAPS SHIFT K_BKQUOTE] > U+20AC
 + [CAPS SHIFT K_BKQUOTE] > U+20AC
@@ -480,7 +474,6 @@ any(diablock) + [NCAPS SHIFT K_QUOTE] > context
 + [NCAPS SHIFT RALT K_oE2] > U+00BB c platform('desktop')
 + [CAPS SHIFT RALT K_oE2] > U+00BB c platform('desktop')
 
-
 + [T_CAM] > nul
 + [T_FCFA] > 'FCFA'
 
@@ -516,8 +509,7 @@ any(diablock) + [T_1DC6] > context
 any(diablock) + [T_1DC7] > context
 + [T_1DC7] > U+1DC7
 
-
-match > use(deadkeys) 
+match > use(deadkeys)
 
 group(deadkeys)
 
@@ -526,7 +518,7 @@ dk(0021) U+003B > dk(00b4)
 dk(0021) U+00E7 > dk(005E)
 dk(0021) U+00e9 > dk(007e)
 dk(0021) U+030C > dk(00a8)
-dk(0021) dk(0021)  > U+0021
+dk(0021) dk(0021) > U+0021
 
 store(dkf007e) U+0020 U+0061 U+0041 U+006e U+004e U+006f U+004f
 store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5
@@ -567,5 +559,3 @@ c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " laye
 c Space after other punct
 c any(word) any(punct) > index(word,1) index(punct,2)
 c platform('touch') any(word) any(punct) > index(word,2) index(punct,3) " "
-
-
