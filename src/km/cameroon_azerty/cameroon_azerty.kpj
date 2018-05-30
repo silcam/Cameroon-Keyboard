@@ -31,16 +31,6 @@
       </Details>
     </File>
     <File>
-      <ID>id_402ff714b371c4493efbf68a872b7251</ID>
-      <Filename>PlatformTest.kmn</Filename>
-      <Filepath>..\..\Cameroon-Keyboard\src\km\Platform Test\PlatformTest.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
-      <FileType>.kmn</FileType>
-      <Details>
-        <Name>PlatformTest</Name>
-      </Details>
-    </File>
-    <File>
       <ID>id_8bbb9ad6e07821461404ce10ee03df1a</ID>
       <Filename>Cameroon.ico</Filename>
       <Filepath>source\Cameroon.ico</Filepath>
