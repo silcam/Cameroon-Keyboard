@@ -53,6 +53,9 @@
       <key vkey="K_BKSLASH">*</key>
       <key vkey="K_QUOTE">᷅</key>
       <key vkey="K_oE2">«</key>
+      <key vkey="K_J">←</key>
+      <key vkey="K_L">→</key>
+      <key vkey="K_K">↓</key>
     </layer>
     <layer shift="SRA">
       <key vkey="K_RBRKT">̍</key>
@@ -93,6 +96,7 @@
       <key vkey="K_BKSLASH">¤</key>
       <key vkey="K_QUOTE">᷄</key>
       <key vkey="K_oE2">»</key>
+      <key vkey="K_K">↑</key>
     </layer>
     <layer shift="LC">
       <key vkey="K_SPACE"> </key>
