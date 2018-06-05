@@ -126,6 +126,7 @@ platform('desktop native') + [CAPS SHIFT K_E] > U+0065
 platform('desktop native') + [NCAPS RALT K_E] > U+0259
 platform('desktop native') + [CAPS SHIFT RALT K_E] > U+0259
 platform('desktop native') + [NCAPS SHIFT RALT K_E] > U+018f
+platform('desktop native') + [SHIFT RALT K_E] > U+018f
 
 platform('web') + [K_F] > U+0066
 platform('web') + [SHIFT K_F] > U+0046

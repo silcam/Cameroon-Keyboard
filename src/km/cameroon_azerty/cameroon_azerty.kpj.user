@@ -58,30 +58,42 @@
     </File>
     <File>
       <ID>id_MRU1</ID>
+      <Filename>SimpleANoCaps.xml</Filename>
+      <FileType>.xml</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\regression\SimpleANoCaps.xml</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>ShortA.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\regression\ShortA.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
       <Filename>cameroon_azerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\cameroon_azerty.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU4</ID>
       <Filename>cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_qwerty\source\cameroon_qwerty.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU5</ID>
       <Filename>PlatformTest.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\Platform Test\PlatformTest.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU6</ID>
       <Filename>PlatformTest.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\Cameroon-Keyboard\src\km\Platform Test\PlatformTest.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU5</ID>
+      <ID>id_MRU7</ID>
       <Filename>cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kmn</FullPath>

@@ -12,6 +12,8 @@
   <encoding name="unicode" fontname="Andika Afr" fontsize="-12">
     <layer shift="RA">
       <key vkey="K_RBRKT">̄</key>
+      <key vkey="K_C">̧</key>
+      <key vkey="K_PERIOD">̣</key>
       <key vkey="K_0">@</key>
       <key vkey="K_1">¹</key>
       <key vkey="K_3">%</key>
@@ -23,13 +25,15 @@
       <key vkey="K_9">^</key>
       <key vkey="K_Q">ɛ</key>
       <key vkey="K_B">ɓ</key>
-      <key vkey="K_C">̧</key>
       <key vkey="K_D">ɗ</key>
       <key vkey="K_E">ə</key>
       <key vkey="K_F">æ</key>
       <key vkey="K_G">ʼ</key>
       <key vkey="K_H">α</key>
       <key vkey="K_I">ɨ</key>
+      <key vkey="K_J">←</key>
+      <key vkey="K_K">↓</key>
+      <key vkey="K_L">→</key>
       <key vkey="K_COLON">ù</key>
       <key vkey="K_N">ŋ</key>
       <key vkey="K_O">ɔ</key>
@@ -47,26 +51,22 @@
       <key vkey="K_EQUAL">}</key>
       <key vkey="K_COMMA">´</key>
       <key vkey="K_HYPHEN">]</key>
-      <key vkey="K_PERIOD">̣</key>
       <key vkey="K_SLASH">!</key>
       <key vkey="K_BKQUOTE">²</key>
       <key vkey="K_BKSLASH">*</key>
       <key vkey="K_QUOTE">᷅</key>
       <key vkey="K_oE2">«</key>
-      <key vkey="K_J">←</key>
-      <key vkey="K_L">→</key>
-      <key vkey="K_K">↓</key>
     </layer>
     <layer shift="SRA">
       <key vkey="K_RBRKT">̍</key>
+      <key vkey="K_6">̈</key>
+      <key vkey="K_C">©</key>
       <key vkey="K_1">‘</key>
       <key vkey="K_2">’</key>
       <key vkey="K_4">»</key>
       <key vkey="K_5">#</key>
-      <key vkey="K_6">̈</key>
       <key vkey="K_Q">Ɛ</key>
       <key vkey="K_B">Ɓ</key>
-      <key vkey="K_C">©</key>
       <key vkey="K_D">Ɗ</key>
       <key vkey="K_E">Ə</key>
       <key vkey="K_F">Æ</key>
@@ -74,6 +74,7 @@
       <key vkey="K_H">Ɑ</key>
       <key vkey="K_I">Ɨ</key>
       <key vkey="K_J">™</key>
+      <key vkey="K_K">↓</key>
       <key vkey="K_L">£</key>
       <key vkey="K_COLON">µ</key>
       <key vkey="K_N">Ŋ</key>
@@ -96,14 +97,13 @@
       <key vkey="K_BKSLASH">¤</key>
       <key vkey="K_QUOTE">᷄</key>
       <key vkey="K_oE2">»</key>
-      <key vkey="K_K">↑</key>
     </layer>
     <layer shift="LC">
       <key vkey="K_SPACE"> </key>
     </layer>
     <layer shift="">
       <key vkey="K_oE2">&lt;</key>
-      <key vkey="K_SPACE"></key>
+      <key vkey="K_SPACE"> </key>
       <key vkey="K_QUOTE">̀</key>
       <key vkey="K_COMMA">;</key>
       <key vkey="K_HYPHEN">)</key>
@@ -119,7 +119,6 @@
       <key vkey="K_8">_</key>
       <key vkey="K_9">ç</key>
       <key vkey="K_COLON">m</key>
-      <key vkey="K_EQUAL">=</key>
       <key vkey="K_A">q</key>
       <key vkey="K_B">b</key>
       <key vkey="K_C">c</key>
@@ -153,7 +152,7 @@
     </layer>
     <layer shift="S">
       <key vkey="K_oE2">&gt;</key>
-      <key vkey="K_SPACE"></key>
+      <key vkey="K_SPACE"> </key>
       <key vkey="K_1">1</key>
       <key vkey="K_QUOTE">̂</key>
       <key vkey="K_3">3</key>

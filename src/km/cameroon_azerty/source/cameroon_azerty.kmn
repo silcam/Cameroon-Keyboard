@@ -16,10 +16,10 @@ begin Unicode > use(main)
 
 group(main) using keys
 
-store(word) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌-'" U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
-store(letter) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
+store(word) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌-'" U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
+store(letter) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌"
 store(lc) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴz◌"
-store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUʉVWẄXYƳZ◌"
+store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌"
 store(punct) "',.:;?!"
 store(final) ".!?"
 store(num) "0123456789"
@@ -111,6 +111,7 @@ c The A key
 + [CAPS K_Q] > U+0041
 + [NCAPS RALT K_Q] > U+025b c platform('desktop')
 + [CAPS SHIFT RALT K_Q] > U+025b c platform('desktop')
++ [NCAPS SHIFT RALT K_Q] > U+0190 c platform('desktop')
 + [NCAPS SHIFT RALT K_Q] > U+0190 c platform('desktop')
 + [CAPS RALT K_Q] > U+0190 c platform('desktop')
 
@@ -212,8 +213,8 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [CAPS K_L] > U+004c
 + [NCAPS SHIFT RALT K_L] > U+00A3 c platform('desktop')
 + [CAPS RALT K_L] > U+00A3 c platform('desktop')
-+ [NCAPS RALT K_L] > BEEP c platform('desktop')
-+ [CAPS SHIFT RALT K_L] > BEEP c platform('desktop')
++ [NCAPS RALT K_L] >  U+2192 c platform('desktop')
++ [CAPS SHIFT RALT K_L] >  U+2192 c platform('desktop')
 
 + [NCAPS SHIFT K_COLON] > U+004d
 + [CAPS K_COLON] > U+004d
@@ -347,10 +348,10 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [NCAPS SHIFT K_M] > U+003F
 + [CAPS SHIFT K_M] > U+003F
 + [T_003F] > U+003F
-c + [NCAPS SHIFT RALT K_M] > U+00D7 c platform('desktop')
-c + [CAPS RALT K_M] > U+00D7 c platform('desktop')
-c + [NCAPS RALT K_M] > beep c platform('desktop')
-c + [CAPS SHIFT RALT K_M] > beep c platform('desktop')
++ [NCAPS SHIFT RALT K_M] > U+00D7 c platform('desktop')
++ [CAPS RALT K_M] > U+00D7 c platform('desktop')
++ [NCAPS RALT K_M] > beep c platform('desktop')
++ [CAPS SHIFT RALT K_M] > beep c platform('desktop')
 
 + [NCAPS K_EQUAL] > dk(003d)
 + [CAPS K_EQUAL] > U+003D
@@ -550,8 +551,9 @@ dk(0021) any(dkf0021) > index(dkt0021, 2)
 c 00B4 is sketchy              
 c is 0308 the right diaeresis?
 
-match platform('touch') > use(checks)
-nomatch platform('touch') > use(checks)
+c platform('touch') > use(checks)
+c match platform('touch') > use(checks)
+c nomatch platform('touch') > use(checks)
 
 group(checks)
 c normal
