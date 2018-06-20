@@ -5,7 +5,6 @@
     <kbdname>cameroon_azerty</kbdname>
     <flags>
       <key102/>
-      <displayunderlying/>
       <usealtgr/>
     </flags>
   </header>
@@ -103,7 +102,7 @@
     </layer>
     <layer shift="">
       <key vkey="K_oE2">&lt;</key>
-      <key vkey="K_SPACE"> </key>
+      <key vkey="K_SPACE"></key>
       <key vkey="K_QUOTE">̀</key>
       <key vkey="K_COMMA">;</key>
       <key vkey="K_HYPHEN">)</key>
@@ -149,10 +148,11 @@
       <key vkey="K_BKSLASH">᷆</key>
       <key vkey="K_RBRKT">̰</key>
       <key vkey="K_BKQUOTE">$</key>
+      <key vkey="K_SLASH">CM</key>
     </layer>
     <layer shift="S">
       <key vkey="K_oE2">&gt;</key>
-      <key vkey="K_SPACE"> </key>
+      <key vkey="K_SPACE"></key>
       <key vkey="K_1">1</key>
       <key vkey="K_QUOTE">̂</key>
       <key vkey="K_3">3</key>
