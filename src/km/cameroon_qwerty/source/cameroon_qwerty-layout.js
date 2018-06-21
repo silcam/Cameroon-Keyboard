@@ -296,11 +296,11 @@
                 "text": "m"
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?"
               },
               {
-                "id": "K_COMMA",
+                "id": "T_002C",
                 "text": ","
               },
               {
@@ -331,7 +331,7 @@
                 "sp": "0"
               },
               {
-                "id": "K_PERIOD",
+                "id": "T_002E",
                 "text": "."
               },
               {
@@ -695,10 +695,9 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?",
                 "nextlayer": "default",
-                "layer": "default",
                 "sk": [
                   {
                     "text": "¿",
@@ -708,10 +707,9 @@
                 ]
               },
               {
-                "id": "U_003B",
+                "id": "T_003A",
                 "text": ";",
-                "nextlayer": "default",
-                "layer": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_SHIFT",
@@ -745,10 +743,9 @@
                 "sp": "0"
               },
               {
-                "id": "U_003A",
+                "id": "T_003A",
                 "text": ":",
-                "nextlayer": "default",
-                "layer": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_ENTER",
@@ -938,16 +935,16 @@
                 ]
               },
               {
-                "id": "U_003A",
+                "id": "T_003A",
                 "text": ":"
               },
               {
-                "id": "U_003B",
+                "id": "T_003B",
                 "text": ";",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0021",
+                "id": "T_0021",
                 "text": "!",
                 "nextlayer": "default",
                 "sk": [
@@ -958,7 +955,7 @@
                 ]
               },
               {
-                "id": "U_003F",
+                "id": "T_003F",
                 "text": "?",
                 "nextlayer": "default",
                 "sk": [
@@ -1064,7 +1061,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_002C",
+                "id": "T_002C",
                 "text": ","
               },
               {
@@ -1096,7 +1093,7 @@
                 "sp": "0"
               },
               {
-                "id": "U_002E",
+                "id": "T_002E",
                 "text": "."
               },
               {
