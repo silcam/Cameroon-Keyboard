@@ -55,31 +55,6 @@
       <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
     </File>
     <File>
-<<<<<<< HEAD
-      <ID>id_43e960581c17d6817596c589c4e13196</ID>
-      <Filename>cameroon_qwerty-4.0.json</Filename>
-      <Filepath>source\cameroon_qwerty-4.0.json</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.json</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
-    </File>
-    <File>
-      <ID>id_7a899718197611a1aa2c260d9f5ac997</ID>
-      <Filename>cameroon_qwerty.kmx</Filename>
-      <Filepath>source\build\cameroon_qwerty.kmx</Filepath>
-=======
-      <ID>id_1dbc9c41500cb608c3ff0a885b3e73c2</ID>
-      <Filename>cameroon_qwerty-layout.js</Filename>
-      <Filepath>source\cameroon_qwerty-layout.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
-    </File>
-    <File>
-      <ID>id_e1ca4927cddfe325fbdc824d9cb0baff</ID>
-      <Filename>cameroon_qwerty.kvks</Filename>
-      <Filepath>source\cameroon_qwerty.kvks</Filepath>
->>>>>>> BrokenRules
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
       <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
