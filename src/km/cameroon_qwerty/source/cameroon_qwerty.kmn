@@ -6,13 +6,6 @@ store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ; or AltGr to access special characters.'
 store(&LAYOUTFILE) 'cameroon_qwerty-layout.js'
-<<<<<<< HEAD
-store(&KEYBOARDVERSION) '5.1'
-
-
-=======
-store(&KEYBOARDVERSION) '5.0'
->>>>>>> BrokenRules
 store(&VISUALKEYBOARD) 'cameroon_qwerty.kvks'
 c store(&ETHNOLOGUECODE) 'ENG'
 store(&TARGETS) 'any'
