@@ -3,26 +3,7 @@
    Copyright 2017 SIL International
 ***/
 
-<<<<<<< HEAD
-/*
-  kmwosk.css: main CSS for keymanweb on-screen keyboard and other objects.
-*/  
 
-@font-face {
-  font-family: 'Andika Afr';
-  font-style:  normal;
-  font-weight: normal;
-  src: url('fonts/ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
-    url('fonts/ANDIKAAFR-R.TTF')  format('truetype'),
-    url('fonts/AndikaAfr-R.woff') format('woff');     
-}
-
- /* km web */
-.phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkgreen 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
-        
-
-=======
->>>>>>> BrokenRules
 /* Common key appearance styles (can override with form-factor styles if necessary) */
 .kmw-key-default{color:#000;background-color:#eee;}
 .kmw-key-shift{color:#aaa;background-color:#ddd;}    
@@ -133,6 +114,3 @@
 .ios #camupper-U_0186,
 .ios #camupper-U_00C6,
 .ios #camupper-U_2C6D { background: linear-gradient(#ffffff, #abab78); } 
-
->>>>>>> BrokenRules
-
