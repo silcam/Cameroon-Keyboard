@@ -67,7 +67,7 @@
             "key": [
               {
                 "id": "K_Q",
-                "text": "5q",
+                "text": "q",
                 "pad": "55"
               },
               {
@@ -707,11 +707,7 @@
                 ]
               },
               {
-<<<<<<< HEAD
-                "id": "T_003B",
-=======
                 "id": "T_003A",
->>>>>>> BrokenRules
                 "text": ";",
                 "nextlayer": "default"
               },

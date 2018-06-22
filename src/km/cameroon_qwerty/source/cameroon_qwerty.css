@@ -3,25 +3,10 @@
    Copyright 2017 SIL International
 ***/
 
-
 /* Common key appearance styles (can override with form-factor styles if necessary) */
 .kmw-key-default{color:#000;background-color:#eee;}
-.kmw-key-shift{color:#aaa;background-color:#ddd;}    
+.kmw-key-shift{color:#aaa;background-color:#ddd;}     /*color was #88f (blue) */
 .kmw-key-shift-on{color:#88f;background-color:#ccf;}
-<<<<<<< HEAD
-.kmw-keyboard-cameroon_qwerty .kmw-key-deadkey{color:#0F0;background:linear-gradient(to right, teal 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
-.phone.android #default-K_A,
-.phone.android #default-K_E,
-.phone.android #default-K_I,
-.phone.android #default-K_O, 
-.phone.android #default-K_U,
-.phone.android #shift-K_A,
-.phone.android #shift-K_E,
-.phone.android #shift-K_I,
-.phone.android #shift-K_O,
-.phone.android #shift-K_U,
-.phone.android #camlower-U_0259 { background-color: #aaaa00 }
-=======
 /* .ios .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, green 33%, red 33% , red 66%, yellow 66%);border:2px solid #000000;background-color:#ddd;}*/
 .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
 /* .kmw-key-deadkey{color:#0d0;background-color:#eee;}  */
@@ -114,3 +99,5 @@
 .ios #camupper-U_0186,
 .ios #camupper-U_00C6,
 .ios #camupper-U_2C6D { background: linear-gradient(#ffffff, #abab78); } 
+
+
