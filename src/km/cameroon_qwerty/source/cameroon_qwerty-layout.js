@@ -698,7 +698,6 @@
                 "id": "T_003F",
                 "text": "?",
                 "nextlayer": "default",
-                "layer": "default",
                 "sk": [
                   {
                     "text": "¿",
@@ -708,10 +707,13 @@
                 ]
               },
               {
+<<<<<<< HEAD
                 "id": "T_003B",
+=======
+                "id": "T_003A",
+>>>>>>> BrokenRules
                 "text": ";",
-                "nextlayer": "default",
-                "layer": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_SHIFT",
@@ -747,8 +749,7 @@
               {
                 "id": "T_003A",
                 "text": ":",
-                "nextlayer": "default",
-                "layer": "default"
+                "nextlayer": "default"
               },
               {
                 "id": "K_ENTER",
@@ -1681,6 +1682,7 @@
           }
         ]
       }
-    ]
+    ],
+    "fontsize": ""
   }
 }
