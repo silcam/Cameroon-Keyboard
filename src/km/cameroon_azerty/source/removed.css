@@ -1,7 +1,20 @@
-﻿/***
-   Cameroon Azerty CSS
+/***
+   KeymanWeb 2.0
    Copyright 2017 SIL International
 ***/
+
+/*
+  kmwosk.css: main CSS for keymanweb on-screen keyboard and other objects.
+*/  
+
+@font-face {
+  font-family: 'Andika Afr';
+  font-style:  normal;
+  font-weight: normal;
+  src: url('ANDIKAAFR-R.TTF?#iefix') format('embedded-opentype'), 
+    url('ANDIKAAFR-R.TTF')  format('truetype'),
+    url('AndikaAfr-R.woff') format('woff');     
+}
 
  
 .phone.android .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;} 
