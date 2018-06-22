@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state></state>
+  <state>&lt;state&gt;&lt;tab&gt;0&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_0abad9f0258bd353aacfa0e171dbb392</ID>
@@ -52,51 +52,9 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>PlatformTest.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\Platform Test\PlatformTest.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\cameroon_azerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
-      <Filename>cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\cameroon_azerty.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU3</ID>
-      <Filename>SimpleANoCaps.xml</Filename>
-      <FileType>.xml</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\regression\SimpleANoCaps.xml</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU4</ID>
-      <Filename>ShortA.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_azerty\source\regression\ShortA.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU5</ID>
-      <Filename>cameroon_qwerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\cameroon_qwerty\source\cameroon_qwerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU6</ID>
-      <Filename>PlatformTest.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\Cameroon-Keyboard\src\km\Platform Test\PlatformTest.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU7</ID>
-      <Filename>cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\keyboards\cameroon_azerty\source\cameroon_azerty.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
