@@ -771,43 +771,53 @@
             "key": [
               {
                 "id": "K_1",
-                "text": "1"
+                "text": "1",
+                "layer": "shift"
               },
               {
                 "id": "K_2",
-                "text": "2"
+                "text": "2",
+                "layer": "shift"
               },
               {
                 "id": "K_3",
-                "text": "3"
+                "text": "3",
+                "layer": "shift"
               },
               {
                 "id": "K_4",
-                "text": "4"
+                "text": "4",
+                "layer": "shift"
               },
               {
                 "id": "K_5",
-                "text": "5"
+                "text": "5",
+                "layer": "shift"
               },
               {
                 "id": "K_6",
-                "text": "6"
+                "text": "6",
+                "layer": "shift"
               },
               {
                 "id": "K_7",
-                "text": "7"
+                "text": "7",
+                "layer": "shift"
               },
               {
                 "id": "K_8",
-                "text": "8"
+                "text": "8",
+                "layer": "shift"
               },
               {
                 "id": "K_9",
-                "text": "9"
+                "text": "9",
+                "layer": "shift"
               },
               {
                 "id": "K_0",
-                "text": "0"
+                "text": "0",
+                "layer": "shift"
               },
               {
                 "id": "K_BKSP",
