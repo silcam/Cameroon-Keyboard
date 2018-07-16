@@ -3,13 +3,19 @@
    Copyright 2017 SIL International
 ***/
 
+ 
+.phone.android .kmw-key.kmw-key-deadkey {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
+.phone.ios .kmw-key.kmw-key-deadkey {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;}
+.tablet.android .kmw-key.kmw-key-deadkey {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
+.tablet.ios .kmw-key.kmw-key-deadkey {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
+         
+
 /* Common key appearance styles (can override with form-factor styles if necessary) */
 .kmw-key-default{color:#000;background-color:#eee;}
 .kmw-key-shift{color:#aaa;background-color:#ddd;}     /*color was #88f (blue) */
 .kmw-key-shift-on{color:#88f;background-color:#ccf;}
-/* .ios .kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, green 33%, red 33% , red 66%, yellow 66%);border:2px solid #000000;background-color:#ddd;}*/
-.kmw-key.kmw-key-deadkey {color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;background-color:#ddd;}
 /* .kmw-key-deadkey{color:#0d0;background-color:#eee;}  */
+.kmw-key-deadkey{background: #8c4646; color:#0F0; background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;}
 .kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
 .kmw-key-hidden{visibility:hidden;}
 .kmw-key-touched{background-color:#88f;} 
@@ -28,7 +34,7 @@
 .ios #shift-T_1DC7,
 .ios #shift-T_1DC4,
 .ios #shift-T_030D,
-.ios #shift-T_0330 { background: linear-gradient(#ffffff, #598059); }
+.ios #shift-T_0330 { background: #598059; background: linear-gradient(#ffffff, #598059); }
 .android #default-T_0300,
 .android #default-T_0304,
 .android #default-T_0301,
@@ -42,7 +48,7 @@
 .android #shift-T_1DC7,
 .android #shift-T_1DC4,
 .android #shift-T_030D,
-.android #shift-T_0330 { background: linear-gradient(#7f7f7f, #598059); }
+.android #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
 /* #7f7f7f is 50% Grey, #598059 is 30% Green */
 
 /* Yellow Vowels */
@@ -71,7 +77,7 @@
 .android #camupper-U_0197,
 .android #camupper-U_0186,
 .android #camupper-U_00C6,
-.android #camupper-U_2C6D { background: linear-gradient(#7f7f7f, #abab78); } 
+.android #camupper-U_2C6D { background: #abab78; background: linear-gradient(#7f7f7f, #abab78); } 
 /* #abab78 is 30% of #aaaa00 yellow */
 .ios #default-K_A,
 .ios #default-K_E,
@@ -98,6 +104,4 @@
 .ios #camupper-U_0197,
 .ios #camupper-U_0186,
 .ios #camupper-U_00C6,
-.ios #camupper-U_2C6D { background: linear-gradient(#ffffff, #abab78); } 
-
-
+.ios #camupper-U_2C6D { background: #abab78; background: linear-gradient(#ffffff, #abab78); } 

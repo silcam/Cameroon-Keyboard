@@ -230,7 +230,7 @@
                 "width": "150",
                 "sp": "8",
                 "fontsize": ".8em",
-                "nextlayer": "camlower"
+                "nextlayer": "rightalt-nocaps"
               }
             ]
           },
@@ -619,7 +619,7 @@
                 "width": "150",
                 "sp": "8",
                 "fontsize": ".8em",
-                "nextlayer": "camupper"
+                "nextlayer": "rightalt-shift-nocaps"
               }
             ]
           },
@@ -770,54 +770,44 @@
             "id": 1,
             "key": [
               {
-                "id": "K_1",
-                "text": "1",
-                "layer": "shift"
+                "id": "T_0031",
+                "text": "1"
               },
               {
-                "id": "K_2",
-                "text": "2",
-                "layer": "shift"
+                "id": "T_0032",
+                "text": "2"
               },
               {
-                "id": "K_3",
-                "text": "3",
-                "layer": "shift"
+                "id": "T_0033",
+                "text": "3"
               },
               {
-                "id": "K_4",
-                "text": "4",
-                "layer": "shift"
+                "id": "T_0034",
+                "text": "4"
               },
               {
-                "id": "K_5",
-                "text": "5",
-                "layer": "shift"
+                "id": "T_0035",
+                "text": "5"
               },
               {
-                "id": "K_6",
-                "text": "6",
-                "layer": "shift"
+                "id": "T_0036",
+                "text": "X"
               },
               {
-                "id": "K_7",
-                "text": "7",
-                "layer": "shift"
+                "id": "T_0037",
+                "text": "7"
               },
               {
-                "id": "K_8",
-                "text": "8",
-                "layer": "shift"
+                "id": "T_0038",
+                "text": "8"
               },
               {
-                "id": "K_9",
-                "text": "9",
-                "layer": "shift"
+                "id": "T_0039",
+                "text": "9"
               },
               {
-                "id": "K_0",
-                "text": "0",
-                "layer": "shift"
+                "id": "T_0030",
+                "text": "0"
               },
               {
                 "id": "K_BKSP",
@@ -1129,7 +1119,7 @@
         ]
       },
       {
-        "id": "camlower",
+        "id": "rightalt-nocaps",
         "row": [
           {
             "id": 1,
@@ -1188,7 +1178,8 @@
                 "id": "K_BKSP",
                 "text": "*BkSp*",
                 "width": "150",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               }
             ]
           },
@@ -1196,7 +1187,7 @@
             "id": 2,
             "key": [
               {
-                "id": "U_025B",
+                "id": "K_Q",
                 "text": "ɛ",
                 "pad": "55",
                 "nextlayer": "default"
@@ -1207,7 +1198,7 @@
                 "sp": "9"
               },
               {
-                "id": "U_0259",
+                "id": "K_E",
                 "text": "ə",
                 "nextlayer": "default"
               },
@@ -1217,27 +1208,27 @@
                 "sp": "9"
               },
               {
-                "id": "U_0153",
+                "id": "K_T",
                 "text": "œ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_01B4",
+                "id": "K_Y",
                 "text": "ƴ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0289",
+                "id": "K_U",
                 "text": "ʉ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0268",
+                "id": "K_I",
                 "text": "ɨ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0254",
+                "id": "K_O",
                 "text": "ɔ",
                 "nextlayer": "default"
               },
@@ -1260,7 +1251,8 @@
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": "1",
-                "nextlayer": "symbol"
+                "nextlayer": "symbol",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1274,22 +1266,22 @@
                 "sp": "9"
               },
               {
-                "id": "U_0257",
+                "id": "K_D",
                 "text": "ɗ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_00E6",
+                "id": "K_F",
                 "text": "æ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_02BC",
+                "id": "K_G",
                 "text": "ʼ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_03B1",
+                "id": "K_H",
                 "text": "α",
                 "nextlayer": "default"
               },
@@ -1313,7 +1305,8 @@
                 "text": "abc",
                 "width": "150",
                 "sp": "2",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "layer": "default"
               }
             ]
           },
@@ -1325,10 +1318,11 @@
                 "text": "*Shift*",
                 "width": "150",
                 "sp": "1",
-                "nextlayer": "camupper"
+                "nextlayer": "rightalt-shift-nocaps",
+                "layer": "default"
               },
               {
-                "id": "U_1E85",
+                "id": "K_Z",
                 "text": "ẅ",
                 "nextlayer": "default"
               },
@@ -1343,17 +1337,17 @@
                 "sp": "9"
               },
               {
-                "id": "U_A78C",
+                "id": "K_V",
                 "text": "ꞌ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0253",
+                "id": "K_B",
                 "text": "ɓ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_014B",
+                "id": "K_N",
                 "text": "ŋ",
                 "nextlayer": "default"
               },
@@ -1376,7 +1370,8 @@
                 "id": "K_SHIFT",
                 "text": "*Shifted*",
                 "sp": "1",
-                "nextlayer": "camupper"
+                "nextlayer": "rightalt-shift-nocaps",
+                "layer": "default"
               }
             ]
           },
@@ -1387,7 +1382,8 @@
                 "id": "K_LOPT",
                 "text": "*Menu*",
                 "width": "100",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1398,7 +1394,8 @@
                 "id": "K_SPACE",
                 "text": " ",
                 "width": "675",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1409,14 +1406,15 @@
                 "id": "K_ENTER",
                 "text": "*Enter*",
                 "width": "205",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               }
             ]
           }
         ]
       },
       {
-        "id": "camupper",
+        "id": "rightalt-shift-nocaps",
         "row": [
           {
             "id": 1,
@@ -1475,7 +1473,8 @@
                 "id": "K_BKSP",
                 "text": "*BkSp*",
                 "width": "150",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               }
             ]
           },
@@ -1483,7 +1482,7 @@
             "id": 2,
             "key": [
               {
-                "id": "U_0190",
+                "id": "K_Q",
                 "text": "Ɛ",
                 "pad": "55",
                 "nextlayer": "default"
@@ -1494,7 +1493,7 @@
                 "sp": "9"
               },
               {
-                "id": "U_018F",
+                "id": "K_E",
                 "text": "Ə",
                 "nextlayer": "default"
               },
@@ -1504,27 +1503,27 @@
                 "sp": "9"
               },
               {
-                "id": "U_0152",
+                "id": "K_T",
                 "text": "Œ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_01B3",
+                "id": "K_Y",
                 "text": "Ƴ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0244",
+                "id": "K_U",
                 "text": "Ʉ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0197",
+                "id": "K_I",
                 "text": "Ɨ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0186",
+                "id": "K_O",
                 "text": "Ɔ",
                 "nextlayer": "default"
               },
@@ -1547,7 +1546,8 @@
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": "1",
-                "nextlayer": "symbol"
+                "nextlayer": "symbol",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1561,12 +1561,12 @@
                 "sp": "9"
               },
               {
-                "id": "U_018A",
+                "id": "K_D",
                 "text": "Ɗ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_00C6",
+                "id": "K_F",
                 "text": "Æ",
                 "nextlayer": "default"
               },
@@ -1576,7 +1576,7 @@
                 "sp": "9"
               },
               {
-                "id": "U_2C6D",
+                "id": "K_H",
                 "text": "Ɑ",
                 "nextlayer": "default"
               },
@@ -1600,7 +1600,8 @@
                 "text": "ABC",
                 "width": "150",
                 "sp": "2",
-                "nextlayer": "shift"
+                "nextlayer": "shift",
+                "layer": "default"
               }
             ]
           },
@@ -1612,10 +1613,11 @@
                 "text": "*Shift*",
                 "width": "150",
                 "sp": "2",
-                "nextlayer": "camlower"
+                "nextlayer": "rightalt-nocaps",
+                "layer": "default"
               },
               {
-                "id": "U_1E84",
+                "id": "K_Z",
                 "text": "Ẅ",
                 "nextlayer": "default"
               },
@@ -1630,17 +1632,17 @@
                 "sp": "9"
               },
               {
-                "id": "U_A78B",
+                "id": "K_V",
                 "text": "Ꞌ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_0181",
+                "id": "K_B",
                 "text": "Ɓ",
                 "nextlayer": "default"
               },
               {
-                "id": "U_014A",
+                "id": "K_N",
                 "text": "Ŋ",
                 "nextlayer": "default"
               },
@@ -1663,7 +1665,8 @@
                 "id": "K_SHIFT",
                 "text": "*Shifted*",
                 "sp": "2",
-                "nextlayer": "camlower"
+                "nextlayer": "rightalt-nocaps",
+                "layer": "default"
               }
             ]
           },
@@ -1674,7 +1677,8 @@
                 "id": "K_LOPT",
                 "text": "*Menu*",
                 "width": "100",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1696,7 +1700,8 @@
                 "id": "K_ENTER",
                 "text": "*Enter*",
                 "width": "205",
-                "sp": "1"
+                "sp": "1",
+                "layer": "default"
               }
             ]
           }
