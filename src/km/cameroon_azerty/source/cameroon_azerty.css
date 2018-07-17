@@ -19,6 +19,8 @@
 .kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
 .kmw-key-hidden{visibility:hidden;}
 .kmw-key-touched{background-color:#88f;}   
+
+/* Green Diacritics */
 .ios #default-T_0300,
 .ios #default-T_0304,
 .ios #default-T_0301,
@@ -48,6 +50,8 @@
 .android #shift-T_030D,
 .android #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
 /* #7f7f7f is 50% Grey, #598059 is 30% Green */
+
+/* Yellow Vowels */
 .android #default-K_Q,
 .android #default-K_E,
 .android #default-K_I,

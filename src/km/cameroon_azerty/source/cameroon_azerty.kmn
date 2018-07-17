@@ -40,6 +40,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_0] > U+0030
 + [NCAPS RALT K_0] > U+0040
 + [NCAPS SHIFT RALT K_0] > beep
++ [T_0030] > U+0030
 
 + [CAPS SHIFT K_1] > U+0026
 + [NCAPS K_1] > U+0026
@@ -47,6 +48,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_1] > U+0031
 + [NCAPS RALT K_1] > U+00B9
 + [NCAPS SHIFT RALT K_1] > U+2018
++ [T_0031] > U+0031
 
 + [CAPS SHIFT K_2] > U+00E9
 + [NCAPS K_2] > U+00E9
@@ -54,6 +56,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_2] > U+0032
 + [NCAPS RALT K_2] > dk(007E)
 + [NCAPS SHIFT RALT K_2] > U+2019
++ [T_0032] > U+0032
 
 + [CAPS SHIFT K_3] > U+0022
 + [NCAPS K_3] > U+0022
@@ -61,6 +64,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_3] > U+0033
 + [NCAPS RALT K_3] > U+0025
 + [NCAPS SHIFT RALT K_2] > U+00AB
++ [T_0033] > U+0033
 
 + [CAPS SHIFT K_4] > U+0027
 + [NCAPS K_4] > U+0027
@@ -68,6 +72,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_4] > U+0034
 + [NCAPS RALT K_4] > U+007B
 + [NCAPS SHIFT RALT K_4] > U+00BB c ???
++ [T_0034] > U+0034
 
 + [CAPS SHIFT K_5] > U+0028
 + [NCAPS K_5] > U+0028
@@ -75,6 +80,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS SHIFT K_5] > U+0035
 + [NCAPS RALT K_5] > U+005B
 + [NCAPS SHIFT RALT K_5] > U+0023
++ [T_0035] > U+0035
 
 + [CAPS SHIFT K_6] > U+002D
 + [NCAPS K_6] > U+002D
@@ -83,6 +89,7 @@ platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
 + [NCAPS RALT K_6] > U+007C
 + [NCAPS SHIFT RALT K_6] > U+00308
 any(diablock) + [NCAPS SHIFT RALT K_6] > context
++ [T_0036] > U+0036
 
 + [CAPS SHIFT K_7] > U+00E8
 + [NCAPS K_7] > U+00E8
@@ -91,6 +98,7 @@ any(diablock) + [NCAPS SHIFT RALT K_6] > context
 + [NCAPS RALT K_7] > U+0300
 any(diablock) + [NCAPS RALT K_7] > context
 + [NCAPS SHIFT RALT K_7] > beep
++ [T_0037] > U+0037
 
 + [CAPS SHIFT K_8] > U+005F
 + [NCAPS K_8] > U+005F
@@ -98,6 +106,7 @@ any(diablock) + [NCAPS RALT K_7] > context
 + [NCAPS SHIFT K_8] > U+0038
 + [NCAPS RALT K_8] > U+005C
 + [NCAPS SHIFT RALT K_8] > beep
++ [T_0038] > U+0038
 
 + [CAPS SHIFT K_9] > U+00E7
 + [NCAPS K_9] > U+00E7
@@ -105,6 +114,7 @@ any(diablock) + [NCAPS RALT K_7] > context
 + [NCAPS SHIFT K_9] > U+0039
 + [NCAPS RALT K_9] > U+005E
 + [NCAPS SHIFT RALT K_9] > BEEP
++ [T_0039] > U+0039
 
 c The A key
 + [NCAPS K_Q] > U+0061
