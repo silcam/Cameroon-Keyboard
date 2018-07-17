@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
+  <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
+  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <FileStates>
+    <FileState>
+      <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>0</DebugDefaultFont>
+        <DebugFont>Charis SIL Compact|16|   |0</DebugFont>
+        <CodeFont>Consolas|16|   |0</CodeFont>
+        <CharFont>Charis SIL Afr|16|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kps</FullPath>
+      <IDEState>
+        <CodeFont>Courier New|12|   |0</CodeFont>
+        <CharFont>Courier New|12|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_8bbb9ad6e07821461404ce10ee03df1a</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\Cameroon.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_49bf6d354ef76e4d33d4ebbb8e1b94e1</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.css</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0b66a522e87bc35e6746e31638074912</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\Fonts\ANDIKAAFR-R.TTF</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_2a0cd0c3ae4f9edc14324f8cea68a5f8</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty-layout.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5b54da061519c93594287a250a656982</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a0a993d7b28d5f79c5c66d2004b6b252</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\build\sil_cameroon_qwerty.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_29cd0b5285d2c47b0c68bbd64c55f663</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\build\sil_cameroon_qwerty.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\splash.bmp</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>sil_cameroon_qwerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>sil_cameroon_qwerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>sil_cameroon_azerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

@@ -1,4 +1,4 @@
-Cameroon AZERTY keyboard
+Cameroon QWERTY keyboard
 =====================
 
 Copyright (C) 2017 SIL Cameroon
@@ -13,7 +13,7 @@ a touch layout for Android and iOS devices.
 Links
 -----
 
- * Home:     <https://github.com/keymanapp/keyboards/cameroon_azerty>
+ * Home:     <https://github.com/keymanapp/keyboards/sil_cameroon_qwerty>
  * Help:     <https://LangTechCameroon.info>
  * Contact:  <keyboards_cameroon@sil.org>
 

@@ -8,8 +8,8 @@
   <Files>
     <File>
       <ID>id_0abad9f0258bd353aacfa0e171dbb392</ID>
-      <Filename>cameroon_azerty.kmn</Filename>
-      <Filepath>source\cameroon_azerty.kmn</Filepath>
+      <Filename>sil_cameroon_azerty.kmn</Filename>
+      <Filepath>source\sil_cameroon_azerty.kmn</Filepath>
       <FileVersion>5.3</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
@@ -20,8 +20,8 @@
     </File>
     <File>
       <ID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ID>
-      <Filename>cameroon_azerty.kps</Filename>
-      <Filepath>source\cameroon_azerty.kps</Filepath>
+      <Filename>sil_cameroon_azerty.kps</Filename>
+      <Filepath>source\sil_cameroon_azerty.kps</Filepath>
       <FileVersion>5.3</FileVersion>
       <FileType>.kps</FileType>
       <Details>
@@ -39,17 +39,17 @@
       <ParentFileID>id_0abad9f0258bd353aacfa0e171dbb392</ParentFileID>
     </File>
     <File>
-      <ID>id_c7c6fc315dc3192c67bdc560c9e8c341</ID>
-      <Filename>cameroon_azerty.kvk</Filename>
-      <Filepath>source\build\cameroon_azerty.kvk</Filepath>
+      <ID>id_743edf0a1bbf3a56ce317a1724ed81b1</ID>
+      <Filename>sil_cameroon_azerty.kvk</Filename>
+      <Filepath>source\build\sil_cameroon_azerty.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
       <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
     </File>
     <File>
-      <ID>id_8d862e823cf7f541c735f06a89c2c31e</ID>
-      <Filename>cameroon_azerty.kmx</Filename>
-      <Filepath>source\build\cameroon_azerty.kmx</Filepath>
+      <ID>id_eb1dcfe46cdfbb8ab47237575798b1ea</ID>
+      <Filename>sil_cameroon_azerty.kmx</Filename>
+      <Filepath>source\build\sil_cameroon_azerty.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
       <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>

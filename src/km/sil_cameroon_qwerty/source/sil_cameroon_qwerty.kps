@@ -29,8 +29,8 @@
       <FileType>.ico</FileType>
     </File>
     <File>
-      <Name>cameroon_qwerty.css</Name>
-      <Description>File cameroon_qwerty.css</Description>
+      <Name>sil_cameroon_qwerty.css</Name>
+      <Description>File sil_cameroon_qwerty.css</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.css</FileType>
     </File>
@@ -41,25 +41,25 @@
       <FileType>.TTF</FileType>
     </File>
     <File>
-      <Name>cameroon_qwerty-layout.js</Name>
-      <Description>File cameroon_qwerty-layout.js</Description>
+      <Name>sil_cameroon_qwerty-layout.js</Name>
+      <Description>File sil_cameroon_qwerty-layout.js</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>cameroon_qwerty.kvks</Name>
-      <Description>File cameroon_qwerty.kvks</Description>
+      <Name>sil_cameroon_qwerty.kvks</Name>
+      <Description>File sil_cameroon_qwerty.kvks</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvks</FileType>
     </File>
     <File>
-      <Name>build\cameroon_qwerty.kvk</Name>
-      <Description>File cameroon_qwerty.kvk</Description>
+      <Name>build\sil_cameroon_qwerty.kvk</Name>
+      <Description>File sil_cameroon_qwerty.kvk</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
     </File>
     <File>
-      <Name>build\cameroon_qwerty.kmx</Name>
+      <Name>build\sil_cameroon_qwerty.kmx</Name>
       <Description>Keyboard Cameroon QWERTY</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
@@ -74,7 +74,7 @@
   <Keyboards>
     <Keyboard>
       <Name>Cameroon QWERTY</Name>
-      <ID>cameroon_qwerty</ID>
+      <ID>sil_cameroon_qwerty</ID>
       <Version>5.0</Version>
       <OSKFont>Fonts\ANDIKAAFR-R.TTF</OSKFont>
       <DisplayFont>Fonts\ANDIKAAFR-R.TTF</DisplayFont>

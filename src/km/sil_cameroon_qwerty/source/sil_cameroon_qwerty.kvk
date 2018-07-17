@@ -2,7 +2,7 @@
 <visualkeyboard>
   <header>
     <version>10.0</version>
-    <kbdname>cameroon_azerty</kbdname>
+    <kbdname>sil_cameroon_qwerty</kbdname>
     <flags>
       <key102/>
       <usealtgr/>

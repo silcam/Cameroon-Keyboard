@@ -5,13 +5,13 @@ c store(&LANGUAGE) 'x0436'
 store(&COPYRIGHT) 'SIL Cameroon 2017'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ; or AltGr to access special characters.'
-store(&LAYOUTFILE) 'cameroon_qwerty-layout.js'
+store(&LAYOUTFILE) 'sil_cameroon_qwerty-layout.js'
 store(&KEYBOARDVERSION) '5.0'
-store(&VISUALKEYBOARD) 'cameroon_qwerty.kvks'
+store(&VISUALKEYBOARD) 'sil_cameroon_qwerty.kvks'
 c store(&ETHNOLOGUECODE) 'ENG'
 store(&TARGETS) 'any'
 c store(&WINDOWSLANGUAGES) 'x0436'
-store(&KMW_EMBEDCSS) 'cameroon_qwerty.css'
+store(&KMW_EMBEDCSS) 'sil_cameroon_qwerty.css'
 
 begin Unicode > use(main)
 
