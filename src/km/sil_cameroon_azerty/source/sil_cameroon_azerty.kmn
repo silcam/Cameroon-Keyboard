@@ -2,7 +2,7 @@
 store(&NAME) 'Cameroon AZERTY'
 c store(&WINDOWSLANGUAGES) 'x0456'
 c store(&LANGUAGE) 'x0456'
-store(&COPYRIGHT) 'SIL Cameroon 2017'
+store(&COPYRIGHT) 'SIL Cameroon 2018'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ! to access special characters.'
 store(&LAYOUTFILE) 'sil_cameroon_azerty-layout.js'
