@@ -21,13 +21,13 @@
   </Info>
   <Files>
     <File>
-      <Name>build\cameroon_azerty.kvk</Name>
-      <Description>File cameroon_azerty.kvk</Description>
+      <Name>build\sil_cameroon_azerty.kvk</Name>
+      <Description>File sil_cameroon_azerty.kvk</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
     </File>
     <File>
-      <Name>build\cameroon_azerty.kmx</Name>
+      <Name>build\sil_cameroon_azerty.kmx</Name>
       <Description>Keyboard Cameroon AZERTY</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
@@ -60,7 +60,7 @@
   <Keyboards>
     <Keyboard>
       <Name>Cameroon AZERTY</Name>
-      <ID>cameroon_azerty</ID>
+      <ID>sil_cameroon_azerty</ID>
       <Version>5.3</Version>
       <Languages>
         <Language ID="gl-ES">gl-ES</Language>
