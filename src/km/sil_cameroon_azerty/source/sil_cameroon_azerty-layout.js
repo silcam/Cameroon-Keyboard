@@ -146,7 +146,13 @@
               },
               {
                 "id": "K_P",
-                "text": "p"
+                "text": "p",
+                "sk": [
+                  {
+                    "text": "ø",
+                    "id": "U_00F8"
+                  }
+                ]
               },
               {
                 "id": "U_0027",
@@ -697,6 +703,7 @@
                   {
                     "text": "¿",
                     "id": "U_00BF",
+                    "nextlayer": "default",
                     "layer": "default"
                   }
                 ]
@@ -743,7 +750,8 @@
                 "text": " ",
                 "pad": "",
                 "width": "625",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "T_CAM",
@@ -942,30 +950,29 @@
               {
                 "id": "T_003B",
                 "text": ";",
-                "nextlayer": "default",
                 "layer": "default"
               },
               {
                 "id": "T_0021",
                 "text": "!",
-                "nextlayer": "default",
                 "layer": "default",
                 "sk": [
                   {
                     "text": "¡",
-                    "id": "U_00A1"
+                    "id": "U_00A1",
+                    "nextlayer": "default"
                   }
                 ]
               },
               {
                 "id": "T_003F",
                 "text": "?",
-                "nextlayer": "default",
                 "layer": "default",
                 "sk": [
                   {
                     "text": "¿",
-                    "id": "U_00BF"
+                    "id": "U_00BF",
+                    "nextlayer": "default"
                   }
                 ]
               },
@@ -1096,7 +1103,8 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "625",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "T_002E",
@@ -1229,9 +1237,9 @@
                 "nextlayer": "default"
               },
               {
-                "id": "",
-                "text": "",
-                "sp": "9"
+                "id": "K_P",
+                "text": "ø",
+                "nextlayer": "default"
               },
               {
                 "id": "",
@@ -1418,7 +1426,8 @@
               {
                 "id": "",
                 "text": "",
-                "sp": "9"
+                "sp": "9",
+                "layer": "default"
               },
               {
                 "id": "",
@@ -1524,9 +1533,9 @@
                 "nextlayer": "default"
               },
               {
-                "id": "",
-                "text": "",
-                "sp": "9"
+                "id": "K_P",
+                "text": "Ø",
+                "nextlayer": "default"
               },
               {
                 "id": "",
@@ -1682,7 +1691,8 @@
                 "id": "K_SPACE",
                 "text": " ",
                 "width": "625",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "K_UPPER",

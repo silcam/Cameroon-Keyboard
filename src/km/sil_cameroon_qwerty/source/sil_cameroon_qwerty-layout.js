@@ -740,7 +740,8 @@
                 "text": " ",
                 "pad": "",
                 "width": "675",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "T_003A",
@@ -1090,7 +1091,8 @@
                 "id": "K_SPACE",
                 "text": "",
                 "width": "675",
-                "sp": "0"
+                "sp": "0",
+                "layer": "default"
               },
               {
                 "id": "T_002E",

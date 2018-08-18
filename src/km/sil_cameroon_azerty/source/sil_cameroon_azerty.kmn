@@ -21,17 +21,21 @@ store(word) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁC
 store(letter) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴzAÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌"
 store(lc) "aæɛbɓcdɗeəfgʼꞌhiɨjklmnŋoɔøœpqrstuʉvwẅxyƴz◌"
 store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌"
-store(punct) "',.:;?!"
-store(final) ".!?"
+store(nfpunct) "',:;"
+store(final) "!?."
 store(num) "0123456789"
 store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|/@#$%^&*()«»‹›‘“’”€¥£èéçàùµ…†" U+0022
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
 
-platform('web') any(punct) " " + [K_SPACE] > index(punct,2)
-platform('touch') any(punct) " " + [K_SPACE] > index(punct,2)
+platform('web') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
+platform('touch') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
+platform('web') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
+platform('touch') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
 
 + [NCAPS SHIFT K_SPACE] > U+0020
 + [NCAPS K_SPACE] > U+0020
++ [CAPS K_SPACE] > U+0020
++ [CAPS SHIFT K_SPACE] > U+0020
 + [LCTRL K_SPACE] > U+00A0
 
 + [CAPS SHIFT K_0] > U+00E0
@@ -577,5 +581,5 @@ any(word) any(final) > index(word,1) index(final,2)
 platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
 
 c Space after other punct
-any(word) any(punct) > index(word,1) index(punct,2)
-platform('touch') any(word) any(punct) > index(word,2) index(punct,3) " "
+any(word) any(nfpunct) > index(word,1) index(nfpunct,2)
+platform('touch') any(word) any(nfpunct) > index(word,2) index(nfpunct,3) " " layer('default')
