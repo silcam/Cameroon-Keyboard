@@ -998,7 +998,8 @@
               },
               {
                 "id": "U_003D",
-                "text": "="
+                "text": "=",
+                "nextlayer": "default"
               },
               {
                 "id": "",
@@ -1588,7 +1589,7 @@
                 "sp": "10"
               },
               {
-                "id": "K_UPPER",
+                "id": "T_UPPER",
                 "text": "ABC",
                 "width": "150",
                 "sp": "2",

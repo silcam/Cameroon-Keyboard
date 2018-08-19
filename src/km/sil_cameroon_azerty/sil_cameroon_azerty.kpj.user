@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state>&lt;state&gt;&lt;tab&gt;0&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_7e4ccd3c0cca3c929d1a669d32ce537b</ID>
@@ -61,12 +61,6 @@
       <Filename>sil_cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
-      <Filename>sil_cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

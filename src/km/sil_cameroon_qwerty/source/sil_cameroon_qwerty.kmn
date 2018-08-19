@@ -363,6 +363,7 @@ any(diablock) + [SHIFT K_QUOTE] > context
 
 + [T_CAM] > nul
 + [T_FCFA] > 'FCFA'
++ [T_UPPER] > layer('default')
 + [T_002E] > U+002E
 + [T_003F] > U+003F
 + [T_002C] > U+002C
