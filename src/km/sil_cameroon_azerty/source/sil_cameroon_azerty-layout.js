@@ -147,10 +147,12 @@
               {
                 "id": "K_P",
                 "text": "p",
+                "nextlayer": "default",
                 "sk": [
                   {
                     "text": "ø",
-                    "id": "U_00F8"
+                    "id": "U_00F8",
+                    "nextlayer": "default"
                   }
                 ]
               },
@@ -225,7 +227,7 @@
                 "text": "l"
               },
               {
-                "id": "K_M",
+                "id": "K_COLON",
                 "text": "m"
               },
               {
@@ -316,16 +318,16 @@
             "id": 5,
             "key": [
               {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "100",
-                "sp": "1"
-              },
-              {
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": "1",
                 "nextlayer": "symbol"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": "100",
+                "sp": "1"
               },
               {
                 "id": "K_SPACE",
@@ -733,17 +735,17 @@
             "id": 5,
             "key": [
               {
+                "id": "K_SYMBOLS",
+                "text": "*Symbol*",
+                "sp": "1",
+                "nextlayer": "symbol"
+              },
+              {
                 "id": "K_LOPT",
                 "text": "*Menu*",
                 "pad": "",
                 "width": "100",
                 "sp": "1"
-              },
-              {
-                "id": "K_SYMBOLS",
-                "text": "*Symbol*",
-                "sp": "1",
-                "nextlayer": "symbol"
               },
               {
                 "id": "K_SPACE",
@@ -799,7 +801,7 @@
               },
               {
                 "id": "T_0036",
-                "text": "X"
+                "text": "6"
               },
               {
                 "id": "T_0037",
@@ -811,7 +813,7 @@
               },
               {
                 "id": "T_0039",
-                "text": "10"
+                "text": "9"
               },
               {
                 "id": "T_0030",
@@ -1005,15 +1007,20 @@
                 "text": "="
               },
               {
-                "id": "",
-                "text": "",
-                "sp": "10"
+                "id": "U_00B0",
+                "text": "°"
               }
             ]
           },
           {
             "id": 4,
             "key": [
+              {
+                "id": "T_FCFA",
+                "text": "FCFA",
+                "width": "205",
+                "nextlayer": "default"
+              },
               {
                 "id": "U_20AC",
                 "text": "€",
@@ -1067,20 +1074,6 @@
                 "id": "T_002C",
                 "text": ",",
                 "layer": "default"
-              },
-              {
-                "id": "T_FCFA",
-                "text": "FCFA",
-                "width": "150",
-                "fontsize": ".6em",
-                "nextlayer": "default"
-              },
-              {
-                "id": "",
-                "text": "",
-                "width": "50",
-                "sp": "10",
-                "nextlayer": "default"
               }
             ]
           },
@@ -1088,16 +1081,16 @@
             "id": 5,
             "key": [
               {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "100",
-                "sp": "1"
-              },
-              {
                 "id": "K_LOWER",
                 "text": "*abc*",
                 "sp": "2",
                 "nextlayer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": "100",
+                "sp": "1"
               },
               {
                 "id": "K_SPACE",
@@ -1378,17 +1371,17 @@
             "id": 5,
             "key": [
               {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "100",
-                "sp": "1",
-                "layer": "default"
-              },
-              {
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": "1",
                 "nextlayer": "symbol",
+                "layer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": "100",
+                "sp": "1",
                 "layer": "default"
               },
               {
@@ -1674,17 +1667,17 @@
             "id": 5,
             "key": [
               {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "100",
-                "sp": "1",
-                "layer": "default"
-              },
-              {
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": "1",
                 "nextlayer": "symbol",
+                "layer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": "100",
+                "sp": "1",
                 "layer": "default"
               },
               {

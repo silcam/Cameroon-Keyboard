@@ -24,13 +24,15 @@ store(uc) "AÆƐBƁCDƊEƏFGʼꞋHIƗJKLMNŊOƆØŒPQRSTUɄVWẄXYƳZ◌"
 store(nfpunct) "',:;"
 store(final) "!?."
 store(num) "0123456789"
-store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\|/@#$%^&*()«»‹›‘“’”€¥£èéçàùµ…†" U+0022
+store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\\/@#$%^&*()«»‹›‘“’”€¥£èéçàùµ…†" U+0022 U+007C
+c TODO Diablock on Alt 7's u300
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
 
 platform('web') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
 platform('touch') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
 platform('web') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
 platform('touch') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
+platform('touch') any(word) any(final) + [K_SPACE] > index(word,2) index(final,3) " " layer('shift')
 
 + [NCAPS SHIFT K_SPACE] > U+0020
 + [NCAPS K_SPACE] > U+0020
@@ -578,8 +580,8 @@ nomatch platform('touch') > use(checks)
 group(checks)
 c normal
 any(word) any(final) > index(word,1) index(final,2)
-platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
+c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
 
 c Space after other punct
 any(word) any(nfpunct) > index(word,1) index(nfpunct,2)
-platform('touch') any(word) any(nfpunct) > index(word,2) index(nfpunct,3) " " layer('default')
+c platform('touch') any(word) any(nfpunct) > index(word,2) index(nfpunct,3) " " layer('default')
