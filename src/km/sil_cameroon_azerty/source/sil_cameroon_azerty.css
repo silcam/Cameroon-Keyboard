@@ -18,7 +18,11 @@
 .kmw-key-deadkey{background: #8c4646; color:#0F0; background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;}
 .kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
 .kmw-key-hidden{visibility:hidden;}
-.kmw-key-touched{background-color:#88f;}   
+.kmw-key-touched{background-color:#88f;}  
+
+
+
+/*.android .kmw-key {border: none; border: solid 1px #111; box-shadow:0px 2px 5px #888; border-radius: 3px;}*/ 
 
 /* Green Diacritics */
 .ios #default-T_0300,
@@ -54,30 +58,35 @@
 /* Yellow Vowels */
 .android #default-K_Q,
 .android #default-K_E,
-.android #default-K_I,
+.android #default-K_I,                                                                                         
 .android #default-K_O, 
 .android #default-K_U,
 .android #shift-K_Q,
 .android #shift-K_E,
 .android #shift-K_I,
 .android #shift-K_O,
-.android #shift-K_U,
-.android #camlower-U_025B,
-.android #camlower-U_0259,
-.android #camlower-U_0289,
-.android #camlower-U_0153,
-.android #camlower-U_0268,
-.android #camlower-U_0254,
-.android #camlower-U_00E6,
-.android #camlower-U_03B1,
-.android #camupper-U_0190,
-.android #camupper-U_018F,
-.android #camupper-U_0152,
-.android #camupper-U_0244,
-.android #camupper-U_0197,
-.android #camupper-U_0186,
-.android #camupper-U_00C6,
-.android #camupper-U_2C6D { background: #abab78; background: linear-gradient(#7f7f7f, #abab78); } 
+.android #shift-K_U { background: #abab78; background: linear-gradient(#7f7f7f, #abab78); } 
+
+/*
+These don't work. 
+.android #rightalt-nocaps-U_025B,
+.android #rightalt-nocaps-U_0259,
+.android #rightalt-nocaps-U_0289,
+.android #rightalt-nocaps-U_0153,
+.android #rightalt-nocaps-U_0268,
+.android #rightalt-nocaps-U_0254,
+.android #rightalt-nocaps-U_00E6,
+.android #rightalt-nocaps-U_03B1,
+.android #rightalt-shift-nocaps-U_0190,
+.android #rightalt-shift-nocaps-U_018F,
+.android #rightalt-shift-nocaps-U_0152,
+.android #rightalt-shift-nocaps-U_0244,
+.android #rightalt-shift-nocaps-U_0197,
+.android #rightalt-shift-nocaps-U_0186,
+.android #rightalt-shift-nocaps-U_00C6,
+.android #rightalt-shift-nocaps-U_2C6D
+*/ 
+
 /* #abab78 is 30% of #aaaa00 yellow */
 .ios #default-K_A,
 .ios #default-K_E,
@@ -89,19 +98,19 @@
 .ios #shift-K_I,
 .ios #shift-K_O,
 .ios #shift-K_U,
-.ios #camlower-U_025B,
-.ios #camlower-U_0259,
-.ios #camlower-U_0289,
-.ios #camlower-U_0153,
-.ios #camlower-U_0268,
-.ios #camlower-U_0254,
-.ios #camlower-U_00E6,
-.ios #camlower-U_03B1,
-.ios #camupper-U_0190,
-.ios #camupper-U_018F,
-.ios #camupper-U_0152,
-.ios #camupper-U_0244,
-.ios #camupper-U_0197,
-.ios #camupper-U_0186,
-.ios #camupper-U_00C6,
-.ios #camupper-U_2C6D { background: #abab78; background: linear-gradient(#ffffff, #abab78); } 
+.ios #rightalt-nocaps-U_025B,
+.ios #rightalt-nocaps-U_0259,
+.ios #rightalt-nocaps-U_0289,
+.ios #rightalt-nocaps-U_0153,
+.ios #rightalt-nocaps-U_0268,
+.ios #rightalt-nocaps-U_0254,
+.ios #rightalt-nocaps-U_00E6,
+.ios #rightalt-nocaps-U_03B1,
+.ios #rightalt-shift-nocaps-U_0190,
+.ios #rightalt-shift-nocaps-U_018F,
+.ios #rightalt-shift-nocaps-U_0152,
+.ios #rightalt-shift-nocaps-U_0244,
+.ios #rightalt-shift-nocaps-U_0197,
+.ios #rightalt-shift-nocaps-U_0186,
+.ios #rightalt-shift-nocaps-U_00C6,
+.ios #rightalt-shift-nocaps-U_2C6D { background: #abab78; background: linear-gradient(#ffffff, #abab78); } 

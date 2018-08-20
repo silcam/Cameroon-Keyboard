@@ -1,4 +1,4 @@
-{
+﻿{
   "tablet": {
     "font": "Andika Afr",
     "layer": [
@@ -715,7 +715,8 @@
               {
                 "id": "T_003A",
                 "text": ";",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "K_SHIFT",
@@ -752,7 +753,8 @@
               {
                 "id": "T_003A",
                 "text": ":",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "K_ENTER",
@@ -822,15 +824,13 @@
             "id": 2,
             "key": [
               {
-                "id": "U_0040",
-                "text": "@",
-                "pad": "55",
-                "nextlayer": "default"
+                "id": "U_002A",
+                "text": "*",
+                "pad": "55"
               },
               {
                 "id": "U_0023",
-                "text": "#",
-                "nextlayer": "default"
+                "text": "#"
               },
               {
                 "id": "U_0025",
@@ -904,8 +904,10 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_002A",
-                "text": "*"
+                "id": "U_0040",
+                "text": "@",
+                "pad": "",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0022",
@@ -943,17 +945,20 @@
               },
               {
                 "id": "T_003A",
-                "text": ":"
+                "text": ":",
+                "layer": "default"
               },
               {
                 "id": "T_003B",
                 "text": ";",
-                "nextlayer": "default"
+                "nextlayer": "default",
+                "layer": "default"
               },
               {
                 "id": "T_0021",
                 "text": "!",
                 "nextlayer": "default",
+                "layer": "default",
                 "sk": [
                   {
                     "text": "¡",
@@ -1002,43 +1007,15 @@
                 "nextlayer": "default"
               },
               {
-                "id": "",
-                "text": "",
-                "width": "45",
-                "sp": "10"
+                "id": "U_007C",
+                "text": "|",
+                "width": "45"
               }
             ]
           },
           {
             "id": 4,
             "key": [
-              {
-                "id": "T_FCFA",
-                "text": "FCFA",
-                "width": "150",
-                "fontsize": ".6em",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_20AC",
-                "text": "€",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_0024",
-                "text": "$",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_00A3",
-                "text": "£",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_00A5",
-                "text": "¥",
-                "nextlayer": "default"
-              },
               {
                 "id": "U_007E",
                 "text": "~"
@@ -1070,11 +1047,40 @@
               },
               {
                 "id": "T_002C",
-                "text": ","
+                "text": ",",
+                "layer": "default"
               },
               {
                 "id": "U_00B0",
                 "text": "°",
+                "pad": "",
+                "width": "",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_0024",
+                "text": "$",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_20AC",
+                "text": "€",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_00A3",
+                "text": "£",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_00A5",
+                "text": "¥",
+                "nextlayer": "default"
+              },
+              {
+                "id": "T_FCFA",
+                "text": "FCFA",
+                "width": "150",
                 "nextlayer": "default"
               }
             ]
@@ -1102,7 +1108,8 @@
               },
               {
                 "id": "T_002E",
-                "text": "."
+                "text": ".",
+                "layer": "default"
               },
               {
                 "id": "K_ENTER",

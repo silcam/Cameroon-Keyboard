@@ -621,10 +621,11 @@
                 "nextlayer": "default"
               },
               {
-                "id": "TSpacer1",
-                "text": "",
+                "id": "U_0023",
+                "text": "#",
                 "width": "",
-                "sp": "10"
+                "sp": "10",
+                "layer": "default"
               }
             ]
           },
@@ -831,15 +832,12 @@
             "id": 2,
             "key": [
               {
-                "id": "U_0040",
-                "text": "@",
-                "pad": "",
-                "nextlayer": "default"
+                "id": "U_002A",
+                "text": "*"
               },
               {
                 "id": "U_0023",
-                "text": "#",
-                "nextlayer": "default"
+                "text": "#"
               },
               {
                 "id": "U_0025",
@@ -907,8 +905,10 @@
             "id": 3,
             "key": [
               {
-                "id": "U_002A",
-                "text": "*"
+                "id": "U_0040",
+                "text": "@",
+                "pad": "",
+                "nextlayer": "default"
               },
               {
                 "id": "U_0022",
@@ -1008,8 +1008,8 @@
                 "nextlayer": "default"
               },
               {
-                "id": "U_00B0",
-                "text": "°",
+                "id": "U_007C",
+                "text": "|",
                 "nextlayer": "default"
               }
             ]
@@ -1017,32 +1017,6 @@
           {
             "id": 4,
             "key": [
-              {
-                "id": "T_FCFA",
-                "text": "FCFA",
-                "width": "205",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_20AC",
-                "text": "€",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_0024",
-                "text": "$",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_00A3",
-                "text": "£",
-                "nextlayer": "default"
-              },
-              {
-                "id": "U_00A5",
-                "text": "¥",
-                "nextlayer": "default"
-              },
               {
                 "id": "U_007E",
                 "text": "~"
@@ -1076,6 +1050,32 @@
                 "id": "T_002C",
                 "text": ",",
                 "layer": "default"
+              },
+              {
+                "id": "U_0024",
+                "text": "$",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_20AC",
+                "text": "€",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_00A3",
+                "text": "£",
+                "nextlayer": "default"
+              },
+              {
+                "id": "U_00A5",
+                "text": "¥",
+                "nextlayer": "default"
+              },
+              {
+                "id": "T_FCFA",
+                "text": "FCFA",
+                "width": "205",
+                "nextlayer": "default"
               }
             ]
           },
