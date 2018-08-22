@@ -1,4 +1,4 @@
-﻿{
+{
   "tablet": {
     "font": "Andika Afr",
     "layer": [
@@ -834,8 +834,7 @@
               },
               {
                 "id": "U_0025",
-                "text": "%",
-                "nextlayer": "default"
+                "text": "%"
               },
               {
                 "id": "U_005F",

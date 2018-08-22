@@ -25,113 +25,133 @@ store(nfpunct) "',:;"
 store(final) "!?."
 store(num) "0123456789"
 store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\\/@°#$%^&*()«»‹›‘“’”€¥£èéçàùµ…†" U+0022 U+007C
-c TODO Diablock on Alt 7's u300
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
 
-platform('web') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
-platform('touch') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
-platform('web') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
-platform('touch') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
+c platform('web') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
+c platform('touch') any(final) U+0020 + [K_SPACE] > index(final,2) U+0020
+c platform('web') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
+c platform('touch') any(nfpunct) U+0020 + [K_SPACE] > index(nfpunct,2) U+0020
 platform('touch') any(word) any(final) + [K_SPACE] > index(word,2) index(final,3) " " layer('shift')
 
-+ [NCAPS SHIFT K_SPACE] > U+0020
-+ [NCAPS K_SPACE] > U+0020
 + [CAPS K_SPACE] > U+0020
 + [CAPS SHIFT K_SPACE] > U+0020
 + [LCTRL K_SPACE] > U+00A0
++ [NCAPS K_SPACE] > U+0020
++ [NCAPS SHIFT K_SPACE] > U+0020
++ [RCTRL K_SPACE] > U+00A0
 
++ [CAPS K_0] > U+0030    
++ [CAPS RALT K_0] > BEEP  
++ [CAPS SHIFT RALT K_0] > U+0040  
 + [CAPS SHIFT K_0] > U+00E0
 + [NCAPS K_0] > U+00E0
-+ [CAPS K_0] > U+0030
-+ [NCAPS SHIFT K_0] > U+0030
 + [NCAPS RALT K_0] > U+0040
-+ [NCAPS SHIFT RALT K_0] > beep
++ [NCAPS SHIFT K_0] > U+0030
++ [NCAPS SHIFT RALT K_0] > BEEP
 + [T_0030] > U+0030
 
++ [CAPS K_1] > U+0031
++ [CAPS RALT K_1] > U+2018
++ [CAPS SHIFT RALT K_1] >  U+00B9
 + [CAPS SHIFT K_1] > U+0026
 + [NCAPS K_1] > U+0026
-+ [CAPS K_1] > U+0031
-+ [NCAPS SHIFT K_1] > U+0031
 + [NCAPS RALT K_1] > U+00B9
++ [NCAPS SHIFT K_1] > U+0031
 + [NCAPS SHIFT RALT K_1] > U+2018
 + [T_0031] > U+0031
 
++ [CAPS K_2] > U+0032   
++ [CAPS RALT K_2] >  U+2019
++ [CAPS RALT SHIFT K_2] > dk(007E)
 + [CAPS SHIFT K_2] > U+00E9
 + [NCAPS K_2] > U+00E9
-+ [CAPS K_2] > U+0032
-+ [NCAPS SHIFT K_2] > U+0032
 + [NCAPS RALT K_2] > dk(007E)
++ [NCAPS SHIFT K_2] > U+0032
 + [NCAPS SHIFT RALT K_2] > U+2019
 + [T_0032] > U+0032
 
++ [CAPS K_3] > U+0033  
++ [CAPS RALT K_3] > U+00AB
++ [CAPS RALT SHIFT K_3] > U+0025
 + [CAPS SHIFT K_3] > U+0022
 + [NCAPS K_3] > U+0022
-+ [CAPS K_3] > U+0033
-+ [NCAPS SHIFT K_3] > U+0033
 + [NCAPS RALT K_3] > U+0025
++ [NCAPS SHIFT K_3] > U+0033
 + [NCAPS SHIFT RALT K_2] > U+00AB
 + [T_0033] > U+0033
 
-+ [CAPS SHIFT K_4] > U+0027
-+ [NCAPS K_4] > U+0027
 + [CAPS K_4] > U+0034
-+ [NCAPS SHIFT K_4] > U+0034
++ [CAPS RALT K_4] > U+00BB
++ [CAPS RALT SHIFT K_4] > U+007B
++ [CAPS SHIFT K_4] > U+0027 
++ [NCAPS K_4] > U+0027
 + [NCAPS RALT K_4] > U+007B
-+ [NCAPS SHIFT RALT K_4] > U+00BB c ???
++ [NCAPS SHIFT K_4] > U+0034
++ [NCAPS SHIFT RALT K_4] > U+00BB
 + [T_0034] > U+0034
 
++ [CAPS K_5] > U+0035
++ [CAPS RALT K_5] >  U+0023
++ [CAPS RALT SHIFT K_5] >  U+005B
 + [CAPS SHIFT K_5] > U+0028
 + [NCAPS K_5] > U+0028
-+ [CAPS K_5] > U+0035
-+ [NCAPS SHIFT K_5] > U+0035
 + [NCAPS RALT K_5] > U+005B
++ [NCAPS SHIFT K_5] > U+0035
 + [NCAPS SHIFT RALT K_5] > U+0023
 + [T_0035] > U+0035
 
++ [CAPS K_6] > U+0036
++ [CAPS RALT K_6] > U+0308
++ [CAPS RALT SHIFT K_6] > U+007C
 + [CAPS SHIFT K_6] > U+002D
 + [NCAPS K_6] > U+002D
-+ [CAPS K_6] > U+0036
-+ [NCAPS SHIFT K_6] > U+0036
 + [NCAPS RALT K_6] > U+007C
-+ [NCAPS SHIFT RALT K_6] > U+00308
-any(diablock) + [NCAPS SHIFT RALT K_6] > context
++ [NCAPS SHIFT K_6] > U+0036
++ [NCAPS SHIFT RALT K_6] > U+0308
 + [T_0036] > U+0036
+any(diablock) + [CAPS RALT K_6] > context
+any(diablock) + [NCAPS SHIFT RALT K_6] > context
 
++ [CAPS K_7] > U+0037
++ [CAPS RALT K_7] >  BEEP
++ [CAPS RALT SHIFT K_7] >  U+0300
 + [CAPS SHIFT K_7] > U+00E8
 + [NCAPS K_7] > U+00E8
-+ [CAPS K_7] > U+0037
-+ [NCAPS SHIFT K_7] > U+0037
 + [NCAPS RALT K_7] > U+0300
++ [NCAPS SHIFT K_7] > U+0037
++ [NCAPS SHIFT RALT K_7] > BEEP
++ [T_0037] > U+0037        
+any(diablock) + [CAPS SHIFT RALT K_7] > context
 any(diablock) + [NCAPS RALT K_7] > context
-+ [NCAPS SHIFT RALT K_7] > beep
-+ [T_0037] > U+0037
 
++ [CAPS K_8] > U+0038 
++ [CAPS RALT K_8] > U+20D6
++ [CAPS RALT SHIFT K_8] > U+005C
 + [CAPS SHIFT K_8] > U+005F
 + [NCAPS K_8] > U+005F
-+ [CAPS K_8] > U+0038
-+ [NCAPS SHIFT K_8] > U+0038
 + [NCAPS RALT K_8] > U+005C
-+ [NCAPS SHIFT RALT K_8] > beep
++ [NCAPS SHIFT K_8] > U+0038
++ [NCAPS SHIFT RALT K_8] > U+20D6
 + [T_0038] > U+0038
 
++ [CAPS K_9] > U+0039 
++ [CAPS RALT K_9] >  BEEP
++ [CAPS RALT SHIFT K_9] > U+005E
 + [CAPS SHIFT K_9] > U+00E7
 + [NCAPS K_9] > U+00E7
-+ [CAPS K_9] > U+0039
-+ [NCAPS SHIFT K_9] > U+0039
 + [NCAPS RALT K_9] > U+005E
++ [NCAPS SHIFT K_9] > U+0039
 + [NCAPS SHIFT RALT K_9] > BEEP
 + [T_0039] > U+0039
 
-c The A key
-+ [NCAPS K_Q] > U+0061
-+ [CAPS SHIFT K_Q] > U+0061
-+ [NCAPS SHIFT K_Q] > U+0041
 + [CAPS K_Q] > U+0041
-+ [NCAPS RALT K_Q] > U+025b
-+ [CAPS SHIFT RALT K_Q] > U+025b
-+ [NCAPS SHIFT RALT K_Q] > U+0190
-+ [NCAPS SHIFT RALT K_Q] > U+0190
 + [CAPS RALT K_Q] > U+0190
++ [CAPS SHIFT K_Q] > U+0061
++ [CAPS SHIFT RALT K_Q] > U+025b
++ [NCAPS K_Q] > U+0061
++ [NCAPS RALT K_Q] > U+025b
++ [NCAPS SHIFT K_Q] > U+0041
++ [NCAPS SHIFT RALT K_Q] > U+0190
 
 + [NCAPS K_B] > U+0062
 + [CAPS SHIFT K_B] > U+0062
@@ -142,16 +162,16 @@ c The A key
 + [NCAPS SHIFT RALT K_B] > U+0181
 + [CAPS RALT K_B] > U+0181
 
-+ [NCAPS K_C] > U+0063
-+ [CAPS SHIFT K_C] > U+0063
-+ [NCAPS SHIFT K_C] > U+0043
 + [CAPS K_C] > U+0043
-+ [NCAPS RALT K_C] > U+0327
-any(diablock) + [NCAPS RALT K_C] > context
-+ [CAPS SHIFT RALT K_C] > U+0327
-any(diablock) + [CAPS SHIFT RALT K_C] > context
-+ [NCAPS SHIFT RALT K_C] > U+00A9
 + [CAPS RALT K_C] > U+00A9
++ [CAPS SHIFT K_C] > U+0063
++ [CAPS SHIFT RALT K_C] > U+0327
++ [NCAPS K_C] > U+0063
++ [NCAPS RALT K_C] > U+0327
++ [NCAPS SHIFT K_C] > U+0043
++ [NCAPS SHIFT RALT K_C] > U+00A9
+any(diablock) + [CAPS SHIFT RALT K_C] > context
+any(diablock) + [NCAPS RALT K_C] > context
 
 + [NCAPS K_D] > U+0064
 + [CAPS SHIFT K_D] > U+0064
@@ -360,37 +380,36 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [NCAPS SHIFT RALT K_W] > U+2020
 + [CAPS RALT K_W] > U+2020
 
-+ [NCAPS K_M] > U+002c
 + [CAPS K_M] > U+002C
-+ [T_002C] > U+002C
-+ [NCAPS SHIFT K_M] > U+003F
-+ [CAPS SHIFT K_M] > U+003F
-+ [T_003F] > U+003F
-+ [NCAPS SHIFT RALT K_M] > U+00D7
 + [CAPS RALT K_M] > U+00D7
-+ [NCAPS RALT K_M] > beep
++ [CAPS SHIFT K_M] > U+003F
 + [CAPS SHIFT RALT K_M] > beep
++ [NCAPS K_M] > U+002c
++ [NCAPS RALT K_M] > beep
++ [NCAPS SHIFT K_M] > U+003F
++ [NCAPS SHIFT RALT K_M] > U+00D7
++ [T_002C] > U+002C
++ [T_003F] > U+003F
 
-+ [NCAPS K_EQUAL] > dk(003d)
 + [CAPS K_EQUAL] > U+003D
-+ [NCAPS SHIFT K_EQUAL] > U+002B
++ [CAPS RALT K_EQUAL] > U+007D
 + [CAPS SHIFT K_EQUAL] > U+002B
-+ [NCAPS SHIFT RALT K_EQUAL] > U+00B1
-+ [CAPS RALT K_EQUAL] > U+00B1
++ [CAPS SHIFT RALT K_EQUAL] > U+00B1
++ [NCAPS K_EQUAL] > dk(003d)
 + [NCAPS RALT K_EQUAL] > U+007D
-+ [NCAPS SHIFT RALT K_EQUAL] > U+007D
-+ [CAPS SHIFT RALT K_EQUAL] > U+007D
++ [NCAPS SHIFT K_EQUAL] > U+002B
++ [NCAPS SHIFT RALT K_EQUAL] > U+00B1
 
-+ [NCAPS K_COMMA] > U+003B
 + [CAPS K_COMMA] > U+003b
-+ [T_003B] > U+003B
-+ [NCAPS SHIFT K_COMMA] > U+002E
-+ [CAPS SHIFT K_COMMA] > U+002E
-+ [T_002E] > U+002E
-+ [NCAPS RALT K_COMMA] > U+00B4
 + [CAPS RALT K_COMMA] > U+00B4
-+ [NCAPS SHIFT RALT K_COMMA] > dk(0060)
++ [CAPS SHIFT K_COMMA] > U+002E
 + [CAPS SHIFT RALT K_COMMA] > dk(0060)
++ [NCAPS K_COMMA] > U+003B
++ [NCAPS RALT K_COMMA] > U+00B4
++ [NCAPS SHIFT K_COMMA] > U+002E
++ [NCAPS SHIFT RALT K_COMMA] > dk(0060)
++ [T_002E] > U+002E
++ [T_003B] > U+003B
 
 + [NCAPS K_HYPHEN] > U+0029
 + [NCAPS SHIFT K_HYPHEN] > U+00B0
@@ -401,17 +420,17 @@ any(diablock) + [CAPS SHIFT RALT K_C] > context
 + [NCAPS SHIFT RALT K_HYPHEN] > beep
 + [CAPS SHIFT RALT K_HYPHEN] > beep
 
-+ [NCAPS K_PERIOD] > U+003A
 + [CAPS K_PERIOD] > U+003A
-+ [T_003A] > U+003A
-+ [NCAPS SHIFT K_PERIOD] > U+002F
-+ [NCAPS SHIFT CAPS K_PERIOD] > U+002F
-+ [NCAPS RALT K_PERIOD] > U+0323
-any(diablock) + [NCAPS RALT K_PERIOD] > context
 + [CAPS RALT K_PERIOD] > U+0323
-any(diablock) + [CAPS RALT K_PERIOD] > context
-+ [NCAPS SHIFT RALT K_PERIOD] > beep
 + [CAPS SHIFT RALT K_PERIOD] > beep
++ [NCAPS K_PERIOD] > U+003A
++ [NCAPS RALT K_PERIOD] > U+0323
++ [NCAPS SHIFT CAPS K_PERIOD] > U+002F
++ [NCAPS SHIFT K_PERIOD] > U+002F
++ [NCAPS SHIFT RALT K_PERIOD] > beep
++ [T_003A] > U+003A
+any(diablock) + [CAPS RALT K_PERIOD] > context
+any(diablock) + [NCAPS RALT K_PERIOD] > context
 
 + [K_SLASH] > dk(0021)
 + [NCAPS K_SLASH] > dk(0021)
@@ -433,60 +452,65 @@ any(diablock) + [CAPS RALT K_PERIOD] > context
 + [NCAPS SHIFT RALT K_BKQUOTE] > U+00B3
 + [CAPS SHIFT RALT K_BKQUOTE] > U+00B3
 
-+ [NCAPS K_LBRKT] > U+0301
-any(diablock) + [NCAPS K_LBRKT] > context
 + [CAPS K_LBRKT] > U+0301
-any(diablock) + [CAPS K_LBRKT] > context
-+ [NCAPS SHIFT K_LBRKT] > U+030C
-any(diablock) + [NCAPS SHIFT K_LBRKT] > context
-+ [CAPS SHIFT K_LBRKT] > U+030C
-any(diablock) + [CAPS SHIFT K_LBRKT] > context
-+ [NCAPS RALT K_LBRKT] > dk(005E)
 + [CAPS RALT K_LBRKT] > dk(005E)
-+ [NCAPS SHIFT RALT K_LBRKT] > dk(00A8)
++ [CAPS SHIFT K_LBRKT] > U+030C
 + [CAPS SHIFT RALT K_LBRKT] > dk(00A8)
++ [NCAPS K_LBRKT] > U+0301
++ [NCAPS RALT K_LBRKT] > dk(005E)
++ [NCAPS SHIFT K_LBRKT] > U+030C
++ [NCAPS SHIFT RALT K_LBRKT] > dk(00A8)
+any(diablock) + [CAPS K_LBRKT] > context
+any(diablock) + [CAPS SHIFT K_LBRKT] > context
+any(diablock) + [NCAPS K_LBRKT] > context
+any(diablock) + [NCAPS SHIFT K_LBRKT] > context
 
-+ [NCAPS SHIFT K_BKSLASH] > U+1DC7
-any(diablock) + [NCAPS SHIFT K_BKSLASH] > context
-+ [CAPS SHIFT K_BKSLASH] > U+1DC7
-any(diablock) + [CAPS SHIFT K_BKSLASH] > context
-+ [NCAPS K_BKSLASH] > U+1DC6
-any(diablock) + [NCAPS K_BKSLASH] > context
 + [CAPS K_BKSLASH] > U+1DC6
-any(diablock) + [CAPS K_BKSLASH] > context
-+ [NCAPS RALT K_BKSLASH] > U+002A
 + [CAPS RALT K_BKSLASH] > U+002A
-+ [NCAPS SHIFT RALT K_BKSLASH] > U+00A4
++ [CAPS SHIFT K_BKSLASH] > U+1DC7
 + [CAPS SHIFT RALT K_BKSLASH] > U+00A4
++ [NCAPS K_BKSLASH] > U+1DC6
++ [NCAPS RALT K_BKSLASH] > U+002A
++ [NCAPS SHIFT K_BKSLASH] > U+1DC7
++ [NCAPS SHIFT RALT K_BKSLASH] > U+00A4
+any(diablock) + [CAPS K_BKSLASH] > context
+any(diablock) + [CAPS SHIFT K_BKSLASH] > context
+any(diablock) + [NCAPS K_BKSLASH] > context
+any(diablock) + [NCAPS SHIFT K_BKSLASH] > context
 
-+ [NCAPS SHIFT K_RBRKT] > U+0303
-any(diablock) + [NCAPS SHIFT K_RBRKT] > context
-+ [CAPS SHIFT K_RBRKT] > U+0303
-any(diablock) + [CAPS SHIFT K_RBRKT] > context
-+ [NCAPS K_RBRKT] > U+0330
-any(diablock) + [NCAPS K_RBRKT] > context
 + [CAPS K_RBRKT] > U+0330
-any(diablock) + [CAPS K_RBRKT] > context
-+ [NCAPS RALT K_RBRKT] > U+0304
-any(diablock) + [NCAPS RALT K_RBRKT] > context
 + [CAPS RALT K_RBRKT] > U+0304
-any(diablock) + [NCAPS RALT K_RBRKT] > index(diablock,1)
-any(diablock) + [CAPS RALT K_RBRKT] > index(diablock,1)
++ [CAPS SHIFT RALT K_RBRKT] > U+030D
++ [CAPS SHIFT K_RBRKT] > U+0303
++ [NCAPS K_RBRKT] > U+0330
++ [NCAPS RALT K_RBRKT] > U+0304
++ [NCAPS SHIFT K_RBRKT] > U+0303
 + [NCAPS SHIFT RALT K_RBRKT] > U+030D
+any(diablock) + [CAPS K_RBRKT] > context
+any(diablock) + [CAPS RALT K_RBRKT] > index(diablock,1)
+any(diablock) + [CAPS SHIFT K_RBRKT] > context
+any(diablock) + [NCAPS K_RBRKT] > context
+any(diablock) + [NCAPS RALT K_RBRKT] > context
+any(diablock) + [NCAPS RALT K_RBRKT] > index(diablock,1)
+any(diablock) + [NCAPS SHIFT K_RBRKT] > context
 any(diablock) + [NCAPS SHIFT RALT K_RBRKT] > index(diablock,1)
 
-+ [NCAPS K_QUOTE] > U+0300
-any(diablock) + [NCAPS K_QUOTE] > context
 + [CAPS K_QUOTE] > U+0300
-any(diablock) + [CAPS K_QUOTE] > context
-+ [NCAPS SHIFT K_QUOTE] > U+0302
-any(diablock) + [NCAPS SHIFT K_QUOTE] > context
++ [CAPS RALT K_QUOTE] > U+1DC5
 + [CAPS SHIFT K_QUOTE] > U+0302
-any(diablock) + [CAPS SHIFT K_QUOTE] > context
-+ [NCAPS RALT K_QUOTE] > U+1DC5
-+ [NCAPS SHIFT RALT K_QUOTE] > U+1DC4
-any(diablock) + [NCAPS SHIFT RALT K_QUOTE] > context
 + [CAPS SHIFT RALT K_QUOTE] > U+1DC4
++ [NCAPS K_QUOTE] > U+0300
++ [NCAPS RALT K_QUOTE] > U+1DC5
++ [NCAPS SHIFT K_QUOTE] > U+0302
++ [NCAPS SHIFT RALT K_QUOTE] > U+1DC4
+any(diablock) + [CAPS K_QUOTE] > context
+any(diablock) + [CAPS RALT K_QUOTE] > context
+any(diablock) + [CAPS SHIFT K_QUOTE] > context
+any(diablock) + [CAPS SHIFT RALT K_QUOTE] > context
+any(diablock) + [NCAPS K_QUOTE] > context 
+any(diablock) + [NCAPS RALT K_QUOTE] > context 
+any(diablock) + [NCAPS SHIFT K_QUOTE] > context
+any(diablock) + [NCAPS SHIFT RALT K_QUOTE] > context
 
 + [NCAPS K_oE2] > U+003C
 + [CAPS K_oE2] > U+003C
@@ -575,14 +599,14 @@ c 00B4 is sketchy
 c is 0308 the right diaeresis?
 
 c c platform('touch') > use(checks)
-match platform('touch') > use(checks)
-nomatch platform('touch') > use(checks)
+c match platform('touch') > use(checks)
+c nomatch platform('touch') > use(checks)
 
-group(checks)
+c group(checks)
 c normal
-any(word) any(final) > index(word,1) index(final,2)
+c any(word) any(final) > index(word,1) index(final,2)
 c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
 
 c Space after other punct
-any(word) any(nfpunct) > index(word,1) index(nfpunct,2)
+c any(word) any(nfpunct) > index(word,1) index(nfpunct,2)
 c platform('touch') any(word) any(nfpunct) > index(word,2) index(nfpunct,3) " " layer('default')
