@@ -624,7 +624,6 @@
                 "id": "U_0023",
                 "text": "#",
                 "width": "",
-                "sp": "10",
                 "layer": "default"
               }
             ]

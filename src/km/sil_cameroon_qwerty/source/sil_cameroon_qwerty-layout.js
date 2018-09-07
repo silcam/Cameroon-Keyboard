@@ -240,7 +240,7 @@
                 "text": "əŋɔ",
                 "width": "150",
                 "sp": "8",
-                "fontsize": ".8em",
+                "fontsize": ".6em",
                 "nextlayer": "rightalt-nocaps"
               }
             ]
@@ -403,14 +403,14 @@
                 "sp": "10"
               },
               {
-                "id": "",
-                "text": "",
-                "sp": "10"
-              },
-              {
                 "id": "U_005F",
                 "text": "_",
                 "nextlayer": "default"
+              },
+              {
+                "id": "",
+                "text": "",
+                "sp": "10"
               },
               {
                 "id": "K_BKSP",
@@ -628,7 +628,7 @@
                 "text": "ƏŊƆ",
                 "width": "150",
                 "sp": "8",
-                "fontsize": ".8em",
+                "fontsize": ".6em",
                 "nextlayer": "rightalt-shift-nocaps"
               }
             ]
@@ -703,14 +703,7 @@
               {
                 "id": "T_003F",
                 "text": "?",
-                "nextlayer": "default",
-                "sk": [
-                  {
-                    "text": "¿",
-                    "id": "U_00BF",
-                    "layer": "default"
-                  }
-                ]
+                "nextlayer": "default"
               },
               {
                 "id": "T_003A",
@@ -737,10 +730,9 @@
                 "sp": "1"
               },
               {
-                "id": "TSpacer1",
-                "text": "",
-                "width": "",
-                "sp": "10"
+                "id": "U_0023",
+                "text": "#",
+                "width": ""
               },
               {
                 "id": "K_SPACE",
@@ -1080,6 +1072,7 @@
                 "id": "T_FCFA",
                 "text": "FCFA",
                 "width": "150",
+                "fontsize": ".6em",
                 "nextlayer": "default"
               }
             ]

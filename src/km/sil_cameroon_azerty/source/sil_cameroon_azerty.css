@@ -55,7 +55,9 @@
 .android #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
 /* #7f7f7f is 50% Grey, #598059 is 30% Green */
 
-/* Yellow Vowels */
+/* Yellow Vowels */ 
+
+/*
 .android #default-K_Q,
 .android #default-K_E,
 .android #default-K_I,                                                                                         
@@ -66,6 +68,7 @@
 .android #shift-K_I,
 .android #shift-K_O,
 .android #shift-K_U { background: #abab78; background: linear-gradient(#7f7f7f, #abab78); } 
+*/
 
 /*
 These don't work. 
@@ -88,6 +91,7 @@ These don't work.
 */ 
 
 /* #abab78 is 30% of #aaaa00 yellow */
+/*
 .ios #default-K_A,
 .ios #default-K_E,
 .ios #default-K_I,
@@ -114,3 +118,4 @@ These don't work.
 .ios #rightalt-shift-nocaps-U_0186,
 .ios #rightalt-shift-nocaps-U_00C6,
 .ios #rightalt-shift-nocaps-U_2C6D { background: #abab78; background: linear-gradient(#ffffff, #abab78); } 
+*/
