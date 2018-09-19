@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state></state>
   <FileStates>
     <FileState>
       <ID>id_7e4ccd3c0cca3c929d1a669d32ce537b</ID>
@@ -52,15 +52,45 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>sil_cameroon_qwerty.kmn</Filename>
+      <Filename>FUBHAUASAZ.klc.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.klc.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU1</ID>
+      <Filename>FUBHAUASQW.klc.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.klc.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>Diablock.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Diablock\Diablock.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
       <Filename>sil_cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>fr-fr.klc.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\fr-fr.klc.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>CAMA2018.klc.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\CAMA2018.klc.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>sil_cameroon_qwerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

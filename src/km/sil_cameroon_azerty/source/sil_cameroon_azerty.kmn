@@ -507,14 +507,14 @@ any(diablock) + [NCAPS RALT K_QUOTE] > context
 any(diablock) + [NCAPS SHIFT K_QUOTE] > context
 any(diablock) + [NCAPS SHIFT RALT K_QUOTE] > context
 
-+ [NCAPS K_oE2] > U+003C
-+ [CAPS K_oE2] > U+003C
-+ [NCAPS SHIFT K_oE2] > U+003E
-+ [CAPS SHIFT K_oE2] > U+003E
-+ [NCAPS RALT K_oE2] > U+00AB
-+ [CAPS RALT K_oE2] > U+00AB
-+ [NCAPS SHIFT RALT K_oE2] > U+00BB
-+ [CAPS SHIFT RALT K_oE2] > U+00BB
++ [NCAPS K_OE2] > U+003C
++ [CAPS K_OE2] > U+003C
++ [NCAPS SHIFT K_OE2] > U+003E
++ [CAPS SHIFT K_OE2] > U+003E
++ [NCAPS RALT K_OE2] > U+00AB
++ [CAPS RALT K_OE2] > U+00AB
++ [NCAPS SHIFT RALT K_OE2] > U+00BB
++ [CAPS SHIFT RALT K_OE2] > U+00BB
 
 + [T_CAM] > nul
 + [T_FCFA] > 'FCFA'

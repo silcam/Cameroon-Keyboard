@@ -10,11 +10,11 @@
       <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
       <Filename>sil_cameroon_qwerty.kmn</Filename>
       <Filepath>source\sil_cameroon_qwerty.kmn</Filepath>
-      <FileVersion>5.0</FileVersion>
+      <FileVersion>6.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Cameroon QWERTY</Name>
-        <Copyright>SIL Cameroon 2017</Copyright>
+        <Copyright>SIL Cameroon 2018</Copyright>
         <Message>Use ; or AltGr to access special characters.</Message>
       </Details>
     </File>
