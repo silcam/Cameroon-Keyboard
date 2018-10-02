@@ -22,7 +22,11 @@ contentType="fr-az"
 ></titleContentChoices
 ></title
 ><author
-></author
+contentType="en"
+>SIL Cameroon</author
+><author
+contentType="fr"
+>SIL Cameroun</author
 ></frontMatter
 ><section1
 id="simage"

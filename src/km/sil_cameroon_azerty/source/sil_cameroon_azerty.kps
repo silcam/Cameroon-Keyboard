@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>10.0.1091.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>10.0.1113.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -15,9 +15,9 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">5.3</Version>
+    <Version URL="">6.0</Version>
     <Name URL="">Cameroon AZERTY</Name>
-    <Copyright URL="">SIL Cameroon 2017</Copyright>
+    <Copyright URL="">SIL Cameroon 2018</Copyright>
   </Info>
   <Files>
     <File>
@@ -56,12 +56,18 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.bmp</FileType>
     </File>
+    <File>
+      <Name>build\sil_cameroon_azerty.js</Name>
+      <Description>File sil_cameroon_azerty.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Cameroon AZERTY</Name>
       <ID>sil_cameroon_azerty</ID>
-      <Version>5.3</Version>
+      <Version>6.0</Version>
       <Languages>
         <Language ID="gl-ES">gl-ES</Language>
       </Languages>

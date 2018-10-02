@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>10.0.1100.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>10.0.1113.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -16,7 +16,7 @@
   </StartMenu>
   <Info>
     <Name URL="">Cameroon Qwerty</Name>
-    <Version URL="">5.0</Version>
+    <Version URL="">6.0</Version>
     <Copyright URL="">©2018 SIL Cameroon</Copyright>
     <Author URL="mailto:keyboards_cameroon@sil.org">Matthew Lee</Author>
     <WebSite URL="LangTechCameroon.info">LangTechCameroon.info</WebSite>
@@ -75,7 +75,7 @@
     <Keyboard>
       <Name>Cameroon QWERTY</Name>
       <ID>sil_cameroon_qwerty</ID>
-      <Version>5.0</Version>
+      <Version>6.0</Version>
       <OSKFont>Fonts\ANDIKAAFR-R.TTF</OSKFont>
       <DisplayFont>Fonts\ANDIKAAFR-R.TTF</DisplayFont>
       <Languages>

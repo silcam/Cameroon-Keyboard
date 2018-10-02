@@ -19,15 +19,15 @@
       </Details>
     </File>
     <File>
-      <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
+      <ID>id_0b00795022c6bcede6fb8a622b079736</ID>
       <Filename>sil_cameroon_qwerty.kps</Filename>
       <Filepath>source\sil_cameroon_qwerty.kps</Filepath>
-      <FileVersion>5.0</FileVersion>
+      <FileVersion>6.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Cameroon Qwerty</Name>
         <Copyright>©2018 SIL Cameroon</Copyright>
-        <Version>5.0</Version>
+        <Version>6.0</Version>
       </Details>
     </File>
     <File>
@@ -44,7 +44,7 @@
       <Filepath>source\sil_cameroon_qwerty.css</Filepath>
       <FileVersion></FileVersion>
       <FileType>.css</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_0b66a522e87bc35e6746e31638074912</ID>
@@ -52,7 +52,7 @@
       <Filepath>source\Fonts\ANDIKAAFR-R.TTF</Filepath>
       <FileVersion></FileVersion>
       <FileType>.TTF</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_2a0cd0c3ae4f9edc14324f8cea68a5f8</ID>
@@ -60,7 +60,7 @@
       <Filepath>source\sil_cameroon_qwerty-layout.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_5b54da061519c93594287a250a656982</ID>
@@ -68,7 +68,7 @@
       <Filepath>source\sil_cameroon_qwerty.kvks</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvks</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_a0a993d7b28d5f79c5c66d2004b6b252</ID>
@@ -76,7 +76,7 @@
       <Filepath>source\build\sil_cameroon_qwerty.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_29cd0b5285d2c47b0c68bbd64c55f663</ID>
@@ -84,7 +84,7 @@
       <Filepath>source\build\sil_cameroon_qwerty.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
       <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
@@ -92,7 +92,7 @@
       <Filepath>source\splash.bmp</Filepath>
       <FileVersion></FileVersion>
       <FileType>.bmp</FileType>
-      <ParentFileID>id_582ffff1b5981062fd4e22a333b250e4</ParentFileID>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>

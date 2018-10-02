@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;0&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
@@ -17,7 +17,7 @@
       <Debug>True</Debug>
     </FileState>
     <FileState>
-      <ID>id_582ffff1b5981062fd4e22a333b250e4</ID>
+      <ID>id_0b00795022c6bcede6fb8a622b079736</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kps</FullPath>
       <IDEState>
         <CodeFont>Courier New|12|   |0</CodeFont>
@@ -60,24 +60,30 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>sil_cameroon_qwerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>sil_cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU1</ID>
+      <ID>id_MRU2</ID>
       <Filename>Bangolan.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Dropbox\Keyman Lessons\Bangolan\Bangolan.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU3</ID>
       <Filename>a.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Temp\a.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU4</ID>
       <Filename>Bangolan.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\bangolan\Bangolan.kmn</FullPath>

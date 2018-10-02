@@ -29,9 +29,18 @@ contentType="fr"
 >SIL Cameroun</author
 ></frontMatter
 ><section1
+contentType="hardware"
 id="simage"
 ><secTitle
->Layout Overview</secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Layout Overview: Hardware</titleContent
+><titleContent
+contentType="fr"
+>Disposition: Clavier Physique</titleContent
+></titleContentChoices
+></secTitle
 ><p
 contentType="en-az"
 ><img
@@ -843,24 +852,46 @@ id="km"
 ><contentType
 id="win"
 >Windows</contentType
+><contentType
+id="touch"
+>touch</contentType
+><contentType
+id="hardware"
+>hardware</contentType
 ></contentTypes
 ><contentControlChoices
 ><contentControlChoice
 active="yes"
-exclude="en az en-az fr-az fr-qw"
->French - QW</contentControlChoice
+exclude="en az en-az fr-az fr-qw touch"
+>French - QW- HW</contentControlChoice
 ><contentControlChoice
 active="no"
-exclude="en qw en-qw en-az fr-qw"
->French - AZ</contentControlChoice
+exclude="en qw en-qw en-az fr-qw touch"
+>French - AZ - HW</contentControlChoice
 ><contentControlChoice
 active="no"
-exclude="en qw"
->English - QW</contentControlChoice
+exclude="fr az fr-az fr-az en-az touch"
+>English - QW - HW</contentControlChoice
 ><contentControlChoice
 active="no"
-exclude="fr qw"
->English - AZ</contentControlChoice
+exclude="fr qw fr-qw en-qw fr-az touch"
+>English - AZ - HW</contentControlChoice
+><contentControlChoice
+active="yes"
+exclude="en az en-az fr-az fr-qw hardware"
+>French - QW - Touch</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="en qw en-qw en-az fr-qw hardware"
+>French - AZ - Touch</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="fr az fr-az fr-az en-az hardware"
+>English - QW - Touch</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="fr qw fr-qw en-qw fr-az hardware"
+>English - AZ - Touch</contentControlChoice
 ></contentControlChoices
 ></contentControl
 ></lingPaper

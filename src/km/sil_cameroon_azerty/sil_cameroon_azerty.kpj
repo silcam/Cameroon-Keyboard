@@ -19,15 +19,15 @@
       </Details>
     </File>
     <File>
-      <ID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ID>
+      <ID>id_fd7a5d06a293883dfb4311c322c899f7</ID>
       <Filename>sil_cameroon_azerty.kps</Filename>
       <Filepath>source\sil_cameroon_azerty.kps</Filepath>
-      <FileVersion>5.3</FileVersion>
+      <FileVersion>6.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Cameroon AZERTY</Name>
-        <Copyright>SIL Cameroon 2017</Copyright>
-        <Version>5.3</Version>
+        <Copyright>SIL Cameroon 2018</Copyright>
+        <Version>6.0</Version>
       </Details>
     </File>
     <File>
@@ -44,7 +44,7 @@
       <Filepath>source\build\sil_cameroon_azerty.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
-      <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
     </File>
     <File>
       <ID>id_eb1dcfe46cdfbb8ab47237575798b1ea</ID>
@@ -52,7 +52,7 @@
       <Filepath>source\build\sil_cameroon_azerty.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
-      <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
     </File>
     <File>
       <ID>id_0b66a522e87bc35e6746e31638074912</ID>
@@ -60,7 +60,7 @@
       <Filepath>source\fonts\ANDIKAAFR-R.TTF</Filepath>
       <FileVersion></FileVersion>
       <FileType>.TTF</FileType>
-      <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
     </File>
     <File>
       <ID>id_a68a4dc47ab4e01a56cd3e9dc9ddb682</ID>
@@ -68,7 +68,7 @@
       <Filepath>source\fonts\AndikaAfr-R.woff</Filepath>
       <FileVersion></FileVersion>
       <FileType>.woff</FileType>
-      <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
     </File>
     <File>
       <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
@@ -76,7 +76,15 @@
       <Filepath>source\splash.bmp</Filepath>
       <FileVersion></FileVersion>
       <FileType>.bmp</FileType>
-      <ParentFileID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ParentFileID>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
+    </File>
+    <File>
+      <ID>id_f34fdb17d14c97b041e6cb6f38016405</ID>
+      <Filename>sil_cameroon_azerty.js</Filename>
+      <Filepath>source\build\sil_cameroon_azerty.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_fd7a5d06a293883dfb4311c322c899f7</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>

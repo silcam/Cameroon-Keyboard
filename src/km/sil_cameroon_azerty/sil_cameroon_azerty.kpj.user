@@ -17,7 +17,7 @@
       <Debug>True</Debug>
     </FileState>
     <FileState>
-      <ID>id_abec21e0dbe9d3380cfaa0ea1fc95994</ID>
+      <ID>id_fd7a5d06a293883dfb4311c322c899f7</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
       <IDEState>
         <CodeFont>Tahoma|8|   |1</CodeFont>
@@ -48,49 +48,65 @@
       <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\splash.bmp</FullPath>
     </FileState>
+    <FileState>
+      <ID>id_f34fdb17d14c97b041e6cb6f38016405</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\build\sil_cameroon_azerty.js</FullPath>
+    </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>FUBHAUASAZ.klc.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.klc.kmn</FullPath>
+      <Filename>sil_cameroon_azerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>FUBHAUASQW.klc.kmn</Filename>
+      <Filename>FUBRSAZ.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.klc.kmn</FullPath>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBRSAZ.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
-      <Filename>Diablock.kmn</Filename>
+      <Filename>FUBHAUASQW.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Diablock\Diablock.kmn</FullPath>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU3</ID>
+      <Filename>FUBHAUASAZ.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
       <Filename>sil_cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
-      <Filename>fr-fr.klc.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\fr-fr.klc.kmn</FullPath>
-    </File>
-    <File>
       <ID>id_MRU5</ID>
-      <Filename>CAMA2018.klc.kmn</Filename>
+      <Filename>sil_cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\CAMA2018.klc.kmn</FullPath>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU6</ID>
       <Filename>sil_cameroon_qwerty.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+      <FullPath>D:\Github\ParseKB\ParseKB\sil_cameroon_qwerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
+      <Filename>FUBHAUASAZ.klc.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.klc.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU8</ID>
+      <Filename>FUBHAUASQW.klc.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.klc.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
