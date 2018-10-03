@@ -95,43 +95,59 @@
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_9754a2129337c0d90badd6788d25c0da</ID>
+      <ID>id_12c92887323cd0134426a34f45b8a3cb</ID>
+      <Filename>e_chart.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\e_chart.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_835145f4f266f414099843f4d857faf9</ID>
+      <Filename>ic_launcher.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\ic_launcher.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b3dbe42cddb0facd06865ea83e3dcccd</ID>
+      <Filename>keys.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\keys.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e0ee6e041a457103d70f4994e6a0ae8a</ID>
+      <Filename>modkeys.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\modkeys.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_dce261807e1adb547d9c6ea3421355c1</ID>
+      <Filename>QwertyColor.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\QwertyColor.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_e067de2ebcf0407558d70a4a17308d45</ID>
+      <Filename>sil-logo-blue.png</Filename>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\sil-logo-blue.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9bd876ffad97f3c823184a3bbf656e86</ID>
       <Filename>welcome.htm</Filename>
-      <Filepath>source\..\..\..\..\docs\CamKeyHTML\welcome.htm</Filepath>
+      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_1f5f3f130dcc47fae2f0503f402964f1</ID>
-      <Filename>QwertyColor.png</Filename>
-      <Filepath>source\..\..\..\..\docs\CamKeyHTML\QwertyColor.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_ed34d8fc6593a64f2e2af8bf3972d0ed</ID>
-      <Filename>AzertyColor.png</Filename>
-      <Filepath>source\..\..\..\..\docs\CamKeyHTML\AzertyColor.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_72b1baa52fbfbcc1b3efbbe407b3dea7</ID>
-      <Filename>sil-logo-blue.png</Filename>
-      <Filepath>source\..\..\..\..\docs\CamKeyHTML\sil-logo-blue.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_898974bcaa92ef16a93f0d688a86a693</ID>
-      <Filename>e chart.png</Filename>
-      <Filepath>source\..\..\..\..\docs\Manual\images\e chart.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
   </Files>

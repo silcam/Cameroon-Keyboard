@@ -71,34 +71,46 @@
       <FileType>.kvk</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\CamKeyHTML\welcome.htm</Name>
-      <Description>File welcome.htm</Description>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\e_chart.png</Name>
+      <Description>File e_chart.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
+      <FileType>.png</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\CamKeyHTML\QwertyColor.png</Name>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\ic_launcher.png</Name>
+      <Description>File ic_launcher.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\keys.png</Name>
+      <Description>File keys.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\modkeys.png</Name>
+      <Description>File modkeys.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\QwertyColor.png</Name>
       <Description>File QwertyColor.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\CamKeyHTML\AzertyColor.png</Name>
-      <Description>File AzertyColor.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\CamKeyHTML\sil-logo-blue.png</Name>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\sil-logo-blue.png</Name>
       <Description>File sil-logo-blue.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\Manual\images\e chart.png</Name>
-      <Description>File e chart.png</Description>
+      <Name>..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
+      <FileType>.htm</FileType>
     </File>
   </Files>
   <Keyboards>
