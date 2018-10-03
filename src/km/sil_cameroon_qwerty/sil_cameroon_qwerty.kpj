@@ -55,27 +55,11 @@
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_2a0cd0c3ae4f9edc14324f8cea68a5f8</ID>
-      <Filename>sil_cameroon_qwerty-layout.js</Filename>
-      <Filepath>source\sil_cameroon_qwerty-layout.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
       <ID>id_5b54da061519c93594287a250a656982</ID>
       <Filename>sil_cameroon_qwerty.kvks</Filename>
       <Filepath>source\sil_cameroon_qwerty.kvks</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvks</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_a0a993d7b28d5f79c5c66d2004b6b252</ID>
-      <Filename>sil_cameroon_qwerty.kvk</Filename>
-      <Filepath>source\build\sil_cameroon_qwerty.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
@@ -92,6 +76,62 @@
       <Filepath>source\splash.bmp</Filepath>
       <FileVersion></FileVersion>
       <FileType>.bmp</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_3cec68c52da29e609b5db55a4bcaec2e</ID>
+      <Filename>sil_cameroon_qwerty.js</Filename>
+      <Filepath>source\build\sil_cameroon_qwerty.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a0a993d7b28d5f79c5c66d2004b6b252</ID>
+      <Filename>sil_cameroon_qwerty.kvk</Filename>
+      <Filepath>source\build\sil_cameroon_qwerty.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9754a2129337c0d90badd6788d25c0da</ID>
+      <Filename>welcome.htm</Filename>
+      <Filepath>source\..\..\..\..\docs\CamKeyHTML\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_1f5f3f130dcc47fae2f0503f402964f1</ID>
+      <Filename>QwertyColor.png</Filename>
+      <Filepath>source\..\..\..\..\docs\CamKeyHTML\QwertyColor.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ed34d8fc6593a64f2e2af8bf3972d0ed</ID>
+      <Filename>AzertyColor.png</Filename>
+      <Filepath>source\..\..\..\..\docs\CamKeyHTML\AzertyColor.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_72b1baa52fbfbcc1b3efbbe407b3dea7</ID>
+      <Filename>sil-logo-blue.png</Filename>
+      <Filepath>source\..\..\..\..\docs\CamKeyHTML\sil-logo-blue.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_898974bcaa92ef16a93f0d688a86a693</ID>
+      <Filename>e chart.png</Filename>
+      <Filepath>source\..\..\..\..\docs\Manual\images\e chart.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
   </Files>
