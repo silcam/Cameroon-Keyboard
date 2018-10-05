@@ -55,8 +55,6 @@ h1 {
     font-style: italic;
 }
 .buttonlang {
-    /*background: #8c4646;
-    background: linear-gradient(to right, darkgreen 33%, darkred 33%, darkred 66%, #aaaa00 66%); */
     background-color: pink; /*Green*/
     border: none;
     color: black;
@@ -72,6 +70,10 @@ h1 {
     border-radius: 8px;
     width: 94%;
 }
+
+/*.buttonLang:hover {
+    background-color: #8b698c;
+}*/
 
 .menu {
     display: block;
