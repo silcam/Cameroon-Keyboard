@@ -29,6 +29,7 @@ store(diablock) " 0123456789?!;:'-_=<©®>.,[]{}\\/@°#$%^&*()«»‹›‘“�
 store(dia) U+0300 U+0304 U+0301 U+030C U+0302 U+0303 U+0308 U+0327 U+03B1 U+030D U+0330
 
 platform('touch') any(word) any(final) + [K_SPACE] > index(word,2) index(final,3) " " layer('shift')
+platform('touch') any(word) U+0020 + [K_SPACE] > index(word,2) U+002E " " layer('shift')
 
 + [CAPS K_SPACE] > U+0020
 + [CAPS SHIFT K_SPACE] > U+0020
@@ -593,16 +594,3 @@ store(dkt0021)	U+0021	U+00B2	U+00B9	U+007B	U+005B	U+005D	U+00B1 U+007C	 	U+20D7	
 dk(0021) any(dkf0021) > index(dkt0021, 2) 
           
 c is 0308 the right diaeresis?
-
-c platform('touch') > use(checks)
-c match platform('touch') > use(checks)
-c nomatch platform('touch') > use(checks)
-
-c group(checks)
-c normal
-c any(word) any(final) > index(word,1) index(final,2)
-c platform('touch') any(word) any(final) > index(word,2) index(final,3) " " layer('shift')
-
-c Space after other punct
-c any(word) any(nfpunct) > index(word,1) index(nfpunct,2)
-c platform('touch') any(word) any(nfpunct) > index(word,2) index(nfpunct,3) " " layer('default')

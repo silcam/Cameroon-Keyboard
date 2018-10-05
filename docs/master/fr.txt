@@ -1,0 +1,74 @@
+﻿Cameroun QWERTY Clavier pour Keyman 
+par SIL Cameroun
+Vous permettre de taper dans votre langue maternelle !
+
+Bienvenue sur le clavier camerounais QWERTY pour Keyman. Cette page vous expliquera comment taper dans les langues vernaculaires du Cameroun à l'aide du clavier QWERTY du Cameroun.
+
+Le clavier camerounais QWERTY Keyboard, l'un des claviers virtuels maintenus par l'équipe Language Technology de SIL Cameroun, vous permet de saisir toutes les langues qui suivent l'Alphabet Général des Langues Camerounaises. L'Ethnologue 1 recense 279 langues vivantes au Cameroun, dont 275 sont autochtones. Pour une liste de ces langues, voir Cameroun dans l'Ethnologue.
+
+Pour profiter des caractéristiques uniques de chaque appareil, le clavier camerounais QWERTY se comporte différemment sur les claviers physiques et les écrans tactiles, veuillez choisir votre interface ci-dessous :
+
+ Clavier physique (Windows, Mac, Linux, Android et iOS avec claviers externes)
+1 Claviers physiques
+Cette section couvre les claviers virtuels pour claviers physiques, exploitant la puissance de plusieurs doigts pour taper plus facilement.
+
+2 Vue d'ensemble de la mise en page
+Ci-dessous se trouve la disposition du clavier QWERTY du Cameroun. Une fois que vous avez appris à utiliser les touches CAM et Shift, cette image peut être utilisée comme référence rapide pour trouver les caractères disponibles.
+
+
+3 Combinaisons
+
+Comme indiqué ci-dessus, chaque touche du clavier camerounais peut être utilisée pour produire plusieurs caractères (lettres).
+
+Si vous appuyez une fois sur la touche E, vous obtiendrez un "e" minuscule.
+Parfois, vous pouvez avoir besoin d'utiliser deux touches pour obtenir la lettre que vous voulez. La touche SHIFT est une touche du clavier d'ordinateur. Il est utilisé pour taper des lettres majuscules (comme ceci : "ABC") au lieu de minuscules ("abc").
+Si vous maintenez la touche Maj enfoncée et appuyez une fois sur la touche E, vous obtiendrez un "E" majuscule.
+Le clavier camerounais est spécial, et il est possible de taper d'autres caractères non imprimés sur votre clavier en utilisant la touche "CAM" (Cameroun). Sur votre clavier QWERTY Cameroun, la touche CAM est la touche point-virgule ( ;). Chaque fois que vous avez besoin de la touche CAM, appuyez simplement sur ; ;. Pour obtenir les caractères spéciaux à droite de chaque touche du graphique (comme ceci : "əɔɓ ") au lieu des caractères communs (comme "eob"), vous devez utiliser la touche CAM.
+Si vous appuyez une fois sur la touche ;, puis sur la touche E, vous obtiendrez schwa "ə".
+Si vous appuyez une fois sur la touche ;, puis maintenez Shift et tapez E, vous obtiendrez schwa majuscule "Ə". 
+En résumé, si vous regardez le tableau du clavier, vous verrez que la plupart des touches du clavier camerounais peuvent être utilisées pour produire jusqu'à quatre caractères différents de cette façon. Utilisez le tableau pour trouver les lettres dont vous avez besoin pour votre langue, et utilisez une combinaison de Shift et la touche CAM ( ;) pour les taper.
+Contrairement au français, les diacritiques camerounais (accents) sont tapés après la lettre. Par exemple, vous pouvez taper : ; e ' pour obtenir "ə̀".
+4 Détails spécifiques à la combinaison de claviers :
+Les ordinateurs achetés dans différents pays ont tendance à avoir des claviers physiques différents. Lorsque vous utilisez des claviers virtuels, il est BEAUCOUP plus facile d'apprendre le clavier si les touches sont à la même place que les lettres que vous voulez taper.
+
+Le clavier QWERTY camerounais est conçu pour les ordinateurs équipés des claviers physiques suivants :
+
+Anglais américain (QWERTY)
+Anglais britannique (QWERTY)
+Suisse romand (QWERTZ)
+Allemand (QWERTZ)
+Arabe 101 (Qwerty)
+Note : Si votre ordinateur a un clavier AZERTY ou quelque chose de similaire, pensez à retirer Cameroon QWERTY et essayez le clavier AZERTY Cameroun.
+Les touches exactes sur lesquelles vous devez appuyer peuvent varier légèrement en fonction du clavier physique de votre machine. Choisissez la disposition du clavier physique de votre ordinateur ci-dessous pour plus de détails :
+
+ Clavier anglais des États-Unis
+
+
+Traduit avec www.DeepL.com/Translator
+
+
+Bienvenue au clavier QWERTY pour Android et iOS de SIL Cameroon Language Technology !
+1 Utilisation du clavier
+Le clavier camerounais fonctionne comme la plupart des claviers Android. Appuyez sur une touche pour taper la lettre affichée. Appuyez longuement sur une touche marquée d'un point pour accéder aux caractères cachés.
+
+
+2 Touches spéciales
+Ou utilisez une clé spéciale pour accéder aux autres caractères.
+
+
+3 Passer à un autre clavier Keyman Keyboard
+Note : Si vous êtes plus familier avec la disposition d'un clavier AZERTY, pensez à passer au clavier AZERTY Cameroun.
+4 Claviers physiques
+Si vous choisissez de connecter un clavier physique (c'est-à-dire via Bluetooth ou USB) à votre appareil mobile, le clavier physique répondra comme un clavier de bureau. Voir la section Clavier physique de ce document pour les instructions et les combinaisons.
+
+Note : Si votre clavier physique utilise un clavier AZERTY (français), envisagez de passer au clavier AZERTY du Cameroun.
+5 Passage à d'autres claviers autres que ceux de Keyman
+Vous pouvez basculer entre plusieurs claviers. Sur la plupart des téléphones, le processus est :
+
+Tapez sur une zone de texte pour vous assurer que le clavier est affiché.
+Glissez du haut de l'écran vers le bas.
+Choisissez le bouton'Sélectionner le clavier'.
+Sélectionnez le clavier souhaité.
+Le Clavier du Cameroun est développé par SIL Cameroun, © 2018. Pour plus d'informations sur le clavier camerounais ou la technologie linguistique au Cameroun, voir https://langtechcameroon.info
+
+Traduit avec www.DeepL.com/Translator

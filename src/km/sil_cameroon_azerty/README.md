@@ -1,9 +1,9 @@
 Cameroon AZERTY keyboard
 =====================
 
-Copyright (C) 2017 SIL Cameroon
+Copyright (C) 2018 SIL Cameroon
 
-Version 4.0
+Version 6.0
 
 __DESCRIPTION__
 
@@ -20,6 +20,7 @@ Links
 Supported Platforms
 -------------------
  * Windows
+ * MacOS
  * Web
  * Mobile Web
  * iOS

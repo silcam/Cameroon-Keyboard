@@ -65,68 +65,14 @@
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\master\e_chart.png</Name>
-      <Description>File e_chart.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\e_tableau.png</Name>
-      <Description>File e_tableau.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\helpIcon.png</Name>
-      <Description>File helpIcon.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\ic_launcher.png</Name>
-      <Description>File ic_launcher.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\keys.png</Name>
-      <Description>File keys.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\modkeys.png</Name>
-      <Description>File modkeys.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\modkeys-fr.png</Name>
-      <Description>File modkeys-fr.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\QwertyColor.png</Name>
-      <Description>File QwertyColor.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\sil-logo-blue.png</Name>
-      <Description>File sil-logo-blue.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\..\docs\master\kb.css</Name>
-      <Description>File kb.css</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.css</FileType>
-    </File>
-    <File>
       <Name>..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</Name>
       <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>options.htm</Name>
+      <Description>File options.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>

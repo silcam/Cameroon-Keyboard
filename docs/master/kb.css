@@ -1,3 +1,4 @@
+
 .tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
     display: none;
 }
@@ -5,7 +6,6 @@
 .tab-folder > :last-child, .tab-folder > .tab-content:target {
         display: block;
     }
-
 .button {
     /*background: #8c4646;
     background: linear-gradient(to right, darkgreen 33%, darkred 33%, darkred 66%, #aaaa00 66%); */
@@ -72,12 +72,10 @@ h1 {
     border-radius: 8px;
     width: 94%;
 }
-
 .menu {
     display: block;
     width: 100%;
 }
-
 table {
     border-style: groove;
     border-color: coral;
@@ -85,7 +83,6 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
 }
-
 td {
     border-style: solid;
     border-color: lightgrey;
@@ -93,36 +90,28 @@ td {
     width: auto;
     padding: 5px;
 }
-
 object.long {
     min-height: 12000px;
     max-height: 20000px;
     overflow-y: hidden;
 }
-
 .input {
     font-size: 1.2em
 }
-
 body {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .output {
     font-size: 1.2em
 }
-
-
 .wrap-collabsible {
     /*  margin: 1.2rem; */
     margin-bottom: .5rem;
 }
-
 input[type='checkbox'] {
     display: none;
 }
-
 .lbl-toggle {
     display: block;
     font-weight: bold;
@@ -137,11 +126,9 @@ input[type='checkbox'] {
     border-radius: 7px;
     transition: all 0.25s ease-out;
 }
-
 .lbl-toggle:hover {
     color: grey;
 }
-
 .lbl-toggle::before {
     content: ' ';
     display: inline-block;
@@ -153,7 +140,6 @@ input[type='checkbox'] {
     transform: translateY(-2px);
     transition: transform .2s ease-out;
 }
-
 .lbl-toggle1 {
     display: block;
     font-weight: bold;
@@ -167,11 +153,9 @@ input[type='checkbox'] {
     border-radius: 7px;
     transition: all 0.25s ease-out;
 }
-
 .lbl-toggle1:hover {
     color: white;
 }
-
 .lbl-toggle1::before {
     content: ' ';
     display: inline-block;
@@ -183,20 +167,17 @@ input[type='checkbox'] {
     transform: translateY(-2px);
     transition: transform .2s ease-out;
 }
-
 .toggle:checked + .lbl-toggle::before {
     transform: rotate(90deg) translateX(-3px);
 }
 .toggle:checked + .lbl-toggle1::before {
     transform: rotate(90deg) translateX(-3px);
 }
-
 .collapsible-content {
     max-height: 0px;
     overflow: hidden;
     transition: max-height .25s ease-in-out;
 }
-
 .toggle:checked + .lbl-toggle + .collapsible-content {
     max-height: 200000px;
     overflow: auto;
@@ -205,20 +186,14 @@ input[type='checkbox'] {
     max-height: 200000px;
     overflow: auto;
 }
-
-
-
 .toggle:checked + .lbl-toggle {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
-
 .toggle:checked + .lbl-toggle1 {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
-
-
 .collapsible-content .content-inner {
     background: rgba(250, 224, 66, .2);
     border: 2px solid rgba(250, 224, 66, 1);

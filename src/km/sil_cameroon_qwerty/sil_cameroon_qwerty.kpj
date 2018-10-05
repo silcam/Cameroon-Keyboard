@@ -7,7 +7,7 @@
   </Options>
   <Files>
     <File>
-      <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
+      <ID>id_f17134e6ed060c7c10f88473096d59d6</ID>
       <Filename>sil_cameroon_qwerty.kmn</Filename>
       <Filepath>source\sil_cameroon_qwerty.kmn</Filepath>
       <FileVersion>6.0</FileVersion>
@@ -36,7 +36,7 @@
       <Filepath>source\Cameroon.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_672ceccda2fc367b6e757cb2731e7c90</ParentFileID>
+      <ParentFileID>id_f17134e6ed060c7c10f88473096d59d6</ParentFileID>
     </File>
     <File>
       <ID>id_49bf6d354ef76e4d33d4ebbb8e1b94e1</ID>
@@ -87,89 +87,17 @@
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_f0c18bb57d3e21daec778942b8f9b1b3</ID>
-      <Filename>e_chart.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\e_chart.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_999b9fc38075624f20ebc537becb62cd</ID>
-      <Filename>e_tableau.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\e_tableau.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_9b7c90bc29b348dbbe596a607edf8698</ID>
-      <Filename>helpIcon.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\helpIcon.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_271321748ea7abb502c653cf4943d9e8</ID>
-      <Filename>ic_launcher.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\ic_launcher.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_688d8da5f6717416929ceb7c0481df62</ID>
-      <Filename>keys.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\keys.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_65605f6b7683dcd8604ab5eb9c79bd0b</ID>
-      <Filename>modkeys.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\modkeys.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_cbec7846c01c81e9cae058a011e58045</ID>
-      <Filename>modkeys-fr.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\modkeys-fr.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_b9f5e65e9c413d050af4247e335b3bbe</ID>
-      <Filename>QwertyColor.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\QwertyColor.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_7aa3a8b5710ef3995d0e69c0aa4897b0</ID>
-      <Filename>sil-logo-blue.png</Filename>
-      <Filepath>source\..\..\..\..\docs\master\sil-logo-blue.png</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.png</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_ad7b6e37861f106302832a52de0916e1</ID>
-      <Filename>kb.css</Filename>
-      <Filepath>source\..\..\..\..\docs\master\kb.css</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.css</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
       <ID>id_9bd876ffad97f3c823184a3bbf656e86</ID>
       <Filename>welcome.htm</Filename>
       <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4cf401c0bf8ed54b6ec8e5c32e66a318</ID>
+      <Filename>options.htm</Filename>
+      <Filepath>source\options.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>

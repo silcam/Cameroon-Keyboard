@@ -21,13 +21,13 @@
             <xsl:apply-templates mode="en" select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-<!--    <xsl:template match="link[@rel='stylesheet']">
+    <xsl:template match="link[@rel='stylesheet']">
         <xsl:variable name="filename"><xsl:value-of select="@href"/></xsl:variable>
         <xsl:element name="style"><xsl:text>&#xa;</xsl:text>  
             <xsl:value-of select="unparsed-text($filename,'UTF-8')"/>
         </xsl:element>
         <xsl:text>&#xa;</xsl:text>
-    </xsl:template>-->
+    </xsl:template>
       
         <xsl:template mode="en fr" match="img/@src">
         <xsl:variable name="filename"><xsl:value-of select="self::node()"/></xsl:variable>

@@ -5,7 +5,7 @@
   <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
-      <ID>id_672ceccda2fc367b6e757cb2731e7c90</ID>
+      <ID>id_f17134e6ed060c7c10f88473096d59d6</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
@@ -53,68 +53,32 @@
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\build\sil_cameroon_qwerty.js</FullPath>
     </FileState>
     <FileState>
-      <ID>id_f0c18bb57d3e21daec778942b8f9b1b3</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\e_chart.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_999b9fc38075624f20ebc537becb62cd</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\e_tableau.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_9b7c90bc29b348dbbe596a607edf8698</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\helpIcon.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_271321748ea7abb502c653cf4943d9e8</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\ic_launcher.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_688d8da5f6717416929ceb7c0481df62</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\keys.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_65605f6b7683dcd8604ab5eb9c79bd0b</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\modkeys.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_cbec7846c01c81e9cae058a011e58045</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\modkeys-fr.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_b9f5e65e9c413d050af4247e335b3bbe</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\QwertyColor.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_7aa3a8b5710ef3995d0e69c0aa4897b0</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\sil-logo-blue.png</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_ad7b6e37861f106302832a52de0916e1</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\master\kb.css</FullPath>
-    </FileState>
-    <FileState>
       <ID>id_9bd876ffad97f3c823184a3bbf656e86</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4cf401c0bf8ed54b6ec8e5c32e66a318</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\options.htm</FullPath>
     </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>sil_cameroon_qwerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>sil_cameroon_qwerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU1</ID>
+      <ID>id_MRU2</ID>
       <Filename>welcome.htm</Filename>
       <FileType>.htm</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\..\..\..\..\docs\CamKeyHTML\welcome.htm</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
-      <Filename>sil_cameroon_qwerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU3</ID>
