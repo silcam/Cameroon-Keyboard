@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
-    version="2.0"><xsl:output method="html" version="4.0"
-        encoding="UTF-8" indent="yes" />
+    exclude-result-prefixes="xs" xmlns:saxon="http://saxon.sf.net/"
+    version="2.0"><xsl:output method="xml" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" 
+   doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" indent="yes"/>
     <xsl:strip-space elements="*"/>
     <!-- identity transform -->
     <xsl:template match="@*|node()">
@@ -11,35 +11,33 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+    <xsl:template mode="en fr" match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates mode="fr" select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
     <xsl:template mode="en" match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates mode="en" select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template mode="fr" match="@*|node()">
-        <xsl:copy>
-            <xsl:apply-templates mode="fr" select="@*|node()"/>
-        </xsl:copy>
-    </xsl:template>
 <!--    <xsl:template match="link[@rel='stylesheet']">
         <xsl:variable name="filename"><xsl:value-of select="@href"/></xsl:variable>
-        <xsl:text>&#xa;</xsl:text>
-        <xsl:element name="style">
-            <xsl:text>&#xa;</xsl:text>
+        <xsl:element name="style"><xsl:text>&#xa;</xsl:text>  
             <xsl:value-of select="unparsed-text($filename,'UTF-8')"/>
         </xsl:element>
         <xsl:text>&#xa;</xsl:text>
     </xsl:template>-->
-    <!--  xmlns:saxon="http://saxon.sf.net/"
+      
         <xsl:template mode="en fr" match="img/@src">
         <xsl:variable name="filename"><xsl:value-of select="self::node()"/></xsl:variable>
         <xsl:variable name="uri2"><xsl:value-of select="concat('file:///',translate($filename,'\','/'))"/></xsl:variable>
         <xsl:variable name="uri"><xsl:value-of select="resolve-uri($filename)"/></xsl:variable>
         <xsl:attribute name="src"><xsl:text>data:image/png;base64,</xsl:text><xsl:value-of select="saxon:read-binary-resource($uri)"/></xsl:attribute>      
-    </xsl:template>-->
+    </xsl:template>
     <xsl:template match="body">
         <xsl:copy>
-            <div class="tab-folder" width="100%">
+            <div class="tab-folder">
                 <xsl:comment>Starting French</xsl:comment>
                 <div id="fr" class="tab-content">
                     <a class="buttonlang" href="#en">View this page in English...</a>
@@ -72,6 +70,6 @@
     </xsl:template>
     <xsl:template mode="en" match="*[contains(@xml:lang, 'fr')]"/>
     <xsl:template mode="fr" match="*[contains(@xml:lang, 'en')]"/>
-    <xsl:template mode="en"  match="*[contains(@class, 'az')]"/>
+    <xsl:template mode="en" match="*[contains(@class, 'az')]"/>
     <xsl:template mode="fr" match="*[contains(@class, 'az')]"/>
 </xsl:stylesheet>
