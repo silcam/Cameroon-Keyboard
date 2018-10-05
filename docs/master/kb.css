@@ -1,3 +1,13 @@
+ .tab-folder > .tab-content:target ~ .tab-content:last-child, .tab-folder > .tab-content {
+            display: none;
+        }
+
+.tab-folder > :last-child, .tab-folder > .tab-content:target {
+                display: block;
+            }
+.buttonlang b> :last-child, .tab-folder > .tab-content:target {
+                backgroud: grey;
+            }
  .button {
             /*background: #8c4646;
             background: linear-gradient(to right, darkgreen 33%, darkred 33%, darkred 66%, #aaaa00 66%); */
@@ -42,11 +52,14 @@
         h1 {
             text-align: center;
         }
-        
-        .buttonkb {
+        .tagline {
+            text-align: center;
+            font-style: italic;
+        }
+        .buttonlang {
             /*background: #8c4646;
             background: linear-gradient(to right, darkgreen 33%, darkred 33%, darkred 66%, #aaaa00 66%); */
-            background-color: coral; /*Green*/
+            background-color: pink; /*Green*/
             border: none;
             color: black;
             padding: 5px;
@@ -54,11 +67,12 @@
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 800;
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 8px;
+            width: 94%;
         }
 
         .menu {
@@ -103,7 +117,8 @@
 
 
         .wrap-collabsible {
-            margin-bottom: 1.2rem;
+            /*  margin: 1.2rem; */
+            margin-bottom: .5rem;
         }
 
         input[type='checkbox'] {
