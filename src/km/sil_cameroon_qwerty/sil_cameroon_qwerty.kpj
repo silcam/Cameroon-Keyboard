@@ -87,59 +87,83 @@
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_a0a993d7b28d5f79c5c66d2004b6b252</ID>
-      <Filename>sil_cameroon_qwerty.kvk</Filename>
-      <Filepath>source\build\sil_cameroon_qwerty.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
-    </File>
-    <File>
-      <ID>id_12c92887323cd0134426a34f45b8a3cb</ID>
+      <ID>id_f0c18bb57d3e21daec778942b8f9b1b3</ID>
       <Filename>e_chart.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\e_chart.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\e_chart.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_835145f4f266f414099843f4d857faf9</ID>
+      <ID>id_999b9fc38075624f20ebc537becb62cd</ID>
+      <Filename>e_tableau.png</Filename>
+      <Filepath>source\..\..\..\..\docs\master\e_tableau.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_9b7c90bc29b348dbbe596a607edf8698</ID>
+      <Filename>helpIcon.png</Filename>
+      <Filepath>source\..\..\..\..\docs\master\helpIcon.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_271321748ea7abb502c653cf4943d9e8</ID>
       <Filename>ic_launcher.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\ic_launcher.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\ic_launcher.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_b3dbe42cddb0facd06865ea83e3dcccd</ID>
+      <ID>id_688d8da5f6717416929ceb7c0481df62</ID>
       <Filename>keys.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\keys.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\keys.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_e0ee6e041a457103d70f4994e6a0ae8a</ID>
+      <ID>id_65605f6b7683dcd8604ab5eb9c79bd0b</ID>
       <Filename>modkeys.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\modkeys.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\modkeys.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_dce261807e1adb547d9c6ea3421355c1</ID>
+      <ID>id_cbec7846c01c81e9cae058a011e58045</ID>
+      <Filename>modkeys-fr.png</Filename>
+      <Filepath>source\..\..\..\..\docs\master\modkeys-fr.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_b9f5e65e9c413d050af4247e335b3bbe</ID>
       <Filename>QwertyColor.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\QwertyColor.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\QwertyColor.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_e067de2ebcf0407558d70a4a17308d45</ID>
+      <ID>id_7aa3a8b5710ef3995d0e69c0aa4897b0</ID>
       <Filename>sil-logo-blue.png</Filename>
-      <Filepath>source\..\..\..\..\docs\sil_cameroon_qwerty\sil-logo-blue.png</Filepath>
+      <Filepath>source\..\..\..\..\docs\master\sil-logo-blue.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ad7b6e37861f106302832a52de0916e1</ID>
+      <Filename>kb.css</Filename>
+      <Filepath>source\..\..\..\..\docs\master\kb.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>

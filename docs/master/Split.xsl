@@ -21,26 +21,34 @@
             <xsl:apply-templates mode="fr" select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <!--<xsl:template match="link[@rel='stylesheet']">
+<!--    <xsl:template match="link[@rel='stylesheet']">
         <xsl:variable name="filename"><xsl:value-of select="@href"/></xsl:variable>
-        <xsl:variable name="importfile" select="document($filename)"/>
-        <xsl:element name="style"><xsl:copy-of select="$importfile"/></xsl:element>
+        <xsl:text>&#xa;</xsl:text>
+        <xsl:element name="style">
+            <xsl:text>&#xa;</xsl:text>
+            <xsl:value-of select="unparsed-text($filename,'UTF-8')"/>
+        </xsl:element>
+        <xsl:text>&#xa;</xsl:text>
+    </xsl:template>-->
+    <!--  xmlns:saxon="http://saxon.sf.net/"
+        <xsl:template mode="en fr" match="img/@src">
+        <xsl:variable name="filename"><xsl:value-of select="self::node()"/></xsl:variable>
+        <xsl:variable name="uri2"><xsl:value-of select="concat('file:///',translate($filename,'\','/'))"/></xsl:variable>
+        <xsl:variable name="uri"><xsl:value-of select="resolve-uri($filename)"/></xsl:variable>
+        <xsl:attribute name="src"><xsl:text>data:image/png;base64,</xsl:text><xsl:value-of select="saxon:read-binary-resource($uri)"/></xsl:attribute>      
     </xsl:template>-->
     <xsl:template match="body">
-        <!-- <div id="menu">
-            <a class="buttonlang" href="#en">English</a> <a class="buttonlang" href="#fr">Français</a>
-        </div> -->
         <xsl:copy>
             <div class="tab-folder" width="100%">
                 <xsl:comment>Starting French</xsl:comment>
                 <div id="fr" class="tab-content">
-                    <a class="buttonlang" href="#en">View this page in English</a>
+                    <a class="buttonlang" href="#en">View this page in English...</a>
                     <xsl:apply-templates mode="fr" select="node()"/>
                 </div>
                 <xsl:comment>Ending French</xsl:comment>
                 <xsl:comment>Starting English</xsl:comment>
                 <div id="en" class="tab-content">
-                    <a class="buttonlang" href="#fr"> Voir cette page en Français</a>
+                    <a class="buttonlang" href="#fr"> Voir cette page en Français...</a>
                     <xsl:apply-templates mode="en" select="node()"/>
                 </div>
                 <xsl:comment>Ending English</xsl:comment>
