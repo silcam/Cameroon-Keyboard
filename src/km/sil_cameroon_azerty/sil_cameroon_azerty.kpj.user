@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state></state>
   <FileStates>
     <FileState>
       <ID>id_7e4ccd3c0cca3c929d1a669d32ce537b</ID>
@@ -56,57 +56,57 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>sil_cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
+      <Filename>sil-logo-blue.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\sil-logo-blue.png</FullPath>
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>sil_cameroon_qwerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\sil_cameroon_qwerty.kmn</FullPath>
+      <Filename>QwertyColor.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\QwertyColor.png</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
-      <Filename>sil_cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
+      <Filename>modkeys-fr.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\modkeys-fr.png</FullPath>
     </File>
     <File>
       <ID>id_MRU3</ID>
-      <Filename>FUBRSAZ.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBRSAZ.kmn</FullPath>
+      <Filename>modkeys.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\modkeys.png</FullPath>
     </File>
     <File>
       <ID>id_MRU4</ID>
-      <Filename>FUBHAUASQW.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.kmn</FullPath>
+      <Filename>keys.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\keys.png</FullPath>
     </File>
     <File>
       <ID>id_MRU5</ID>
-      <Filename>FUBHAUASAZ.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.kmn</FullPath>
+      <Filename>icon.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\icon.png</FullPath>
     </File>
     <File>
       <ID>id_MRU6</ID>
-      <Filename>sil_cameroon_qwerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\sil_cameroon_qwerty.kmn</FullPath>
+      <Filename>ic_launcher.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\ic_launcher.png</FullPath>
     </File>
     <File>
       <ID>id_MRU7</ID>
-      <Filename>FUBHAUASAZ.klc.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASAZ.klc.kmn</FullPath>
+      <Filename>helpIcon.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\helpIcon.png</FullPath>
     </File>
     <File>
       <ID>id_MRU8</ID>
-      <Filename>FUBHAUASQW.klc.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>D:\Github\ParseKB\ParseKB\outputs\FUBHAUASQW.klc.kmn</FullPath>
+      <Filename>e_tableau.png</Filename>
+      <FileType>.png</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_qwerty\source\welcome\images\e_tableau.png</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>

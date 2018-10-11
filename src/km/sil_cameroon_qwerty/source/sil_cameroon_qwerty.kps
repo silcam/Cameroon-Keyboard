@@ -35,7 +35,7 @@
       <FileType>.css</FileType>
     </File>
     <File>
-      <Name>Fonts\ANDIKAAFR-R.TTF</Name>
+      <Name>fonts\ANDIKAAFR-R.TTF</Name>
       <Description>Font Andika Afr</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.TTF</FileType>
@@ -65,16 +65,70 @@
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>..\..\..\..\docs\sil_cameroon_qwerty\welcome.htm</Name>
+      <Name>welcome\welcome.htm</Name>
       <Description>File welcome.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>options.htm</Name>
-      <Description>File options.htm</Description>
+      <Name>welcome\images\e_chart.png</Name>
+      <Description>File e_chart.png</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\e_tableau.png</Name>
+      <Description>File e_tableau.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\helpIcon.png</Name>
+      <Description>File helpIcon.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\ic_launcher.png</Name>
+      <Description>File ic_launcher.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\icon.png</Name>
+      <Description>File icon.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\keys.png</Name>
+      <Description>File keys.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\modkeys.png</Name>
+      <Description>File modkeys.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\modkeys-fr.png</Name>
+      <Description>File modkeys-fr.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\QwertyColor.png</Name>
+      <Description>File QwertyColor.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\images\sil-logo-blue.png</Name>
+      <Description>File sil-logo-blue.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
     </File>
   </Files>
   <Keyboards>
@@ -82,8 +136,8 @@
       <Name>Cameroon QWERTY</Name>
       <ID>sil_cameroon_qwerty</ID>
       <Version>6.0</Version>
-      <OSKFont>Fonts\ANDIKAAFR-R.TTF</OSKFont>
-      <DisplayFont>Fonts\ANDIKAAFR-R.TTF</DisplayFont>
+      <OSKFont>fonts\ANDIKAAFR-R.TTF</OSKFont>
+      <DisplayFont>fonts\ANDIKAAFR-R.TTF</DisplayFont>
       <Languages>
         <Language ID="aal-Latn">Afade (Latin)</Language>
         <Language ID="agq-Latn">Aghem</Language>
