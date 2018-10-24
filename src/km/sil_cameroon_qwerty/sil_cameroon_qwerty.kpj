@@ -25,7 +25,7 @@
       <FileVersion>6.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
-        <Name>Cameroon Qwerty</Name>
+        <Name>Cameroon QWERTY</Name>
         <Copyright>©2018 SIL Cameroon</Copyright>
         <Version>6.0</Version>
       </Details>
@@ -95,83 +95,91 @@
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_d496d1c0c7fb196e7caf43742667e10e</ID>
+      <ID>id_dca003c60033cf174a321bce60ff3e11</ID>
       <Filename>e_chart.png</Filename>
-      <Filepath>source\welcome\images\e_chart.png</Filepath>
+      <Filepath>source\welcome\e_chart.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_73fb3212eac6648789dbc8c52e0cb280</ID>
+      <ID>id_a31d7745b7718c708defc9fbdc43b906</ID>
       <Filename>e_tableau.png</Filename>
-      <Filepath>source\welcome\images\e_tableau.png</Filepath>
+      <Filepath>source\welcome\e_tableau.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_57f87ab1fff820049244764ec1e8a68c</ID>
+      <ID>id_5cd65246521c0c8b232f25522d22c2d8</ID>
       <Filename>helpIcon.png</Filename>
-      <Filepath>source\welcome\images\helpIcon.png</Filepath>
+      <Filepath>source\welcome\helpIcon.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_31eb8f68f0086880ae9cd1c235f55bbc</ID>
+      <ID>id_2f777b28cc885d52a3aef430e832a370</ID>
       <Filename>ic_launcher.png</Filename>
-      <Filepath>source\welcome\images\ic_launcher.png</Filepath>
+      <Filepath>source\welcome\ic_launcher.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_31818a305022c7258c185169e33c0042</ID>
+      <ID>id_428c9522e7a664fc62c6f3529a9aa043</ID>
       <Filename>icon.png</Filename>
-      <Filepath>source\welcome\images\icon.png</Filepath>
+      <Filepath>source\welcome\icon.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_bdea8317b985d78bbc4de136ecb8b1d6</ID>
+      <ID>id_3a013fc315d7e1edd76c462dc66078ee</ID>
       <Filename>keys.png</Filename>
-      <Filepath>source\welcome\images\keys.png</Filepath>
+      <Filepath>source\welcome\keys.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_c6e7b0a3f83015d35c76d73314a8f9f3</ID>
+      <ID>id_6f0c902e6701c56d4e1799565ab17fa2</ID>
       <Filename>modkeys.png</Filename>
-      <Filepath>source\welcome\images\modkeys.png</Filepath>
+      <Filepath>source\welcome\modkeys.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_b15c45338766fd149dfb9a42c3162ea5</ID>
+      <ID>id_80c2ceb250d223eafbe7b56262221637</ID>
       <Filename>modkeys-fr.png</Filename>
-      <Filepath>source\welcome\images\modkeys-fr.png</Filepath>
+      <Filepath>source\welcome\modkeys-fr.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_a63ebadb1cc0c5eb679d67901c1c8089</ID>
+      <ID>id_5a41d58b7d1434a96a19193d051cfc5f</ID>
       <Filename>QwertyColor.png</Filename>
-      <Filepath>source\welcome\images\QwertyColor.png</Filepath>
+      <Filepath>source\welcome\QwertyColor.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
     <File>
-      <ID>id_926f081e535f176f512de209e9f4e856</ID>
+      <ID>id_d685ce16353596343a8c05d0de3e16c6</ID>
       <Filename>sil-logo-blue.png</Filename>
-      <Filepath>source\welcome\images\sil-logo-blue.png</Filepath>
+      <Filepath>source\welcome\sil-logo-blue.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
+      <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
+    </File>
+    <File>
+      <ID>id_805bbe38704ce6439444b7c6639f1765</ID>
+      <Filename>kb.css</Filename>
+      <Filepath>source\welcome\kb.css</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.css</FileType>
       <ParentFileID>id_0b00795022c6bcede6fb8a622b079736</ParentFileID>
     </File>
   </Files>

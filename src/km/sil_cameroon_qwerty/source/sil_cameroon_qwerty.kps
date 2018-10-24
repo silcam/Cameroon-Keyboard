@@ -15,7 +15,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Cameroon Qwerty</Name>
+    <Name URL="">Cameroon QWERTY</Name>
     <Version URL="">6.0</Version>
     <Copyright URL="">©2018 SIL Cameroon</Copyright>
     <Author URL="mailto:keyboards_cameroon@sil.org">Matthew Lee</Author>
@@ -71,64 +71,70 @@
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>welcome\images\e_chart.png</Name>
+      <Name>welcome\e_chart.png</Name>
       <Description>File e_chart.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\e_tableau.png</Name>
+      <Name>welcome\e_tableau.png</Name>
       <Description>File e_tableau.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\helpIcon.png</Name>
+      <Name>welcome\helpIcon.png</Name>
       <Description>File helpIcon.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\ic_launcher.png</Name>
+      <Name>welcome\ic_launcher.png</Name>
       <Description>File ic_launcher.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\icon.png</Name>
+      <Name>welcome\icon.png</Name>
       <Description>File icon.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\keys.png</Name>
+      <Name>welcome\keys.png</Name>
       <Description>File keys.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\modkeys.png</Name>
+      <Name>welcome\modkeys.png</Name>
       <Description>File modkeys.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\modkeys-fr.png</Name>
+      <Name>welcome\modkeys-fr.png</Name>
       <Description>File modkeys-fr.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\QwertyColor.png</Name>
+      <Name>welcome\QwertyColor.png</Name>
       <Description>File QwertyColor.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\images\sil-logo-blue.png</Name>
+      <Name>welcome\sil-logo-blue.png</Name>
       <Description>File sil-logo-blue.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\kb.css</Name>
+      <Description>File kb.css</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.css</FileType>
     </File>
   </Files>
   <Keyboards>
