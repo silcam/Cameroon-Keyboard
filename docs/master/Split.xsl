@@ -21,12 +21,15 @@
     <xsl:template mode="en" match="@*">
         <xsl:copy/>
     </xsl:template>
-<!--    <xsl:template mode="en" match="text()" >
-        <xsl:value-of select="normalize-space(.)" />
+    <xsl:template match="text()" >
+        <xsl:value-of select="replace(., '  +', ' ')"/>
+    </xsl:template>
+    <xsl:template mode="en" match="text()" >
+        <xsl:value-of select="replace(., '  +', ' ')"/>
     </xsl:template>
     <xsl:template mode="fr" match="text()" >
-        <xsl:value-of select="normalize-space(.)" />
-    </xsl:template>-->
+        <xsl:value-of select="replace(., '  +', ' ')"/>
+    </xsl:template>
     
     
     
@@ -64,6 +67,32 @@
             </div>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="p|tr|ol|ul|li">
+        <xsl:text>&#xa;</xsl:text>
+        <xsl:copy>            
+            <xsl:apply-templates select="@*|node()|text()"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template mode="fr" match="p|tr|ol|ul|li">
+        <xsl:if test=".[not(contains(@xml:lang, 'en'))]|.[not(@xml:lang)]">
+            <xsl:if test="not(contains(@class,$filterkb))">
+                 <xsl:text>&#xa;</xsl:text>
+                 <xsl:copy>            
+                     <xsl:apply-templates mode="fr" select="@*|node()|text()"/>
+                 </xsl:copy>
+             </xsl:if>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template mode="en" match="p|tr|ol|ul|li">
+        <xsl:if test=".[not(contains(@xml:lang, 'fr'))]|.[not(@xml:lang)]">
+            <xsl:if test="not(contains(@class,$filterkb))">
+                <xsl:text>&#xa;</xsl:text>
+                <xsl:copy>            
+                    <xsl:apply-templates mode="en" select="@*|node()|text()"/>
+                </xsl:copy>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
     <xsl:template match="object">
         <xsl:variable name="filename"><xsl:value-of select="@data"/></xsl:variable>
         <xsl:variable name="importfile" select="document($filename)/html/body/child::*"/>
@@ -79,34 +108,37 @@
         <xsl:variable name="importfile" select="document($filename)/html/body/child::*"/>
         <xsl:copy-of select="$importfile"/>
     </xsl:template>
-<!--    <xsl:template mode="en" match="*[contains(@xml:lang, 'fr')]"/>
-    <xsl:template mode="fr" match="*[contains(@xml:lang, 'en')]"/>-->
-    
     <xsl:template mode="en" match="node()">
         <xsl:if test=".[not(contains(@xml:lang, 'fr'))]|.[not(@xml:lang)]">
             <xsl:if test="not(contains(@class,$filterkb))">
-                <xsl:copy>            
-                    <xsl:apply-templates mode="en" select="@*|node()|text()"/>
-                </xsl:copy>
+                <xsl:choose>
+                    <xsl:when test="self::text()">
+                        <xsl:value-of select="replace(., '  +|&#xa;|&#xd;', ' ')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:copy>            
+                            <xsl:apply-templates mode="en" select="@*|node()|text()"/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:if>
- <!--           <xsl:if test="not($filterkb='qw')">
-                <xsl:copy>            
-                    <xsl:apply-templates mode="en" select="@*|node()|text()"/>
-                </xsl:copy>
-            </xsl:if>-->
+
         </xsl:if>
     </xsl:template>
     <xsl:template mode="fr" match="node()">
         <xsl:if test=".[not(contains(@xml:lang, 'en'))]|.[not(@xml:lang)]">
             <xsl:if test="not(contains(@class,$filterkb))">
-                <xsl:copy>            
-                    <xsl:apply-templates mode="fr" select="@*|node()|text()"/>
-                </xsl:copy>
+                <xsl:choose>
+                    <xsl:when test="self::text()">
+                        <xsl:value-of select="replace(., '  +|&#xa;|&#xd;', ' ')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:copy>            
+                            <xsl:apply-templates mode="fr" select="@*|node()|text()"/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:if>
-<!--            <xsl:if test="not($filterkb='qw')">                <xsl:copy>            
-                    <xsl:apply-templates mode="fr" select="@*|node()|text()"/>
-                </xsl:copy>
-            </xsl:if>-->
         </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
