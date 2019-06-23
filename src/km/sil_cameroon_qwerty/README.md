@@ -3,7 +3,7 @@
 
 Copyright (C) 2018 SIL Cameroon
 
-Version 6.0
+Version 6.0.1
 
 __DESCRIPTION__
 
@@ -13,8 +13,8 @@ a touch layout for Android and iOS devices.
 Links
 -----
 
- * Home:     <https://github.com/keymanapp/keyboards/sil_cameroon_qwerty>
- * Help:     <https://LangTechCameroon.info>
+ * Help:     <http://help.keyman.com/keyboard/sil_cameroon_qwerty>
+ * More info:     <https://LangTechCameroon.info>
  * Contact:  <keyboards_cameroon@sil.org>
 
 Supported Platforms

@@ -2234,9 +2234,9 @@
       }
     }
   },
-  "description": "This keyboard supports the Standardized Alphabet for Cameroonian Languages for a QWERTY (US Keyboard)",
+  "description": "This keyboard supports the General Alphabet of Cameroonian Languages for an AZERTY (French) Keyboard.",
   "authorName": "Matthew Lee",
   "related": {
-    "cameroonqwertyunicode50": { "deprecates": true }
+    "cameroonazertyunicode50": { "deprecates": true }
   }
 }

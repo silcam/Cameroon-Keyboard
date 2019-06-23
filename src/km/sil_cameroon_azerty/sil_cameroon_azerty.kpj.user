@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;0&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state></state>
   <FileStates>
     <FileState>
       <ID>id_7e4ccd3c0cca3c929d1a669d32ce537b</ID>
@@ -29,28 +29,8 @@
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\Cameroon.ico</FullPath>
     </FileState>
     <FileState>
-      <ID>id_743edf0a1bbf3a56ce317a1724ed81b1</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\build\sil_cameroon_azerty.kvk</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_eb1dcfe46cdfbb8ab47237575798b1ea</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\build\sil_cameroon_azerty.kmx</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_0b66a522e87bc35e6746e31638074912</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\fonts\ANDIKAAFR-R.TTF</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_a68a4dc47ab4e01a56cd3e9dc9ddb682</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\fonts\AndikaAfr-R.woff</FullPath>
-    </FileState>
-    <FileState>
       <ID>id_48e3c918d804bfd60a0122dff7f72434</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\splash.bmp</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_f34fdb17d14c97b041e6cb6f38016405</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\build\sil_cameroon_azerty.js</FullPath>
     </FileState>
     <FileState>
       <ID>id_3a09adb805a01cdaedeb4b0023cd9328</ID>
@@ -89,10 +69,6 @@
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\modkeys-fr.png</FullPath>
     </FileState>
     <FileState>
-      <ID>id_5a41d58b7d1434a96a19193d051cfc5f</ID>
-      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\QwertyColor.png</FullPath>
-    </FileState>
-    <FileState>
       <ID>id_d685ce16353596343a8c05d0de3e16c6</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\sil-logo-blue.png</FullPath>
     </FileState>
@@ -104,10 +80,36 @@
       <ID>id_805bbe38704ce6439444b7c6639f1765</ID>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\kb.css</FullPath>
     </FileState>
+    <FileState>
+      <ID>id_57abeb2ba302a9cc594546e7beb7ea7e</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\..\build\sil_cameroon_azerty.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ab55f6df43662c59c51ad81ab6602962</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\..\build\sil_cameroon_azerty.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_421613c9e90d003b354f7d4581abc2ac</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\..\build\sil_cameroon_azerty.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_22991952220099cb73bf45c8d83503b8</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\globe.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0b66a522e87bc35e6746e31638074912</ID>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\fonts\AndikaAfr-R.ttf</FullPath>
+    </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>sil_cameroon_azerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>sil_cameroon_azerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>D:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>

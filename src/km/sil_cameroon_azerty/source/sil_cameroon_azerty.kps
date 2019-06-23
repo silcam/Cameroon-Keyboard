@@ -9,6 +9,7 @@
     <GraphicFile>splash.bmp</GraphicFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
   </Options>
   <StartMenu>
     <Folder></Folder>
@@ -23,30 +24,6 @@
   </Info>
   <Files>
     <File>
-      <Name>build\sil_cameroon_azerty.kvk</Name>
-      <Description>File sil_cameroon_azerty.kvk</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kvk</FileType>
-    </File>
-    <File>
-      <Name>build\sil_cameroon_azerty.kmx</Name>
-      <Description>Keyboard Cameroon AZERTY</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kmx</FileType>
-    </File>
-    <File>
-      <Name>fonts\ANDIKAAFR-R.TTF</Name>
-      <Description>Font Andika Afr</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.TTF</FileType>
-    </File>
-    <File>
-      <Name>fonts\AndikaAfr-R.woff</Name>
-      <Description>File AndikaAfr-R.woff</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.woff</FileType>
-    </File>
-    <File>
       <Name>Cameroon.ico</Name>
       <Description>File Cameroon.ico</Description>
       <CopyLocation>0</CopyLocation>
@@ -57,12 +34,6 @@
       <Description>File splash.bmp</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.bmp</FileType>
-    </File>
-    <File>
-      <Name>build\sil_cameroon_azerty.js</Name>
-      <Description>File sil_cameroon_azerty.js</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.js</FileType>
     </File>
     <File>
       <Name>welcome\AzertyColor.png</Name>
@@ -119,12 +90,6 @@
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>welcome\QwertyColor.png</Name>
-      <Description>File QwertyColor.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
       <Name>welcome\sil-logo-blue.png</Name>
       <Description>File sil-logo-blue.png</Description>
       <CopyLocation>0</CopyLocation>
@@ -142,22 +107,51 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.css</FileType>
     </File>
+    <File>
+      <Name>..\build\sil_cameroon_azerty.js</Name>
+      <Description>File sil_cameroon_azerty.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\sil_cameroon_azerty.kvk</Name>
+      <Description>File sil_cameroon_azerty.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\sil_cameroon_azerty.kmx</Name>
+      <Description>Keyboard Cameroon AZERTY</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>welcome\globe.png</Name>
+      <Description>File globe.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>fonts\AndikaAfr-R.ttf</Name>
+      <Description>Font Andika Afr</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Cameroon AZERTY</Name>
       <ID>sil_cameroon_azerty</ID>
       <Version>6.0</Version>
-      <OSKFont>fonts\ANDIKAAFR-R.TTF</OSKFont>
-      <DisplayFont>fonts\ANDIKAAFR-R.TTF</DisplayFont>
+      <OSKFont>fonts\AndikaAfr-R.ttf</OSKFont>
+      <DisplayFont>fonts\AndikaAfr-R.ttf</DisplayFont>
       <Languages>
-        <Language ID="aal-Latn">Afade (Latin)</Language>
+        <Language ID="aal-Latn">Afade</Language>
         <Language ID="agq-Latn">Aghem</Language>
         <Language ID="muc-Latn">Ajumbu</Language>
         <Language ID="bss-Latn">Akoose</Language>
         <Language ID="aku-Latn">Akum</Language>
         <Language ID="ael-Latn">Ambele</Language>
-        <Language ID="shu-Latn">Arabic, Shuwa</Language>
         <Language ID="ato-Latn">Atong</Language>
         <Language ID="azo-Latn">Awing</Language>
         <Language ID="bbk-Latn">Babanki</Language>
@@ -227,7 +221,6 @@
         <Language ID="etu-Latn">Ejagham</Language>
         <Language ID="ekm-Latn">Elip</Language>
         <Language ID="emn-Latn">Eman</Language>
-        <Language ID="en-Latn">English</Language>
         <Language ID="ags-Latn">Esimbi</Language>
         <Language ID="eto-Latn">Eton</Language>
         <Language ID="bzz-Latn">Evant</Language>
@@ -237,7 +230,6 @@
         <Language ID="fak-Latn">Fang</Language>
         <Language ID="fan-Latn">Fang</Language>
         <Language ID="fmp-Latn">Fe’fe’</Language>
-        <Language ID="fr-Latn">French</Language>
         <Language ID="fub-Latn">Fulfulde, Adamawa</Language>
         <Language ID="fuv-Latn">Fulfulde, Mbororo</Language>
         <Language ID="gou-Latn">Gavar</Language>
@@ -253,7 +245,6 @@
         <Language ID="gde-Latn">Gude</Language>
         <Language ID="ngs-Latn">Gvoko</Language>
         <Language ID="gyi-Latn">Gyele</Language>
-        <Language ID="ha-Latn">Hausa</Language>
         <Language ID="xed-Latn">Hdi</Language>
         <Language ID="hij-Latn">Hijuk</Language>
         <Language ID="hya-Latn">Hya</Language>

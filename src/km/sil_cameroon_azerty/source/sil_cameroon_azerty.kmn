@@ -1,18 +1,13 @@
-﻿c store(&VERSION) '10.0'
-store(&NAME) 'Cameroon AZERTY'
-c store(&WINDOWSLANGUAGES) 'x0456'
-c store(&LANGUAGE) 'x0456'
+﻿store(&NAME) 'Cameroon AZERTY'
 store(&COPYRIGHT) 'SIL Cameroon 2018'
 store(&BITMAP) 'Cameroon.ico'
-store(&MESSAGE) 'Use ! to access special characters.'
-store(&LAYOUTFILE) 'sil_cameroon_azerty-layout.js'
+store(&MESSAGE) 'Use ! or AltGr to access special characters.'
+store(&LAYOUTFILE) 'sil_cameroon_azerty.keyman-touch-layout'
 store(&KEYBOARDVERSION) '6.0'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'sil_cameroon_azerty.kvks'
-c baselayout('en-us')
-c store(&ETHNOLOGUECODE) 'fre'
 store(&KMW_EMBEDCSS) 'sil_cameroon_azerty.css'
-c store(&KMW_RTL) '1'
+store(&KMW_HELPTEXT) 'Use the Cameroon key to access special characters.'
 
 begin Unicode > use(main)
 
