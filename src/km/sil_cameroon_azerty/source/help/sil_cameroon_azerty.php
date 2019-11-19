@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
-PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<?php
+$pagename = 'Cameroon AZERTY (SIL) Keyboard Help';
+$pagetitle = 'Cameroon AZERTY (SIL) Keyboard Help';
+require_once('header.php');
+?>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>Cameroon Keyboard Help</title>
-<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-name="viewport"/>
-<link rel="stylesheet" href="kb.css"/>
-<link rel="icon" href="Cameroon.ico"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport"/>
+	<link rel="stylesheet" href="kb.css"/><link rel="icon" href="Cameroon.ico"/>
 </head>
 <body>
 <div class="tab-folder"><!--Starting French-->
@@ -28433,4 +28432,3 @@ select the hotkey name, and either change the hotkey or turn it off.
 <!--Ending English-->
 </div>
 </body>
-</html>

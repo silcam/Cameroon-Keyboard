@@ -1,5 +1,8 @@
 Change History
 =======================
+6.0.1 (2019)
+-----------------
+Updating Documentation and screenshots, Upgrade to Keyman 12
 
 6.0 (2018)
 -----------------
@@ -7,7 +10,7 @@ Rewrote Documentation, Enabled external Keyboards with Mobile Clients. Submitted
 
 5.0 (Unreleased)
 -----------------
-Optimization of Mobile Keyboards for Keyman 10.
+Optimization of Mobile Keyboards for Keyman 10.
 
 4.0 (2017)
 -----------------

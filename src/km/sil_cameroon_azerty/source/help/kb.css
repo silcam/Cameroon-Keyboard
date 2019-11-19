@@ -6,6 +6,7 @@
 .tab-folder > :last-child, .tab-folder > .tab-content:target {
         display: block;
     }
+
 .right {
     float: right;
 }
