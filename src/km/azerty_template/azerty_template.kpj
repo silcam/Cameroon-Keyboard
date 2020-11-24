@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath></BuildPath>
+    <CompilerWarningsAsErrors>False</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_784cbf88ba88249696529a0d971227a8</ID>
+      <Filename>azerty_template.kmn</Filename>
+      <Filepath>source\azerty_template.kmn</Filepath>
+      <FileVersion>6.0.1</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>AZERTY Template</Name>
+        <Copyright>(c) SIL Cameroon 2018-2019</Copyright>
+        <Message>Use ! or AltGr to access special characters.</Message>
+      </Details>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
