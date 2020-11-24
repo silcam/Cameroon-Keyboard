@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>1</tab>
+    <tab>3</tab>
     <showhelp>1</showhelp>
     <path>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\sil_cameroon_azerty.kpj</path>
     <file ID="id_7e4ccd3c0cca3c929d1a669d32ce537b" Expanded="1"/>
@@ -99,15 +99,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>sil_cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>sil_cameroon_azerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>sil_cameroon_azerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
