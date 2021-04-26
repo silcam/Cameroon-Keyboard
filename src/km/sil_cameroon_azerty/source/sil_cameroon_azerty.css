@@ -1,12 +1,17 @@
-/***
+/*
    Cameroon AZERTY CSS
    Copyright 2020 SIL International
-***/
+*/
 
-  /*CamKey*/
+/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399*/
+.kmw-keyboard-sil_cameroon_azerty .kmw-key span,
+.kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key span,
+.kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key span  { line-height: 1;}
+
+  /* CamKey */
 .android .kmw-keyboard-sil_cameroon_azerty #default-T_CAM,
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #default-T_CAM,
-.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #default-T_CAM'
+.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #default-T_CAM,
 .android .kmw-keyboard-sil_cameroon_azerty #shift-T_CAM,
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #shift-T_CAM,
 .android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #shift-T_CAM {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
@@ -18,16 +23,6 @@
 .osk .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
 .desktop .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
         
-
-/* Common key appearance styles (can override with form-factor styles if necessary) */
-.kmw-key-default {color:#000;background-color:#eee;} 
-.kmw-key-shift{color:#aaa;background-color:#ddd;}     /*color was #88f (blue) */
-.kmw-key-shift-on{color:#88f;background-color:#ccf;}
-/* .kmw-key-deadkey{color:#0d0;background-color:#eee;}  */
-/* .kmw-key-deadkey{background: #8c4646; color:#0F0; background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} */
-.kmw-key-blank{color:#000;background-color:rgba(100,100,100,0.5);}
-.kmw-key-hidden{visibility:hidden;}
-.kmw-key-touched{background-color:#88f;} 
 
 /* Green Diacritics on web */
 .desktop .kmw-keyboard-sil_cameroon_azerty #default-K_QUOTE,
@@ -47,7 +42,7 @@
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_RBRKT,
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_6 { background: #598059; background: linear-gradient(#ffffff, #598059); }
 
-/* Green Diacritics on iOS */
+/* Green Diacritics on iOS, Default and light. */
 .ios .kmw-keyboard-sil_cameroon_azerty #default-T_0300,
 .ios .kmw-keyboard-sil_cameroon_azerty #default-T_0304,
 .ios .kmw-keyboard-sil_cameroon_azerty #default-T_0301,
@@ -62,6 +57,10 @@
 .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_1DC4,
 .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_030D,
 .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_0330 { background: #598059; background: linear-gradient(#ffffff, #598059); }
+.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on{background-color: #4f11f8;background-color:#88f;}
 
 @media (prefers-color-scheme: dark) {
   .ios .kmw-keyboard-sil_cameroon_azerty #default-T_0300,
@@ -78,6 +77,10 @@
   .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_1DC4,
   .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_030D,
   .ios .kmw-keyboard-sil_cameroon_azerty #shift-T_0330 { background: #598059; background: linear-gradient(#3d3d3e, #598059); }
+.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+  .tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+  .phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+  .tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on{color: #4f11f8;background-color:#88f;}
 }
 
 
@@ -96,7 +99,10 @@
 .android .kmw-keyboard-sil_cameroon_azerty #shift-T_1DC4,
 .android .kmw-keyboard-sil_cameroon_azerty #shift-T_030D,
 .android .kmw-keyboard-sil_cameroon_azerty #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
-
+.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on{background-color: #4f11f8;background-color:#88f;}
 
 /* Handle Keyman 10.0-13.0 bug #3910 */
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #default-T_0300,
@@ -113,6 +119,10 @@
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #shift-T_1DC4,
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #shift-T_030D,
 .android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
+.phone.android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.android .kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key.kmw-key-shift-on{background-color: #4f11f8;background-color:#88f;}
 
 /* Handle Keyman 13.0 Bug #3910 */
 .android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #default-T_0300,
@@ -129,3 +139,7 @@
 .android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #shift-T_1DC4,
 .android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #shift-T_030D,
 .android .kmw-keyboard-cloud\:\:sil_cameroon_azerty #shift-T_0330 { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
+.phone.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.android .kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key.kmw-key-shift-on {background-color: #4f11f8;background-color:#88f;}

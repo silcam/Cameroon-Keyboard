@@ -2,6 +2,7 @@ Change History
 =======================
 
 6.0.5 (2020-Nov)
+-----------------
 * Major Update to CSS for compatibility with Keyman 10-14
 
 6.0.4 (2020-Jun-23)
