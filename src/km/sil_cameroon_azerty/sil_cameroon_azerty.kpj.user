@@ -28,14 +28,6 @@
       </IDEState>
     </FileState>
     <FileState>
-      <ID>id_424a6b6ca3b5da5a37f6517b58442792</ID>
-      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\Untitled.kps</FullPath>
-      <IDEState>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
-      </IDEState>
-    </FileState>
-    <FileState>
       <ID>id_8bbb9ad6e07821461404ce10ee03df1a</ID>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\Cameroon.ico</FullPath>
     </FileState>
@@ -113,15 +105,15 @@
     </File>
     <File>
       <ID>id_MRU1</ID>
-      <Filename>landuma.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>C:\Github\keyboards\release\l\landuma\source\landuma.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
       <Filename>sil_cameroon_azerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>landuma.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Github\keyboards\release\l\landuma\source\landuma.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU3</ID>

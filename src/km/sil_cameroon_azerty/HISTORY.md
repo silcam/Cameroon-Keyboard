@@ -1,7 +1,12 @@
 Change History
 =======================
+6.0.6
+-----------------
+* More diaeresis and style updates.
+
 6.0.5
-Updates related to https://github.com/keymanapp/keyman/issues/2241 and diaeresis
+-----------------
+* Updates related to https://github.com/keymanapp/keyman/issues/2241 and diaeresis
 
 6.0.3 (2020-Nov)
 -----------------
