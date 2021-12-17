@@ -3,11 +3,11 @@
    Copyright 2021 SIL International
 ***/
  
-/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399
+/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399*/
 .kmw-keyboard-sil_cameroon_qwerty .kmw-key span,
 .kmw-keyboard-sil_cameroon_qwerty\:\:sil_cameroon_qwerty .kmw-key span,
 .kmw-keyboard-cloud\:\:sil_cameroon_qwerty .kmw-key span  { line-height: 1;}
-*/
+
 
  /*CamKey*/
 .android .kmw-keyboard-sil_cameroon_qwerty #default-T_CAM,
@@ -39,6 +39,15 @@
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_J,
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_K,
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_L { background: #598059; background: linear-gradient(#ffffff, #598059); }
+.desktop .kmw-key:hover {background-color:#8f8ff7; background-position: center;
+  transition: background 0.3s;}
+.desktop .kmw-key-touched:hover {background: #447 radial-gradient(circle, transparent 1%, #447 1%) center/15000%;}
+.desktop .kmw-key:active {
+  background-color:#447;
+  background-size: 100%;
+  transition: background 0s;
+}
+
 
 /* Green Diacritics on iOS, Default and light. */
 .ios .kmw-keyboard-sil_cameroon_qwerty #default-T_0300,

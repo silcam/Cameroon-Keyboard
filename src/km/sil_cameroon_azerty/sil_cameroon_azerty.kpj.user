@@ -103,35 +103,5 @@
       <FileType>.kmn</FileType>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
     </File>
-    <File>
-      <ID>id_MRU1</ID>
-      <Filename>sil_cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU2</ID>
-      <Filename>landuma.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>C:\Github\keyboards\release\l\landuma\source\landuma.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU3</ID>
-      <Filename>RCI AZERTY Unicode 2019f.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Dropbox\Cameroon\Keyboard\Keyman Workshop\RCI AZERTY Unicode 2019f.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU4</ID>
-      <Filename>sil_cameroon_azerty.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>C:\Github\keyboards\release\sil\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU5</ID>
-      <Filename>sil_cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Github\keyboards\release\sil\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
-    </File>
   </MRU>
 </KeymanDeveloperProjectUser>
