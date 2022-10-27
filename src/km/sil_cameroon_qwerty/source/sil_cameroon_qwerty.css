@@ -20,7 +20,7 @@
 .ios .kmw-keyboard-sil_cameroon_qwerty #shift-T_CAM,
 .web .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON,
 .osk .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON, 
-.desktop .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON {background: #8c4646; color:#0F0; background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
+.desktop .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;} 
 
 
 /* Green Diacritics on web */
@@ -39,15 +39,6 @@
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_J,
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_K,
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_L { background: #598059; background: linear-gradient(#ffffff, #598059); }
-.desktop .kmw-key:hover {background-color:#8f8ff7; background-position: center;
-  transition: background 0.3s;}
-.desktop .kmw-key-touched:hover {background: #447 radial-gradient(circle, transparent 1%, #447 1%) center/15000%;}
-.desktop .kmw-key:active {
-  background-color:#447;
-  background-size: 100%;
-  transition: background 0s;
-}
-
 
 /* Green Diacritics on iOS, Default and light. */
 .ios .kmw-keyboard-sil_cameroon_qwerty #default-T_0300,

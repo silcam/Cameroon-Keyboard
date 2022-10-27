@@ -1,9 +1,9 @@
 ﻿store(&NAME) 'Cameroon AZERTY'
-store(&COPYRIGHT) '(c) 2018-2021 SIL Cameroon'
+store(&COPYRIGHT) '(c) 2018-2022 SIL Cameroon'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ! or AltGr to access special characters.'
 store(&LAYOUTFILE) 'sil_cameroon_azerty.keyman-touch-layout'
-store(&KEYBOARDVERSION) '6.0.6'
+store(&KEYBOARDVERSION) '6.0.8'
 store(&TARGETS) 'any'
 store(&VISUALKEYBOARD) 'sil_cameroon_azerty.kvks'
 store(&KMW_EMBEDCSS) 'sil_cameroon_azerty.css'
@@ -237,7 +237,7 @@ any(diablock) + [RALT K_C] > context
 + [SHIFT K_EQUAL] > U+002B
 + [SHIFT RALT K_EQUAL] > U+00B1
 
-+ [K_COMMA] > U+003B
++ [K_COMMA] > U+003b
 + [RALT K_COMMA] > dk(00B4)
 + [SHIFT K_COMMA] > U+002E
 + [SHIFT RALT K_COMMA] > dk(0060)
