@@ -3,8 +3,6 @@
 
 Copyright (C) SIL Cameroon
 
-Version 6.0.8
-
 __DESCRIPTION__
 
 This keyboard layout seeks to follow the General Alphabet of Cameroonian Languages. It includes

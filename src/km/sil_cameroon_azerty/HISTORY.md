@@ -1,6 +1,5 @@
 Change History
 =======================
-
 6.0.8
 -----------------
 * More diaeresis and style updates.
