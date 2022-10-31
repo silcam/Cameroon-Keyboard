@@ -1336,7 +1336,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPS",
+                    "id": "T_CAPSRC",
                     "sp": "1",
                     "nextlayer": "rightalt-caps"
                   }
@@ -1396,7 +1396,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPS",
+                    "id": "T_CAPSRC",
                     "sp": "1",
                     "nextlayer": "rightalt-caps"
                   }
@@ -1644,7 +1644,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPSRC",
                     "sp": "1",
                     "nextlayer": "rightalt-caps",
                     "layer": "default"
@@ -1705,7 +1705,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPSRC",
                     "sp": "1",
                     "nextlayer": "rightalt-caps",
                     "layer": "default"
