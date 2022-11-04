@@ -243,7 +243,7 @@
                 "nextlayer": "shift",
                 "multitap": [
                   {
-                    "text": "*ShiftedLock*",
+                    "text": "*ShiftLock*",
                     "id": "K_CAPS",
                     "sp": "1",
                     "nextlayer": "caps"
@@ -1336,9 +1336,10 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPSRC",
+                    "id": "T_CAPS",
                     "sp": "1",
-                    "nextlayer": "rightalt-caps"
+                    "nextlayer": "rightalt-caps",
+                    "layer": "default"
                   }
                 ]
               },
@@ -1396,9 +1397,10 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPSRC",
+                    "id": "T_CAPS",
                     "sp": "1",
-                    "nextlayer": "rightalt-caps"
+                    "nextlayer": "rightalt-caps",
+                    "layer": "default"
                   }
                 ]
               }
@@ -1644,7 +1646,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPSRC",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "rightalt-caps",
                     "layer": "default"
@@ -1705,7 +1707,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "T_CAPSRC",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "rightalt-caps",
                     "layer": "default"
@@ -1764,61 +1766,66 @@
             "id": 1,
             "key": [
               {
-                "id": "T_new_198",
-                "text": "",
-                "sp": 10,
-                "layer": "default"
+                "id": "T_1DC5",
+                "text": "◌᷅",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_199",
-                "text": "",
-                "sp": 10
+                "id": "T_1DC6",
+                "text": "◌᷆",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_200",
-                "text": "",
-                "sp": 10
+                "id": "T_1DC7",
+                "text": "◌᷇",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_201",
-                "text": "",
-                "sp": 10
+                "id": "T_1DC4",
+                "text": "◌᷄",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_202",
-                "text": "",
-                "sp": 10
+                "id": "T_030D",
+                "text": "◌̍",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_203",
-                "text": "",
-                "sp": 10
+                "id": "T_0330",
+                "text": "◌̰",
+                "nextlayer": "caps",
+                "layer": "shift"
               },
               {
-                "id": "T_new_204",
-                "text": "",
-                "sp": 10
-              },
-              {
-                "id": "T_new_205",
-                "text": "",
-                "sp": 10
-              },
-              {
-                "id": "T_new_206",
+                "id": "T_new_255",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_207",
+                "id": "T_new_256",
+                "text": " ",
+                "sp": 10
+              },
+              {
+                "id": "U_005F",
+                "text": "_",
+                "nextlayer": "caps",
+                "layer": "shift"
+              },
+              {
+                "id": "T_new_258",
                 "text": "",
                 "sp": 10
               },
               {
                 "id": "K_BKSP",
                 "text": "*BkSp*",
-                "sp": 1,
-                "layer": "default"
+                "sp": 1
               }
             ]
           },
@@ -1876,9 +1883,10 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_219",
-                "text": "",
-                "sp": 10
+                "id": "U_0022",
+                "text": "\"",
+                "nextlayer": "caps",
+                "layer": "default"
               }
             ]
           },
@@ -1936,9 +1944,10 @@
                 "sp": 10
               },
               {
-                "id": "T_new_230",
-                "text": "",
-                "sp": 10
+                "id": "U_0023",
+                "text": "#",
+                "nextlayer": "caps",
+                "layer": "default"
               }
             ]
           },
@@ -1983,19 +1992,22 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_238",
-                "text": "",
-                "sp": 10
+                "id": "U_003F",
+                "text": "?",
+                "nextlayer": "caps",
+                "layer": "default"
               },
               {
-                "id": "T_new_239",
-                "text": "",
-                "sp": 10
+                "id": "U_003B",
+                "text": ";",
+                "nextlayer": "caps",
+                "layer": "default"
               },
               {
-                "id": "T_new_240",
-                "text": "",
-                "sp": 10
+                "id": "U_003A",
+                "text": ":",
+                "nextlayer": "caps",
+                "layer": "default"
               },
               {
                 "id": "K_SHIFT",
@@ -2013,7 +2025,7 @@
                 "id": "K_SYMBOLS",
                 "text": "*Symbol*",
                 "sp": 1,
-                "nextlayer": "symbol",
+                "nextlayer": "symbol-caps",
                 "layer": "default"
               },
               {
@@ -2202,8 +2214,8 @@
                 ]
               },
               {
-                "id": "U_0022",
-                "text": "\"",
+                "id": "U_0027",
+                "text": "'",
                 "layer": "default"
               }
             ]
@@ -2276,8 +2288,8 @@
                 "text": "M"
               },
               {
-                "id": "U_0023",
-                "text": "#",
+                "id": "U_0040",
+                "text": "@",
                 "layer": "default"
               }
             ]
@@ -2354,13 +2366,13 @@
                 ]
               },
               {
-                "id": "T_003B",
-                "text": ";",
+                "id": "T_002C",
+                "text": ",",
                 "layer": "default"
               },
               {
-                "id": "T_003A",
-                "text": ":",
+                "id": "T_002E",
+                "text": ".",
                 "layer": "default"
               },
               {
