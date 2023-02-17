@@ -1,72 +1,27 @@
 /*
    Cameroon AZERTY CSS
-   Copyright 2021 SIL International
+   Copyright 2023 SIL International
 */
 
 /*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399*/
-.kmw-keyboard-sil_cameroon_azerty .kmw-key span,
-.kmw-keyboard-sil_cameroon_azerty\:\:sil_cameroon_azerty .kmw-key span,
-.kmw-keyboard-cloud\:\:sil_cameroon_azerty .kmw-key span  { line-height: 1;}
+.kmw-keyboard-sil_cameroon_azerty .kmw-key span  { line-height: 1;}
 
-
-  /* CamKey */
+/* CamKey */
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_CAM'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_CAM'],
 .web .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH, 
 .osk .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH, 
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF;}
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH {background: #8c4646; color:#0F0;background:linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);border:2px solid #FFFFFF; font-weight: bold;}
         
-
-/* Green Diacritics on web */
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_QUOTE,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_LBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_RBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_BKSLASH,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_QUOTE,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_RBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_LBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_BKSLASH,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_PERIOD,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_C,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_RBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_QUOTE,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_7,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_QUOTE,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_RBRKT,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_6 { background: #598059; background: linear-gradient(#ffffff, #598059); }
-/* Yellow Vowels on Web */
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_Q,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_E,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_I,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_U,
-.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_O,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_P,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_Q,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_E,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_I,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_U,
-.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_O,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_T,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_F,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_H,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_I,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_U,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_O,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_Q,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_E,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_P,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_T,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_F,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_H,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_P,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_T,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_F,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_H,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_Q,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_U,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_I,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_O,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_E { background: #beac40; background: linear-gradient(#ffffff, #beac40); }
+/* Active Keys */
+.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #ffffff;background-color:#88f; font-weight: bold;}
+.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
+.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
+.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
+.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #220868; background-color:#88f; font-weight: bold;}
 
 /* Styling on iOS, Default and light. */
 /* Green Diacritics */
@@ -84,7 +39,8 @@
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_1DC4'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_030D'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0330'] { background: #598059; background: linear-gradient(#ffffff, #aed39f); }
-/* Yellow Vomels */
+
+/* Yellow Vowels  iOS Light */
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_Q'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_E'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_I'],
@@ -102,12 +58,8 @@
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='rightalt-shift-K_T'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='rightalt-shift-K_F'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='rightalt-shift-K_H'],
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id='popup-default-U_0254'] { background: #beac40; background: linear-gradient(#ffffff, #fff09c); }
-/* Active Keys */
-.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
-.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
-.phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
-.tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #ffffff;background-color:#88f;}
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id='popup-default-U_0254'] { background: #beac40; background: linear-gradient(#ffffff, #fff09c); } 
+
 
 /* Styling on iOS, dark. */
 @media (prefers-color-scheme: dark) {
@@ -149,17 +101,12 @@
   .phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
   .tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
   .phone.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
-  .tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #4f11f8;background-color:#88f;}
+  .tablet.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #220868;background-color:#88f; font-weight: bold;}
 }
 
 
-/* Green Diacritics on Android (Preferred selector) */
-.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on,
-.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-special-on, 
-.phone.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on, 
-.tablet.android .kmw-keyboard-sil_cameroon_azerty .kmw-key.kmw-key-shift-on {color: #220868; background-color:#88f;}
 
-/* TESTING WILDCARD */
+/* Green Diacritics Android */
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0300'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0304'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0301'],
@@ -175,6 +122,7 @@
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_030D'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0330'] { background: #598059; background: linear-gradient(#7f7f7f, #598059); }
 
+/* Yellow Vowels  Android */
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_Q'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_E'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='K_I'],
@@ -193,3 +141,55 @@
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='rightalt-shift-K_F'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='rightalt-shift-K_H'],
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id='popup-default-U_0254'] { background: #978833; background: linear-gradient(#7f7f7f, #beab40); }
+
+/* Green Diacritics on web */
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_QUOTE,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_LBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_RBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_BKSLASH,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_QUOTE,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_RBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_LBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_BKSLASH,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_PERIOD,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_C,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_RBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_QUOTE,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_7,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_QUOTE,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_RBRKT,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_6 { background: #598059; background: linear-gradient(#ffffff, #598059); }
+
+/* Yellow Vowels on Web */
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_Q,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_E,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_I,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_U,
+.desktop .kmw-keyboard-sil_cameroon_azerty #default-K_O,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_P,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_Q,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_E,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_I,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_U,
+.desktop .kmw-keyboard-sil_cameroon_azerty #shift-K_O,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_T,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_F,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_H,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_I,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_U,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_O,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_Q,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-K_E,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_P,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_T,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_F,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-caps-K_H,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_P,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_T,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_F,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_H,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_Q,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_U,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_I,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_O,
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_E { background: #beac40; background: linear-gradient(#ffffff, #beac40); } 
