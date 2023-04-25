@@ -145,12 +145,10 @@
               {
                 "id": "K_P",
                 "text": "p",
-                "nextlayer": "default",
                 "sk": [
                   {
                     "text": "ø",
-                    "id": "U_00F8",
-                    "nextlayer": "default"
+                    "id": "U_00F8"
                   }
                 ]
               },
@@ -244,7 +242,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "caps"
                   }
@@ -318,7 +316,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "caps"
                   }
@@ -402,12 +400,12 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_255",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_256",
+                "id": "T_BLANK",
                 "text": " ",
                 "sp": 10
               },
@@ -418,7 +416,7 @@
                 "layer": "default"
               },
               {
-                "id": "T_new_258",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -648,7 +646,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "caps",
                     "layer": "shift"
@@ -749,7 +747,7 @@
                 "multitap": [
                   {
                     "text": "*ShiftLock*",
-                    "id": "K_CAPS",
+                    "id": "T_CAPS",
                     "sp": "1",
                     "nextlayer": "caps",
                     "layer": "shift"
@@ -1147,52 +1145,52 @@
             "id": 1,
             "key": [
               {
-                "id": "T_new_395",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_396",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_397",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_398",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_399",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_400",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_401",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_402",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_403",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_404",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1213,7 +1211,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_407",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1223,7 +1221,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_409",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1258,7 +1256,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_416",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               }
@@ -1268,12 +1266,12 @@
             "id": 3,
             "key": [
               {
-                "id": "T_new_417",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_418",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1298,27 +1296,27 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_423",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_424",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_425",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_426",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_427",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               }
@@ -1349,12 +1347,12 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_430",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_431",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1374,17 +1372,17 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_435",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_436",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_437",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1456,53 +1454,53 @@
             "id": 1,
             "key": [
               {
-                "id": "T_new_198",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10,
                 "layer": "default"
               },
               {
-                "id": "T_new_199",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_200",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_201",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_202",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_203",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_204",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_205",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_206",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_207",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1523,7 +1521,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_210",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1533,7 +1531,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_212",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1568,7 +1566,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_219",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               }
@@ -1578,12 +1576,12 @@
             "id": 3,
             "key": [
               {
-                "id": "T_new_220",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_221",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1598,7 +1596,7 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_224",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1608,27 +1606,27 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_226",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_227",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_228",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_229",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_230",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               }
@@ -1659,12 +1657,12 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_233",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_234",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1684,17 +1682,17 @@
                 "nextlayer": "default"
               },
               {
-                "id": "T_new_238",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_239",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_240",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1802,12 +1800,12 @@
                 "layer": "shift"
               },
               {
-                "id": "T_new_255",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_256",
+                "id": "T_BLANK",
                 "text": " ",
                 "sp": 10
               },
@@ -1818,7 +1816,7 @@
                 "layer": "shift"
               },
               {
-                "id": "T_new_258",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1838,7 +1836,7 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_210",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1848,7 +1846,7 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_212",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1894,12 +1892,12 @@
             "id": 3,
             "key": [
               {
-                "id": "T_new_220",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_221",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1914,7 +1912,7 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_224",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1924,22 +1922,22 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_226",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_227",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_228",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_229",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
@@ -1967,12 +1965,12 @@
                 "nextlayer": "caps"
               },
               {
-                "id": "T_new_233",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },
               {
-                "id": "T_new_234",
+                "id": "T_BLANK",
                 "text": "",
                 "sp": 10
               },

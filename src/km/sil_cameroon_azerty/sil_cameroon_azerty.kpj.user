@@ -5,6 +5,7 @@
     <showhelp>1</showhelp>
     <path>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\sil_cameroon_azerty.kpj</path>
     <file ID="id_7e4ccd3c0cca3c929d1a669d32ce537b" Expanded="1"/>
+    <file ID="id_fd7a5d06a293883dfb4311c322c899f7" Expanded="1"/>
   </ViewState>
   <FileStates>
     <FileState>
@@ -102,6 +103,12 @@
       <Filename>sil_cameroon_azerty.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>sil_cameroon_azerty.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
