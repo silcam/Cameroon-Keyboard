@@ -15,7 +15,7 @@ require_once('header.php');
 <div class="tab-folder">
 <!--Starting English-->
 <div id="en" class="tab-content">
-<a class="buttonlang" href="#fr"> Voir cette page en français...</a>
+<a class="buttonlang" href="#fr"> Cliquer ici pour voir cette page en français...</a>
 <div id="container">
 <img src="ic_launcher.png" class="left" height="75" />
 <img class="right" src="sil-logo-blue.png" height="75" />
@@ -27,7 +27,7 @@ require_once('header.php');
 <strong>Cameroon <span class="qw">QWERTY</span> Keyboard</strong>
 </span> for Keyman. This page will explain how to type in the vernacular languages of Cameroon using the Cameroon <span class="qw">QWERTY</span> Keyboard. </p>
 <p xml:lang="en">The <strong>Cameroon <span class="qw">QWERTY</span>
-</strong> Keyboard, one of a set of <b>virtual keyboards</b> maintained by the Language Technology team of <a href="http://silcam.org/">SIL Cameroon</a>, allows you to type any languages that follow the <a href="https://langtechcameroon.info/gacl/">General Alphabet of Cameroonian Languages</a>. The Ethnologue lists 279 living languages in Cameroon, and 275 of these are indigenous. For a list of these languages, view
+</strong> Keyboard, one of a set of <b>virtual keyboards</b> maintained by the Language Technology team of <a href="https://silcam.org/">SIL Cameroon</a>, allows you to type any languages that follow the <a href="https://langtechcameroon.info/gacl/">General Alphabet of Cameroonian Languages</a>. The Ethnologue lists 279 living languages in Cameroon, and 275 of these are indigenous. For a list of these languages, view
 <a href="https://www.ethnologue.com/country/CM/">Cameroon in the Ethnologue</a>.
 </p>
 <hr />
@@ -59,10 +59,10 @@ require_once('header.php');
 <p xml:lang="en">Computers bought in different countries tend to have different <strong>physical keyboard layouts</strong>. When using <strong>virtual keyboards</strong>, it is MUCH easier to learn the keyboard if the keys are <strong>in the same place</strong> as the letters you want to type.</p>
 <p xml:lang="en">The Cameroon <span class="qw">QWERTY</span> keyboard is designed for computers with the following physical keyboards:</p>
 <ul xml:lang="en" class="qw">
-<li>US English (QWERTY): <a href="qwerty-us-en.htm">See all combinations.</a></li>
-<li>UK Engish (QWERTY): <a href="qwerty-uk-en.htm">See all combinations.</a></li>
-<li>Swiss French (QWERTZ): <a href="qwerty-ch-en.htm">See all combinations.</a></li>
-<li>German (QWERTZ): <a href="qwerty-de-en.htm">See all combinations.</a></li>
+<li>US English (QWERTY): <a href="qwerty-us-en.php">See all combinations.</a></li>
+<li>UK Engish (QWERTY): <a href="qwerty-uk-en.php">See all combinations.</a></li>
+<li>Swiss French (QWERTZ): <a href="qwerty-ch-en.php">See all combinations.</a></li>
+<li>German (QWERTZ): <a href="qwerty-de-en.php">See all combinations.</a></li>
 </ul>
 <blockquote xml:lang="en">Note: If your computer has <span class="qw">an AZERTY</span> Keyboard or something similar, consider removing Cameroon <span class="qw">QWERTY</span> and try the Cameroon <span class="qw">AZERTY</span> Keyboard</blockquote>
 <!--Touch Keyboard-->
@@ -128,7 +128,7 @@ require_once('header.php');
 <!--Ending English-->
 <!--Starting French-->
 <div id="fr" class="tab-content">
-<a class="buttonlang" href="#en">View this page in English...</a>
+<a class="buttonlang" href="#en">Click here to view this page in English...</a>
 <div id="container">
 <img src="ic_launcher.png" class="left" height="75" />
 <img class="right" src="sil-logo-blue.png" height="75" />
@@ -138,7 +138,7 @@ require_once('header.php');
 </h1>
 <p class="tagline" xml:lang="fr">Vous permettant de saisir du texte dans votre langue maternelle !</p>
 <p xml:lang="fr">Bienvenue au Clavier camerounais <span class="qw">QWERTY</span> pour Keyman. Cette page explique comment saisir du texte dans les langues vernaculaires du Cameroun à l'aide du clavier <span class="qw">QWERTY</span> du Cameroun.</p>
-<p xml:lang="fr">Le clavier camerounais <span class="qw">QWERTY</span>, un des claviers virtuels maintenus par l'équipe de Technologie linguistique de <a href="http://silcam.org/">SIL Cameroun</a>, vous permet de saisir toutes les langues qui suivent <a href="https://langtechcameroon.info/gacl/">l'Alphabet général des langues camerounaises</a>. L'Ethnologue recense 279 langues vivantes au Cameroun, dont 275 sont autochtones. Pour une liste de ces langues, verrez <a href="http://www.ethnologue.com/country/CM/">Cameroun dans l'Ethnologue.</a>
+<p xml:lang="fr">Le clavier camerounais <span class="qw">QWERTY</span>, un des claviers virtuels maintenus par l'équipe de Technologie linguistique de <a href="https://silcam.org/">SIL Cameroun</a>, vous permet de saisir toutes les langues qui suivent <a href="https://langtechcameroon.info/gacl/">l'Alphabet général des langues camerounaises</a>. L'Ethnologue recense 279 langues vivantes au Cameroun, dont 275 sont autochtones. Pour une liste de ces langues, verrez <a href="https://www.ethnologue.com/country/CM/">Cameroun dans l'Ethnologue.</a>
 </p>
 <hr />
 <p xml:lang="fr">Pour profiter des caractéristiques uniques de chaque appareil, le clavier camerounais <span class="qw">QWERTY</span> se comporte différemment sur les claviers physiques et les écrans tactiles, veuillez choisir votre interface ci-dessous :</p>
@@ -164,10 +164,10 @@ require_once('header.php');
 <p xml:lang="fr">Les ordinateurs achetés dans différents pays ont tendance à avoir des claviers physiques différents. Lorsque vous utilisez des claviers virtuels, il est BEAUCOUP plus facile d'apprendre le clavier si les touches sont à la même place que les lettres que vous voulez taper.</p>
 <p xml:lang="fr">Le clavier Cameroun <span class="qw">QWERTY</span> est conçu pour les ordinateurs équipés des claviers physiques suivants :</p>
 <ul xml:lang="fr" class="qw">
-<li>Anglais États-Unis (QWERTY) : <a href="qwerty-us-fr.htm">Voir toutes les combinaisons.</a></li>
-<li>Anglais Royaume-Uni (QWERTY) : <a href="qwerty-uk-fr.htm">Voir toutes les combinaisons.</a></li>
-<li>Allemand (QWERTZ) : <a href="qwerty-de-fr.htm">Voir toutes les combinaisons.</a></li>
-<li>Suisse (QWERTZ) : <a href="qwerty-ch-fr.htm">Voir toutes les combinaisons.</a></li>
+<li>Anglais États-Unis (QWERTY) : <a href="qwerty-us-fr.php">Voir toutes les combinaisons.</a></li>
+<li>Anglais Royaume-Uni (QWERTY) : <a href="qwerty-uk-fr.php">Voir toutes les combinaisons.</a></li>
+<li>Allemand (QWERTZ) : <a href="qwerty-de-fr.php">Voir toutes les combinaisons.</a></li>
+<li>Suisse (QWERTZ) : <a href="qwerty-ch-fr.php">Voir toutes les combinaisons.</a></li>
 </ul>
 <blockquote xml:lang="fr">Note: Si votre ordinateur a un clavier <span class="qw"> AZERTY</span> ou quelque chose de similaires, envisagez de retirer le clavier Cameroun <span class="qw">QWERTY</span> et installez le clavier Cameroon <span class="qw">AZERTY</span>.</blockquote>
     

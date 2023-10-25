@@ -31,28 +31,13 @@
     }
 .full {
     width: 98%;
+    min-width: 700px;
     }
     
 .red {
     color:red;
     }
-/*  
-:lang(en) 	{
-    color: green;
-    }
-:lang(fr) 	{
-    color: blue;
-    }
 
-.qw:before {
-    content: "QWERTY ";
-    color: red;
-}
-.az:before {
-    content: "AZERTY ";
-    color: orange;
-}
-*/
 h1 {
     text-align: center;
 }
@@ -61,9 +46,7 @@ h1 {
     font-style: italic;
 }
 .buttonlang {
-    /*background: #8c4646;
-    background: linear-gradient(to right, darkgreen 33%, darkred 33%, darkred 66%, #aaaa00 66%); */
-    background-color: pink; /*Green*/
+    background-color: pink;
     border: none;
     color: black;
     padding: 5px;
@@ -77,6 +60,25 @@ h1 {
     cursor: pointer;
     border-radius: 8px;
     width: 94%;
+    animation: pulse 1.5s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    background-color: pink;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    background-color: #DB7093;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    background-color: pink;
+  }
 }
 .menu {
     display: block;
@@ -167,3 +169,4 @@ blockquote {
     padding: 5px;
     border: 1px solid grey;
     }
+

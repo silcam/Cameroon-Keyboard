@@ -6,7 +6,8 @@
 /*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399*/
 .kmw-keyboard-sil_cameroon_azerty .kmw-key span  { line-height: 1;}
 
-/* CamKey */
+
+  /* CamKey */
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_CAM'],
 .ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_CAM'],
 .web .kmw-keyboard-sil_cameroon_azerty #default-K_SLASH, 
@@ -159,7 +160,6 @@
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_QUOTE,
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_RBRKT,
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_6 { background: #598059; background: linear-gradient(#ffffff, #598059); }
-
 /* Yellow Vowels on Web */
 .desktop .kmw-keyboard-sil_cameroon_azerty #default-K_Q,
 .desktop .kmw-keyboard-sil_cameroon_azerty #default-K_E,
@@ -192,4 +192,9 @@
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_U,
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_I,
 .desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_O,
-.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_E { background: #beac40; background: linear-gradient(#ffffff, #beac40); } 
+.desktop .kmw-keyboard-sil_cameroon_azerty #rightalt-shift-K_E { background: #beac40; background: linear-gradient(#ffffff, #beac40); }
+
+
+
+
+

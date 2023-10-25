@@ -3,7 +3,7 @@
    Copyright 2023 SIL International
 ***/
  
-/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399*/
+/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399 */
 .kmw-keyboard-sil_cameroon_qwerty .kmw-key span  { line-height: 1;}
 
  /*CamKey*/
