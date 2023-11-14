@@ -240,6 +240,7 @@
                 "text": "əŋɔ",
                 "width": 150,
                 "sp": 8,
+                "fontsize": ".8em",
                 "nextlayer": "rightalt"
               }
             ]
