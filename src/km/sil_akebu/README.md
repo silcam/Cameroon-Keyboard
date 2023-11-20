@@ -1,12 +1,11 @@
-Cameroon AZERTY keyboard
+Akebu keyboard
 =====================
 
 Copyright (C) SIL Cameroon
 
 __DESCRIPTION__
 
-This keyboard layout seeks to follow the General Alphabet of Cameroonian Languages. It includes
-a touch layout for Android and iOS devices. Full documentation is available in the help files.
+Ce clavier est destiné aux ulitisateurs de la lange Akebu au Togo. C'est disponible pour l'ordinateur at aussi pour les appareils tactiles.
 
 Links
 -----
