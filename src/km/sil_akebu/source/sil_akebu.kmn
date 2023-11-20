@@ -1,4 +1,4 @@
-﻿store(&COPYRIGHT) '(c) 2018-2023 SIL International'
+store(&COPYRIGHT) '(c) 2018-2023 SIL International'
 store(&BITMAP) 'Cameroon.ico'
 store(&MESSAGE) 'Use ! or AltGr to access special characters.'
 store(&LAYOUTFILE) 'sil_akebu.keyman-touch-layout'
@@ -50,7 +50,7 @@ any(composed) + [K_BKSP] > index(comp-dia,1)
 + [T_0031] > U+0031
 
 + [K_2] > U+00E9
-+ [RALT K_2] > dk(007E)
++ [RALT K_2] > U+007E
 c ??
 + [SHIFT K_2] > U+0032
 + [SHIFT RALT K_2] > U+2019
@@ -77,12 +77,11 @@ c ??
 + [K_6] > U+002D
 + [RALT K_6] > U+007C
 + [SHIFT K_6] > U+0036
-+ [SHIFT RALT K_6] > U+0308
++ [SHIFT RALT K_6] > BEEP
 + [T_0036] > U+0036
-any(diablock) + [SHIFT RALT K_6] > context
 
 + [K_7] > U+00E8
-+ [RALT K_7] > dk(0060)
++ [RALT K_7] > U+0060
 + [SHIFT K_7] > U+0037
 + [SHIFT RALT K_7] > BEEP
 + [T_0037] > U+0037
@@ -232,19 +231,19 @@ any(diablock) + [SHIFT RALT K_6] > context
 + [K_M] > U+002c
 + [RALT K_M] > beep
 + [SHIFT K_M] > U+003F
-+ [SHIFT RALT K_M] > U+00D7
++ [SHIFT RALT K_M] > BEEP
 + [T_002C] > U+002C
 + [T_003F] > U+003F
 
-+ [K_EQUAL] > dk(003d)
++ [K_EQUAL] > U+003D
 + [RALT K_EQUAL] > U+007D
 + [SHIFT K_EQUAL] > U+002B
 + [SHIFT RALT K_EQUAL] > U+00B1
 
 + [K_COMMA] > U+003b
-+ [RALT K_COMMA] > dk(00B4)
++ [RALT K_COMMA] > U+00B4
 + [SHIFT K_COMMA] > U+002E
-+ [SHIFT RALT K_COMMA] > dk(0060)
++ [SHIFT RALT K_COMMA] > U+0060
 + [T_002E] > U+002E
 + [T_003B] > U+003B
 
@@ -273,9 +272,9 @@ any(diablock) + [SHIFT RALT K_6] > context
 + [SHIFT RALT K_BKQUOTE] > U+00B3
 
 + [K_LBRKT] > U+0301
-+ [RALT K_LBRKT] > dk(005E)
++ [RALT K_LBRKT] > u+005E
 + [SHIFT K_LBRKT] > U+030C
-+ [SHIFT RALT K_LBRKT] > dk(00A8)
++ [SHIFT RALT K_LBRKT] > U+00A8
 any(diablock) + [K_LBRKT] > context
 any(diablock) + [SHIFT K_LBRKT] > context
 
@@ -288,7 +287,6 @@ any(diablock) + [SHIFT K_LBRKT] > context
 + [RALT K_RBRKT] > BEEP
 + [SHIFT K_RBRKT] > U+00A3
 + [SHIFT RALT K_RBRKT] > BEEP
-any(diablock) + [K_RBRKT] > context
 
 + [K_QUOTE] > U+0300
 + [RALT K_QUOTE] > BEEP
@@ -323,40 +321,12 @@ match > use(deadkeys)
 
 group(deadkeys)
 
-dk(0021) U+002E > dk(0060)
-dk(0021) U+00E8 > dk(0060)
-dk(0021) U+003B > dk(00B4)
-dk(0021) U+00E7 > dk(005E)
-dk(0021) U+00e9 > dk(007e)
-dk(0021) U+030C > dk(00a8)
 dk(0021) dk(0021) > U+0021
-
-store(dkf007e) U+0020 U+0061 U+0041 U+006e U+004e U+006f U+004f dk(007e)
-store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5 U+007e
-dk(007e) any(dkf007e) > index(dkt007e, 2)
-
-store(dkf003d) U+0020 U+0300 U+0303 U+0304 U+0302 U+0301 dk(003d)
-store(dkt003d) U+003d U+02cb U+007e U+02c9 U+02c6 U+02ca U+003D
-dk(003d) any(dkf003d) > index(dkt003d, 2)
-
-store(dkf00b4) U+0020 U+0045 dk(00b4)
-store(dkt00b4) U+00b4 U+00c9 U+00B4
-dk(00b4) any(dkf00b4) > index(dkt00b4, 2)
-
-store(dkf0060) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 dk(0060)
-store(dkt0060) U+0060 U+00e0 U+00c0 U+00e8 U+00c8 U+00ec U+00cc U+00f2 U+00d2 U+00f9 U+00d9 U+0060
-dk(0060) any(dkf0060) > index(dkt0060, 2)
-
-store(dkf005e) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 dk(005e)
-store(dkt005e) U+005e U+00e2 U+00c2 U+00ea U+00ca U+00ee U+00ce U+00f4 U+00d4 U+00fb U+00db U+005e
-dk(005e) any(dkf005e) > index(dkt005e, 2)
-
-store(dkf00a8) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004f U+0075 U+0055 U+0079 dk(008a)
-store(dkt00a8) U+00A8 U+00E4 U+00C4 U+00EB U+00CB U+00EF U+00CF U+00f6 U+00d6 U+00FC U+00DC U+00ff U+008a
-dk(00a8) any(dkf00a8) > index(dkt00a8, 2)
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-store(dkf0021)	U+0020	U+0024	U+0026	U+0027	U+0028	U+0029	U+002B	U+002D 	U+0031  U+0032  U+0035  U+0036	U+003C	U+003D	U+003E	U+003F	U+0041	U+0043	U+0044	U+0045	U+0049	U+004A	U+004C	U+004D	U+004E	U+004F	U+0051	U+0052	U+0053	U+0058	U+005A	U+0061 	U+0064	U+0065	U+0069	U+006D	U+006E	U+006F	U+0071	U+0072	U+0073	U+0078	U+007A  U+00E0	U+0301	U+20AC	U+0033	U+0034  U+0022  U+005F  U+002C dk(003D) U+002F U+006A  U+006b  U+004b U+006C U+0075 U+0055
-store(dkt0021)	U+0021	U+00B2	U+00B9	U+007B	U+005B	U+005D	U+00B1  U+007C	U+2018  U+2019  U+0023	U+0308  U+00AB	U+007D	U+00BB	U+00D7	U+0190  U+00A9	U+0189	U+018E	U+0196	U+2122	U+00A3	U+00B5	U+014A	U+0186	U+2013	U+00AE	U+201D	U+203A	U+2020	U+025B	U+0256	U+01DD	U+0269	U+00F9	U+014B	U+0254	U+2014	U+25CC	U+201C	U+2039	U+2026	U+0040	U+005E	U+00B3	U+00AB	U+00BB  U+0025  U+005C  beep   U+007D   beep    beep    beep     beep    beep   U+028A U+01B1
+store(dkf0021)	U+0020	U+0024	U+0026	U+0027	U+0028	U+0029	U+002B	U+002D 	U+0031  U+0032  U+0035 	U+003C	U+003D	U+003E	U+003F	U+0041	U+0043	U+0044	U+0045	U+0049	U+004A	U+004C	U+004D	U+004E	U+004F	U+0051	U+0052	U+0053	U+0058	U+005A	U+0061 	U+0064	U+0065	U+0069	U+006D	U+006E	U+006F	U+0071	U+0072	U+0073	U+0078	U+007A  U+00E0	U+0301	U+20AC	U+0033	U+0034  U+0022  U+005F  U+002C U+003D U+002F U+006A  U+006b  U+004b U+006C U+0075 U+0055
+store(dkt0021)	U+0021	U+00B2	U+00B9	U+007B	U+005B	U+005D	U+00B1  U+007C	U+2018  U+2019  U+0023  U+00AB	U+007D	U+00BB	beep    U+0190  U+00A9	U+0189	U+018E	U+0196	U+2122	U+00A3	U+00B5	U+014A	U+0186	U+2013	U+00AE	U+201D	U+203A	U+2020	U+025B	U+0256	U+01DD	U+0269	U+00F9	U+014B	U+0254	U+2014	U+25CC	U+201C	U+2039	U+2026	U+0040	U+005E	U+00B3	U+00AB	U+00BB  U+0025  U+005C  beep   U+007D   beep    beep    beep     beep    beep   U+028A U+01B1
 dk(0021) any(dkf0021) > index(dkt0021, 2)
+
+c CAM U not listed as possibility.
           
 c is 0308 the right diaeresis?
