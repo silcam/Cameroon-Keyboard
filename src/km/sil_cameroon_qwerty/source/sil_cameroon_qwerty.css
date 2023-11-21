@@ -2,12 +2,53 @@
    Cameroon QWERTY CSS
    Copyright 2023 SIL International
 ***/
- 
-/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399 */
 
+:root {
+  --active-bg: #88f;
+  --cam-color: #0F0;
+  --base-color: white;
+  --active-dark-color: #220868;
+
+  --light-bg: white;
+  --mid-bg: #777777;
+  --dark-bg: #3d3d3d;
+
+  --grn-light-bg: #598059;
+  --yel-light-bg: #beac40;
+  --yel-dark-bg: #978833;
+
+  --cam-border: 2px solid var(--light-bg);
+  --cam-bg: radial-gradient(transparent, #00000028), linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);
+
+  --dark-shad: radial-gradient(transparent, #00000030);
+  --inverse-shad: radial-gradient(transparent, #FFFFFF10);
+  --light-shad: radial-gradient(transparent, #00000010);
+
+  --grn-light-grad: var(--light-shad), linear-gradient(var(--light-bg), var(--grn-light-bg));
+  --grn-mid-grad: var(--dark-shad), linear-gradient(var(--mid-bg), var(--grn-light-bg)); /* #7f7f7f */
+  --grn-dark-grad: var(--dark-shad), linear-gradient(var(--dark-bg), var(--grn-light-bg));
+
+  --yel-light-grad: var(--light-shad), linear-gradient(var(--light-bg), #dfce6f);
+  --yel-mid-grad: var(--dark-shad), linear-gradient(var(--mid-bg), #beab40dd); /* #7f7f7f55 */
+  --yel-dark-grad: var(--dark-shad), linear-gradient(var(--dark-bg), #beab40a2);
+  
+  --tch-dark: var(--dark-shad), linear-gradient(#7f7f7f55, #44447755);
+
+  --fuzz-light-grad: linear-gradient(#adadad55, #632b9655);
+  --fuzz-mid-grad: linear-gradient(#7f7f7f55, #3b046e55);
+  --fuzz-dark-grad: linear-gradient(#53535355, #1b0233b9);
+  --fuzz-img: url(data:image/png;base64,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) 
+}
+
+/*Fix Baseline Height https://github.com/keymanapp/keyboards/issues/1399 */
 .kmw-keyboard-sil_cameroon_qwerty .kmw-key span {
 line-height: 1;
 }
+
+.kmw-keyboard-sil_cameroon_qwerty .kmw-key-shift,
+.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key-shift {
+  font-size: 1em !important;
+} 
 
  /* CamKey */
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_CAM'],
@@ -15,21 +56,31 @@ line-height: 1;
 .web .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON,
 .osk .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON, 
 .desktop .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON {
-color:#0F0;
-background: radial-gradient(transparent, #00000028), linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);
-border:2px solid #FFFFFF;
+color: var(--cam-color);
+background: var(--cam-bg);
+border: var(--cam-border);
 font-weight: bold;
-} 
+}
 
 /* Active Keys */
 .phone.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on,
 .tablet.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on, 
 .phone.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on, 
-.tablet.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {color: #ffffff;background-color:#88f; font-weight: bold;}
+.tablet.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {
+  color: var(--base-color);
+  background-color: var(--active-bg); 
+  font-weight: bold;
+  font-size: 1em !important;
+}
 .phone.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on,
 .tablet.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on, 
 .phone.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on, 
-.tablet.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {color: #220868; background-color:#88f; font-weight: bold;}
+.tablet.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {
+color: var(--active-dark-color); 
+background-color: var(--active-bg); 
+font-weight: bold;
+font-size: 1em !important;
+}
 
 /* Green Diacritics on iOS, Default and light. */
 .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_0300']:not(.kmw-key-touched),
@@ -46,8 +97,8 @@ font-weight: bold;
 .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_1DC4']:not(.kmw-key-touched),
 .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_030D']:not(.kmw-key-touched),
 .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_0330']:not(.kmw-key-touched) {
-background: #598059;
-background: radial-gradient(transparent, #00000015), linear-gradient(#ffffff, #598059);
+background: var(--grn-light-bg);
+background-image: var(--grn-light-grad);
 }
 
  /* Yellow Vowels iOS Light */
@@ -106,12 +157,24 @@ background: radial-gradient(transparent, #00000015), linear-gradient(#ffffff, #5
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_0190']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_00C6']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_2C6D']:not(.kmw-key-touched) {
-background: #beac40; 
-background: radial-gradient(transparent, #00000015), linear-gradient(#ffffff, #fff09c);
+background: var(--yel-light-bg); 
+background-image: var(--yel-light-grad);
 }
 
-.ios .kmw-key:not(kmw-key-touched) {background-image: radial-gradient(transparent, #00000015);}
-.ios .kmw-key.kmw-key-touched {background-image: radial-gradient(transparent, #00000015), linear-gradient(#7f7f7f55, #44447755);}
+.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key:not(kmw-key-touched),
+.ios .kmw-key:not(kmw-key-touched) {
+  background-image: var(--light-shad);
+}
+.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-touched,
+.ios .kmw-key.kmw-key-touched {
+  color: var(--base-color);
+  background-image: var(--tch-dark);
+}
+
+.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
+  background-image: url(data:image/png;base64,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), 
+  var(--fuzz-dark-grad);
+}
 
 
 /* Styling on iOS, dark. */
@@ -131,9 +194,9 @@ background: radial-gradient(transparent, #00000015), linear-gradient(#ffffff, #f
   .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_1DC4']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_030D']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_0330']:not(.kmw-key-touched) {
-background: #598059; 
-background: radial-gradient(transparent, #00000030), linear-gradient(#3d3d3e, #598059);
-}
+    background: var(--grn-light-bg); 
+    background-image: var(--grn-dark-grad);
+  }
 
   /* Yellow Vowels iOS Dark */
   .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id$='K_A']:not(.kmw-key-touched),
@@ -191,24 +254,37 @@ background: radial-gradient(transparent, #00000030), linear-gradient(#3d3d3e, #5
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_0190']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_00C6']:not(.kmw-key-touched),
   .ios .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_2C6D']:not(.kmw-key-touched) {
-background: #978833; 
-background: radial-gradient(transparent, #00000030), linear-gradient(#3d3d3e, #beab40a2); 
-}
+    background: var(--yel-dark-bg); 
+    background-image: var(--yel-dark-grad); 
+  }
 
 /* Active Keys iOS Dark */
   .phone.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on,
   .tablet.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on, 
   .phone.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on, 
   .tablet.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {
-color: #220868;
-background-color:#88f; 
-font-weight: bold;}
-
-  .ios .kmw-key:not(kmw-key-touched) {
-background-image: radial-gradient(transparent, #00000030);
+    color: var(--active-dark-color);
+    background-color: var(--active-bg); 
+    font-weight: bold;
 }
+
+  .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key:not(kmw-key-touched),
+  .ios .kmw-key:not(kmw-key-touched) {
+    background-color: var(--dark-bg);
+    box-shadow: 1px 1.5px 3px #ffffff30;
+    border-bottom: none; 
+  }
+  
+  .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-touched,
   .ios .kmw-key.kmw-key-touched {
-background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f55, #44447755);}
+    color: var(--base-color);
+    background-image: var(--tch-dark)
+}
+
+  .ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
+    background-image: url(data:image/png;base64,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), 
+    var(--fuzz-light-grad);
+  }
 }
 
 
@@ -228,8 +304,8 @@ background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_1DC4']:not(.kmw-key-touched),
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_030D']:not(.kmw-key-touched),
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_0330']:not(.kmw-key-touched) {
-background: #598059;
-background: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f, #598059);
+background: var(--grn-light-bg);
+background: var(--grn-mid-grad);
 }
 
 /* Yellow Vowels  Android */
@@ -288,28 +364,36 @@ background: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f, #5
 .android .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_0190']:not(.kmw-key-touched),
 .android .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_00C6']:not(.kmw-key-touched),
 .android .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key[id*='U_2C6D']:not(.kmw-key-touched) {
-background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f55, #beab40dd);
+background: var(--yel-light-bg); 
+background-image: var(--yel-mid-grad);
 } 
 /* Old { background: #978833; background: linear-gradient(#7f7f7f, #beab40); }*/
 
 /* Touched and Untouched Keys Android */
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key:not(kmw-key-touched) {
-background-image: radial-gradient(transparent, #00000030); 
+background-image: var(--dark-shad); 
 box-shadow: 1px 1.5px 3px #00000078; 
 border-bottom: none; 
-border:1px outset #88888833;}
-.android .kmw-key.kmw-key-touched {
-background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f55, #44447755);
+border:1px outset #88888833;
 }
+
+.android .kmw-key.kmw-key-touched,
 .android .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-touched {
-background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f7f55, #44447755);
+background-image: var(--tch-dark);
 }
 
 
-.phone.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
+.android .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
     background-image: url(data:image/png;base64,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), 
-    linear-gradient(#7f7f7f55, #3b046e55);
+    var(--fuzz-mid-grad);
+}
+
+/*
+.ios .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
+  background-image: url(data:image/png;base64,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), 
+  var(--fuzz-mid-grad);
 } 
+*/
 
 /* Playing with the popup icon */
 /*
@@ -340,8 +424,8 @@ background-image: radial-gradient(transparent, #00000030), linear-gradient(#7f7f
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_J:not(.kmw-key-touched),
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_K:not(.kmw-key-touched),
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_L:not(.kmw-key-touched) {
-background: #598059; 
-background: linear-gradient(#ffffff, #598059);
+background: var(--grn-light-bg); 
+background-image: var(--grn-light-grad);
 }
 
 /* Yellow Vowels on Web */
@@ -377,7 +461,7 @@ background: linear-gradient(#ffffff, #598059);
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_I:not(.kmw-key-touched),
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_O:not(.kmw-key-touched),
 .desktop .kmw-keyboard-sil_cameroon_qwerty #rightalt-shift-K_E:not(.kmw-key-touched) { 
-background: #beac40;
-background: linear-gradient(#ffffff, #beac40);
+background: var(--yel-light-bg);
+background-image: var(--yel-light-grad);
 }
 

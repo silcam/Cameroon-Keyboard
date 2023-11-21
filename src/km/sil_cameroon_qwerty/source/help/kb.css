@@ -30,7 +30,8 @@
     float: left;
     }
 .full {
-    width: 700px;
+    width: 98%;
+    min-width: 700px;
     }
     
 .red {
