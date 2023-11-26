@@ -83,20 +83,20 @@ font-size: 1em !important;
 }
 
 /* Green Diacritics on iOS, Default and light. */
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0300']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0304']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0301']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_030C']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0302']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0303']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0308']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0327']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_1DC5']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_1DC6']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_1DC7']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_1DC4']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_030D']:not(.kmw-key-touched),
-.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0330']:not(.kmw-key-touched) {
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0300']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0304']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0301']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_030C']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0302']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0303']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0308']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0327']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_1DC5']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_1DC6']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_1DC7']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_1DC4']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_030D']:not(.kmw-key-touched),
+.ios .kmw-keyboard-sil_cameroon_azerty .kmw-key[id$='T_0330']:not(.kmw-key-touched) {
 background: var(--grn-light-bg);
 background-image: var(--grn-light-grad);
 }
@@ -304,7 +304,7 @@ background-image: var(--yel-light-grad);
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_030D']:not(.kmw-key-touched),
 .android .kmw-keyboard-sil_cameroon_azerty .kmw-key[id*='T_0330']:not(.kmw-key-touched) {
 background: var(--grn-light-bg);
-background: var(--grn-mid-grad);
+background-image: var(--grn-mid-grad);
 }
 
 /* Yellow Vowels  Android */

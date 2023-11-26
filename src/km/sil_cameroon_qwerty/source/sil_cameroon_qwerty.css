@@ -16,8 +16,8 @@
   --bg: #777777;
   --dia-fade: #598059;
   --vowel-fade: #dfce6f;
-  --fuzz-grad: linear-gradient(#7f7f7f55, #3b046e55);
-  --shadow: radial-gradient(transparent, #00000010);
+  --fuzz-grad: linear-gradient(rgba(127, 127, 127, 0.33), rgba(59, 4, 110, 0.33));  /* #7f7f7f55, #3b046e55);*/
+  --shadow: radial-gradient(transparent, rgba(255, 255, 255, 0.06)); /*#00000010);*/
   --cam-border: 2px solid white;
   --cam-bg: radial-gradient(transparent, #00000028), linear-gradient(to right, darkgreen 33%, darkred 33% , darkred 66%, #aaaa00 66%);
  
@@ -34,10 +34,10 @@
   --active-bg: #88f;
   --dia-fade: #598059;
   --vowel-fade: #dfce6f;
-  --shadow: radial-gradient(transparent, #00000030);
+  --shadow: radial-gradient(transparent, rgba(0, 0, 0, 0.18)); /* #00000030*/
   --vowel-grad: var(--shadow), linear-gradient(var(--bg), var(--vowel-fade));
   --dia-grad: var(--shadow), linear-gradient(var(--bg), var(--dia-fade));
-  --fuzz-grad: linear-gradient(#3d3d3d55, #1b0233b9);
+  --fuzz-grad: linear-gradient(rgba(61, 61, 61, 0.33), rgba(27, 2, 51, 0.73));  /*#3d3d3d55, #1b0233b9);*/
 }
 
 /* Android is Mid*/ 
@@ -48,10 +48,10 @@
   --special-color: white;
   --active-bg: #88f;
   --dia-fade: #598059;
-  --vowel-fade: #beac40dd;
-  --shadow: radial-gradient(transparent, #00000025);
+  --vowel-fade: rgba(190, 172, 64, 0.87); /* was #beac40dd */
+  --shadow: radial-gradient(transparent, rgba(0, 0, 0, 0.15)); /* #00000025*/
   --vowel-grad: var(--shadow), linear-gradient(var(--bg), var(--vowel-fade));
-  --fuzz-grad: linear-gradient(#7f7f7f55, #3b046e55);
+  --fuzz-grad: linear-gradient(rgba(127, 127, 127, 0.33), rgba(59, 4, 110, 0.33));  /*#7f7f7f55, #3b046e55);*/
   --dia-grad: var(--shadow), linear-gradient(var(--bg), var(--dia-fade)); /* #7f7f7f */
 }
 
@@ -65,25 +65,25 @@
     --active-bg: #88f;
     --dia-fade: #598059;
     --vowel-fade: #beab40a2;
-    --shadow: radial-gradient(transparent, #FFFFFF10);
+    --shadow: radial-gradient(transparent, rgba(255, 255, 255, 0.06)); /* #FFFFFF10*/
     --vowel-grad: var(--shadow), linear-gradient(var(--bg), var(--vowel-fade));
-    --fuzz-grad: linear-gradient(#53535355, #1b0233b9);
+    --fuzz-grad: linear-gradient(rgba(83, 83, 83, 0.33), rgba(27, 2, 51, 0.73)); /*#53535355, #1b0233b9 */
     --dia-grad: var(--shadow), linear-gradient(var(--bg), var(--dia-fade));
   }
 }
 
 /* Normal Keys */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-default:not(kmw-key-touched),
-:is(.phone, .tablet):is(.ios,.android) .kmw-key-default:not(kmw-key-touched) {
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-default:not(kmw-key-touched),
+:not(.desktop) .kmw-key-default:not(kmw-key-touched) {
   color: var(--font-color);
-  background-color: var(--bg);
+  background: var(--bg);
   background-image: var(--shadow);
   box-shadow: 1px 1.5px 3px #00000078; 
   border: none; 
 }
 
 /* Cam Key */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_CAM'],
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key[id*='T_CAM'],
 .web .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON,
 .osk .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON, 
 .desktop .kmw-keyboard-sil_cameroon_qwerty #default-K_COLON {
@@ -93,7 +93,7 @@
 }
 
 /* Special Keys */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-shift:not(kmw-key-touched) {
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-shift:not(kmw-key-touched) {
   font-size: 1em;
   border-bottom: none; 
   background-image: var(--shadow);
@@ -101,28 +101,30 @@
 } 
 
  /* Enabled Special Keys */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on,
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-special-on,
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-shift-on {
   color: var(--active-dark-color); /* var(--font-color); */
   background-color: var(--active-bg); 
-  font-size: 1em !important;
+  font-size: 2em !important;
 }
 
  /* Touched Keys */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-touched,
-:is(.phone, .tablet):is(.ios,.android) .kmw-key.kmw-key-touched {
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key.kmw-key-touched,
+:not(.desktop) .kmw-key.kmw-key-touched {
   color: var(--font-color) !important;
   background-image: var(--tch-dark) !important;
 }
 
 /* Background Fill */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key-layer-group { 
   background-image: var(--fuzz-img), 
   var(--fuzz-grad);
 }
 
+
 /* Colored diacritics on touch. */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key:is(
+ /* Technically, :-webkit-any() is deprecated in favor of :is() of 2021, but it's been well-supported since 2011) */
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key:-webkit-any(
     [id*='T_0300'], 
     [id*='T_0301'], 
     [id*='T_0302'], 
@@ -143,7 +145,7 @@
 }
 
 /* Colored vowels on touch */
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty .kmw-key:is(
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty .kmw-key:-webkit-any(
     [id$='K_A'],
     [id$='K_E'],
     [id$='K_I'],
@@ -162,7 +164,7 @@
     [id$='rightalt-shift-K_F'],
     [id$='rightalt-shift-K_H']
 ):not(.kmw-key-touched),
-:is(.ios,.android) #kmw-popup-keys .kmw-key:is( /* Working for now: https://github.com/keymanapp/keyman/issues/9864 */
+:not(.desktop) #kmw-popup-keys .kmw-key:-webkit-any( /* Working for now: https://github.com/keymanapp/keyman/issues/9864 */
     [id*='U_025B'], 
     [id*='U_0259'],
     [id*='U_0258'],
@@ -183,7 +185,7 @@
     [id*='U_00C6'],
     [id*='U_2C6D']
 ):not(.kmw-key-touched),
-:is(.phone, .tablet):is(.ios,.android) .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key:is( /* Future: https://github.com/keymanapp/keyman/issues/9864*/
+:not(.desktop) .kmw-keyboard-sil_cameroon_qwerty #kmw-popup-keys .kmw-key:-webkit-any( /* Future: https://github.com/keymanapp/keyman/issues/9864*/
     [id*='U_025B'], 
     [id*='U_0259'],
     [id*='U_0258'],
@@ -209,7 +211,7 @@
 }
 
 /* Colored Diacritics on Web */
-.desktop .kmw-keyboard-sil_cameroon_qwerty :is(
+.desktop .kmw-keyboard-sil_cameroon_qwerty :-webkit-any(
     #default-K_QUOTE,
     #default-K_LBRKT,
     #default-K_RBRKT,
