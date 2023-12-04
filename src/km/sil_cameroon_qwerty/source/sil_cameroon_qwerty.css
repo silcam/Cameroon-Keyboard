@@ -95,7 +95,6 @@
 
 /* Special Keys */
 .kmw-keyboard-sil_cameroon_qwerty:not(.desktop)  .kmw-key-shift:not(.kmw-key-touched) {
-  font-size: 1em;
   border-bottom: none; 
   background-image: var(--key-fade);
   box-shadow: 1px 1.5px 3px #000000; 
@@ -122,7 +121,6 @@
   background-image: var(--fuzz-img), 
   var(--fuzz-grad);
 }
-
 
 /* Colored diacritics on touch. */
  /* Technically, :-webkit-any() is deprecated in favor of :is() of 2021, but it's been well-supported since 2011) */
@@ -240,7 +238,7 @@
     #rightalt-shift-K_K,
     #rightalt-shift-K_L,
     #rightalt-K_HYPHEN
-):not(.kmw-key-touched) {
+) {
     background: var(--dia-fade); 
     background-image: var(--dia-grad);
 }

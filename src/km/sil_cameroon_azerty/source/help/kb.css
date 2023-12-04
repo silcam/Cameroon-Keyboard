@@ -36,7 +36,7 @@
     color: orange;
 }
 */
-h1 {
+h1.color {
     text-align: center;
 }
 .tagline {
@@ -128,7 +128,7 @@ h2.color {
     border-radius: 7px;
     transition: all 0.25s ease-out;
 }
-h3 {
+h3.color {
     display: block;
     font-weight: bold;
     font-size: 1.2rem;

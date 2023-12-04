@@ -80,7 +80,7 @@ require_once('header.php');
 </head>
 
 <body>
-  <h1>Le Clavier Akebu</h1>
+  <h1 class="color">Le Clavier Akebu</h1>
 
   <p>Ce document explique l’usage du clavier Keyman élaboré pour taper la langue akebu de Togo avec une police Unicode.
   </p>
@@ -99,7 +99,7 @@ require_once('header.php');
 
   <div class="container" align="center" style="column-fill: balance; flex-flow: row wrap;">
   <div class="child">
-          <h2>Lowercase Letter</h2>
+          <h2 class="color">Lowercase Letter</h2>
           <table>
             <thead><th>Touche</th><th></th><th>Sortie</th></thead>
             <tr>
@@ -299,7 +299,7 @@ require_once('header.php');
             </tr>
           </table>
   </div><div class="child">
-          <h2>Uppercase Letter</h2>
+          <h2 class="color">Uppercase Letter</h2>
           <table>
             <thead><th>Touche</th><th></th><th>Sortie</th></thead>
             <tr>
@@ -469,7 +469,7 @@ require_once('header.php');
             </tr>
           </table>
         </div><div class="child">
-          <h2>Open Punctuation</h2>
+          <h2 class="color">Open Punctuation</h2>
           <table>
             <thead><th>Touche</th><th></th><th>Sortie</th></thead>
             <tr>
@@ -489,7 +489,7 @@ require_once('header.php');
             </tr>
           </table>
         </div><div class="child">
-          <h2>Close Punctuation</h2>
+          <h2 class="color">Close Punctuation</h2>
           <table>
             <thead><th>Touche</th><th></th><th>Sortie</th></thead>
             <tr>
@@ -510,7 +510,7 @@ require_once('header.php');
           </table>
 
         </div><div class="child">
-      <h2>Decimal Number</h2>
+      <h2 class="color">Decimal Number</h2>
       <table>
         <thead><th>Touche</th><th></th><th>Sortie</th></thead>
         <tr>
@@ -565,7 +565,7 @@ require_once('header.php');
         </tr>
       </table>
     </div><div class="child">
-      <h2>Other Punctuation</h2>
+      <h2 class="color">Other Punctuation</h2>
       <table>
         <thead><th>Touche</th><th></th><th>Sortie</th></thead>
         <tr>
@@ -660,7 +660,7 @@ require_once('header.php');
         </tr>
       </table>
     </div><div class="child">
-        <h2>Initial Punctuation</h2>
+        <h2 class="color">Initial Punctuation</h2>
         <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
           <tr>
             <td><span class='input'>!&lt;</span></td>
@@ -689,7 +689,7 @@ require_once('header.php');
           </tr>
         </table>
       </div><div  class="child">
-      <h2>Final Punctuation</h2>
+      <h2 class="color">Final Punctuation</h2>
       <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
         <tr>
           <td><span class='input'>!&gt;</span></td>
@@ -718,7 +718,7 @@ require_once('header.php');
         </tr>
       </table>
     </div><div  class="child">
-    <h2>Currency Symbol</h2>
+    <h2 class="color">Currency Symbol</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>²</span></td>
@@ -753,7 +753,7 @@ require_once('header.php');
     </table>
   </div>
   <div  class="child">
-    <h2>Dash Punctuation</h2>
+    <h2 class="color">Dash Punctuation</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>-</span></td>
@@ -778,7 +778,7 @@ require_once('header.php');
     </table>
   </div>
   <div class="child">
-    <h2>Diacritic</h2>
+    <h2 class="color">Diacritic</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>ù</span></td>
@@ -803,7 +803,7 @@ require_once('header.php');
     </table>
   </div>
   <div  class="child">
-    <h2>Math Symbol</h2>
+    <h2 class="color">Math Symbol</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>+</span></td>
@@ -838,7 +838,7 @@ require_once('header.php');
     </table>
   </div>
   <div class="child">
-    <h2>Modifier Symbol</h2>
+    <h2 class="color">Modifier Symbol</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'> ! [K_LBRKT]</span></td>
@@ -858,7 +858,7 @@ require_once('header.php');
     </table>
   </div>
   <div class="child">
-    <h2>Other Number</h2>
+    <h2 class="color">Other Number</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>!$</span></td>
@@ -878,7 +878,7 @@ require_once('header.php');
     </table>
   </div>
   <div class="child">
-    <h2>Other Symbol</h2>
+    <h2 class="color">Other Symbol</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>!C</span></td>
@@ -908,7 +908,7 @@ require_once('header.php');
     </table>
   </div>
   <div class="child">
-    <h2>Space Separator</h2>
+    <h2 class="color">Space Separator</h2>
     <table><thead><th>Touche</th><th></th><th>Sortie</th></thead>
       <tr>
         <td><span class='input'>[Space]</span></td>
@@ -929,7 +929,7 @@ require_once('header.php');
   </div>
   </div>
 
-  <h2>Des polices</h2>
+  <h2 class="color">Des polices</h2>
 
   <p>Assurez-vous d’avoir sélectionné une police Unicode (par exemple Charis SIL, Doulos SIL, Andika, Gentium, Times New
     Roman, etc.) avant de taper les caractères spéciaux.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>1</tab>
+    <tab>3</tab>
     <showhelp>1</showhelp>
     <path>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\sil_cameroon_azerty.kpj</path>
     <file ID="id_7e4ccd3c0cca3c929d1a669d32ce537b" Expanded="1"/>
@@ -47,6 +47,10 @@
     <FileState>
       <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\welcome\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\readme.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_805bbe38704ce6439444b7c6639f1765</ID>
@@ -100,15 +104,15 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>sil_cameroon_azerty.kmn</Filename>
-      <FileType>.kmn</FileType>
-      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>sil_cameroon_azerty.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>sil_cameroon_azerty.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Github\Cameroon-Keyboard\src\km\sil_cameroon_azerty\source\sil_cameroon_azerty.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
